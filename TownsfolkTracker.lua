@@ -16,11 +16,6 @@ local InterfaceOptionsFrame, InterfaceOptionsFrame_OpenToCategory = InterfaceOpt
 local UIDropDownMenu_Initialize, UIDropDownMenu_CreateInfo = UIDropDownMenu_Initialize, UIDropDownMenu_CreateInfo
 local ToggleDropDownMenu, UIDropDownMenu_AddButton, UIDropDownMenu_AddSeparator = ToggleDropDownMenu, UIDropDownMenu_AddButton, UIDropDownMenu_AddSeparator
 
--- TFUtils
-local TownsfolkUtil_GetPlayerLevel, TownsfolkUtil_GetPlayerFaction = TownsfolkUtil_GetPlayerLevel, TownsfolkUtil_GetPlayerFaction
-local TownsfolkUtil_IsInstanceType, TownsfolkUtil_GetPlayerDungeonRecommendation = TownsfolkUtil_IsInstanceType, TownsfolkUtil_GetPlayerDungeonRecommendation
-local TownsfolkUtil_PairsByKeys = TownsfolkUtil_PairsByKeys
-
 -- Map button
 local setMapButtonTooltip = function(tooltip)
     tooltip:AddLine(L["Townsfolk Tracker"]);
@@ -193,7 +188,12 @@ function TownsfolkTracker:GenerateTooltip(title, point, folktype)
             GameTooltip:AddDoubleLine(L["Raid Size"]..":", point.raidSize, 0.8, 0.8, 0.8, 1, 1, 1)
         end
     else
-        GameTooltip:SetText(title)
+        if TownsfolkUtil_IsTrainerType(folktype) then
+            GameTooltip:SetText(L[TownsfolkUtil_GetTrainerTitle(point.profession or point.class)])
+        else
+            GameTooltip:SetText(title)
+        end
+
         -- npc name
         if (point.name) then
             GameTooltip:AddLine(L[point.name], 1, 1, 1)
@@ -201,6 +201,10 @@ function TownsfolkTracker:GenerateTooltip(title, point, folktype)
         -- npc tag
         if (point.tag) then
             GameTooltip:AddLine("<"..L[point.tag]..">", 0.8, 0.8, 0.8)
+        end
+        -- profession level
+        if (point.level and point.profession) then
+            GameTooltip:AddLine("<"..L[TownsfolkUtil_GetTrainerTag(point.profession, point.level)]..">", 0.8, 0.8, 0.8)
         end
     end
 end

@@ -18,15 +18,42 @@ TF_TRANSPORTATION = 'TRANSPORTATION'
 TF_DUNGEON = 'DUNGEON'
 TF_RAID = 'RAID'
 
-DRUID = 'DRUID'
-HUNTER = 'HUNTER'
-MAGE = 'MAGE'
-PALADIN = 'PALADIN'
-PRIEST = 'PRIEST'
-ROGUE = 'ROGUE'
-SHAMAN = 'SHAMAN'
-WARLOCK = 'WARLOCK'
-WARRIOR = 'WARRIOR'
+CLASS = {
+    DRUID = 'DRUID',
+    HUNTER = 'HUNTER',
+    MAGE = 'MAGE',
+    PALADIN = 'PALADIN',
+    PRIEST = 'PRIEST',
+    ROGUE = 'ROGUE',
+    SHAMAN = 'SHAMAN',
+    WARLOCK = 'WARLOCK',
+    WARRIOR = 'WARRIOR',
+}
+
+PROFESSION = {
+    COOKING = 'COOKING',
+    FIRST_AID = 'FIRST_AID',
+    FISHING = 'FISHING',
+    HERBALISM = 'HERBALISM',
+    SKINNING = 'SKINNING',
+    MINING = 'MINING',
+    TAILORING = 'TAILORING',
+    LEATHERWORKING = 'LEATHERWORKING',
+    BLACKSMITHING = 'BLACKSMITHING',
+    ALCHEMY = 'ALCHEMY',
+    ENGINEERING = 'ENGINEERING',
+    ENCHANTING = 'ENCHANTING',
+    WEAPON = 'WEAPON',
+    RIDING = 'RIDING',
+}
+
+TRAINING_LEVEL = {
+    APPRENTICE = 'Apprentice',
+    JOURNEYMAN = 'Journeyman',
+    EXPERT = 'Expert',
+    ARTISAN = 'Artisan',
+    MASTER = 'Master',
+}
 
 FACTION = {
     ALLIANCE = 'Alliance',
@@ -87,21 +114,4 @@ ZONE = {
     ALTERAC_VALLEY = 1459,
     WARSONG_GULCH = 1460,
     ARATHI_BASIN = 1461,
-}
-
-MINIMAP_SHAPES = {
-    ["ROUND"] = {true, true, true, true},
-    ["SQUARE"] = {false, false, false, false},
-    ["CORNER-TOPLEFT"] = {false, false, false, true},
-    ["CORNER-TOPRIGHT"] = {false, false, true, false},
-    ["CORNER-BOTTOMLEFT"] = {false, true, false, false},
-    ["CORNER-BOTTOMRIGHT"] = {true, false, false, false},
-    ["SIDE-LEFT"] = {false, true, false, true},
-    ["SIDE-RIGHT"] = {true, false, true, false},
-    ["SIDE-TOP"] = {false, false, true, true},
-    ["SIDE-BOTTOM"] = {true, true, false, false},
-    ["TRICORNER-TOPLEFT"] = {false, true, true, true},
-    ["TRICORNER-TOPRIGHT"] = {true, false, true, true},
-    ["TRICORNER-BOTTOMLEFT"] = {true, true, false, true},
-    ["TRICORNER-BOTTOMRIGHT"] = {true, true, true, false},
 }
