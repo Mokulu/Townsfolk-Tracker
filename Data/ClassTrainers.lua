@@ -1,0 +1,3 @@
+TF_CLASS_TRAINERS = {
+
+}
