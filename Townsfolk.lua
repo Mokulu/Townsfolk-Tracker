@@ -76,6 +76,11 @@ TOWNSFOLK = {
         icon = [[Interface\MINIMAP\TRACKING\StableMaster]],
         points = TF_STABLE_MASTERS,
     },
+    [TF_TRADE_GOODS] = {
+        title = L["Trade Goods"],
+        icon = [[Interface\Addons\TownsfolkTracker\Icons\TradeGoods.tga]],
+        points = TF_TRADE_GOOD_VENDORS,
+    },
     [TF_TRANSPORTATION] = {
         title = L["Transportation"],
         icon = [[Interface\Addons\TownsfolkTracker\Icons\Transportation.tga]],

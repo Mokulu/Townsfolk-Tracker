@@ -16,6 +16,7 @@ tfTrackingList = {
     [TF_REAGENTS] = false,
     [TF_REPAIR] = false,
     [TF_STABLE_MASTER] = false,
+    [TF_TRADE_GOODS] = false,
     [TF_TRANSPORTATION] = false,
 }
 
