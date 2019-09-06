@@ -79,6 +79,8 @@ TOWNSFOLK = {
     [TF_TRANSPORTATION] = {
         title = L["Transportation"],
         icon = [[Interface\Addons\TownsfolkTracker\Icons\Transportation.tga]],
+        allianceIcon = [[Interface\Addons\TownsfolkTracker\Icons\AllianceTransportation.tga]],
+        hordeIcon = [[Interface\Addons\TownsfolkTracker\Icons\HordeTransportation.tga]],
         points = TF_TRANSPORTATION_SPOTS,
     },
     [TF_DUNGEON] = {
