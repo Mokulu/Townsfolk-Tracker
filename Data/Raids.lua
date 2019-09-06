@@ -1,3 +1,10 @@
 TF_RAIDS = {
-
+    -- TODO: Update instance locations, esp blackrock mountain entrances
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.5396, y = 0.1757, name = "Zul'Gurub", raidSize = 20 },
+    { zone = ZONE.SILITHUS, x = 0.362, y = 0.842, name = "Ruins of Ahn'Qiraj", raidSize = 20 },
+    { zone = ZONE.DUSTWALLOW_MARSH, x = 0.529, y = 0.777, name = "Onyxia's Lair", raidSize = 40 },
+    { zone = ZONE.BURNING_STEPPES, x = 0.29, y = 0.382, name = "Molten Core", raidSize = 40 },
+    { zone = ZONE.BURNING_STEPPES, x = 0.30, y = 0.382, name = "Blackwing Lair", raidSize = 40 },
+    { zone = ZONE.SILITHUS, x = 0.235, y = 0.862, name = "Temple of Ahn'Qiraj", raidSize = 40 },
+    { zone = ZONE.EASTERN_PLAGUELANDS, x = 0.39, y = 0.25, name = "Naxxramas", raidSize = 40 },
 }

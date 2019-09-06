@@ -17,6 +17,7 @@ L["Profession Trainer"] = true
 L["Reagents"] = true
 L["Repair"] = true
 L["Stable Master"] = true
+L["Trade Goods"] = true
 L["Transportation"] = true
 
 L["Instances"] = true
@@ -359,7 +360,7 @@ L["Ruins of Ahn'Qiraj"] = true
 L["Molten Core"] = true
 L["Onyxia's Lair"] = true
 L["Blackwing Lair"] = true
-L["Ahn'Qiraj"] = true
+L["Temple of Ahn'Qiraj"] = true
 L["Naxxramas"] = true
 
 --[[
