@@ -223,8 +223,13 @@ function TownsfolkTracker:CreateMapMarker(iconType, point, townsfolk, folktype)
             marker:SetHeight(10)
         end
     else
-        marker:SetWidth(12)
-        marker:SetHeight(12)
+        if (TownsfolkUtil_IsInstanceType(folktype)) then
+            marker:SetWidth(28)
+            marker:SetHeight(28)
+        else
+            marker:SetWidth(12)
+            marker:SetHeight(12)
+        end
     end
 
     -- icon
