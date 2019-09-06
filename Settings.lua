@@ -40,7 +40,6 @@ TF_SETTINGS_MENU = {
             width = "full",
             get = "IsShowAllClassTrainers",
             set = "ToggleShowAllClassTrainers",
-            disabled = function() return true; end,
             order = 2,
         },
         worldDesc = {

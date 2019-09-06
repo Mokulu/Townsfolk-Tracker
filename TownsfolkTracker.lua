@@ -282,11 +282,9 @@ function TownsfolkTracker:DrawMapIcons()
                 -- faction restriction
                 displayIcon = (point.faction == nil or point.faction == TownsfolkUtil_GetPlayerFaction())
                 -- class restriction
-                -- TODO
-                displayIcon = (displayIcon)
-                -- profession restriction?
-                -- TODO
-                displayIcon = (displayIcon)
+                if (displayIcon and folktype == TF_CLASS_TRAINER and not self:IsShowAllClassTrainers()) then
+                    displayIcon = TownsfolkUtil_GetPlayerClass() == point.class
+                end
                 -- only show based on valid restrictions
                 if (displayIcon) then
                     -- minimap icons
