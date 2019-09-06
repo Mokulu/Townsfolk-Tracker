@@ -21,7 +21,7 @@ TF_MAILBOXES = {
     { zone = ZONE.STONETALON_MOUNTAINS, x = 0.361, y = 0.073, faction = FACTION.ALLIANCE },
     { zone = ZONE.STONETALON_MOUNTAINS, x = 0.48, y = 0.611, faction = FACTION.HORDE },
     { zone = ZONE.ASHENVALE, x = 0.364, y = 0.503, faction = FACTION.ALLIANCE },
-    { zone = ZONE.ASHENVALE, x = 0.736, y = 0.609, faction = FACTION.HORDE },
+    { zone = ZONE.ASHENVALE, x = 0.7363, y = 0.6089, faction = FACTION.HORDE }, --
     { zone = ZONE.DESOLACE, x = 0.655, y = 0.069, faction = FACTION.ALLIANCE },
     { zone = ZONE.DESOLACE, x = 0.248, y = 0.688, faction = FACTION.HORDE },
     { zone = ZONE.THOUSAND_NEEDLES, x = 0.458, y = 0.510 },

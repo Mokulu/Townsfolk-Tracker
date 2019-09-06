@@ -1,4 +1,5 @@
 TF_REPAIR_VENDORS = {
+    { zone = ZONE.ASHENVALE, x = 0.7354, y = 0.6031, name = "Burkrum", tag = "Heavy Armor Merchant", faction = FACTION.HORDE },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.3242, y = 0.6644, name = "Harold Raims", tag = "Apprentice Weaponsmith", faction = FACTION.HORDE },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.3238, y = 0.6623, name = "Blacksmith Rand", tag = "Apprentice Armorer", faction = FACTION.HORDE },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.3243, y = 0.6563, name = "Archibald Kava", tag = "Cloth & Leather Armor Merchant", faction = FACTION.HORDE },

@@ -198,6 +198,7 @@ L["Devrak"] = true
 L["Michael Garrett"] = true
 L["Karos Razok"] = true
 L["Zarise"] = true
+L["Vhulgra"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -206,6 +207,7 @@ L["Innkeeper Bates"] = true
 L["Innkeeper Shay"] = true
 L["Innkeeper Norman"] = true
 L["Innkeeper Renee"] = true
+L["Innkeeper Kaylisk"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -254,6 +256,7 @@ L["Constance Brisboise"] = true
 L["Harold Raims"] = true
 L["Blacksmith Rand"] = true
 L["Archibald Kava"] = true
+L["Burkrum"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -261,6 +264,7 @@ L["Sarah Goode"] = true
 L["Theodore Mont Claire"] = true
 L["Anya Maulray"] = true
 L["Morganus"] = true
+L["Qeeju"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
