@@ -12,7 +12,7 @@ TF_MAILBOXES = {
     { zone = ZONE.WESTFALL, x = 0.531, y = 0.533, faction = FACTION.ALLIANCE },
     { zone = ZONE.DUSKWOOD, x = 0.738, y = 0.462, faction = FACTION.ALLIANCE },
     { zone = ZONE.REDRIDGE_MOUNTAINS, x = 0.266, y = 0.464, faction = FACTION.ALLIANCE },
-    { zone = ZONE.DUROTAR, x = 0.519, y = 0.421, faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5191, y = 0.4216, faction = FACTION.HORDE }, --
     { zone = ZONE.ORGRIMMAR, x = 0.507, y = 0.7038, faction = FACTION.HORDE }, --
     { zone = ZONE.ORGRIMMAR, x = 0.6227, y = 0.4048, faction = FACTION.HORDE }, --
     { zone = ZONE.THE_BARRENS, x = 0.5203, y = 0.3043, faction = FACTION.HORDE }, --

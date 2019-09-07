@@ -112,6 +112,7 @@ L["Leather Armor Merchant"] = true
 L["Heavy Armor Merchant"] = true
 L["Weaponsmith"] = true
 L["Weaponsmith & Armorcrafter"] = true
+L["Armorer & Shieldcrafter"] = true
 L["Weapon Merchant"] = true
 L["Blade Merchant"] = true
 L["Two-Handed Weapons Merchant"] = true
@@ -139,6 +140,7 @@ L["Butcher"] = true
 L["Undead Horse"] = true
 L["Wolf"] = true
 L["War Harness Maker"] = true
+L["Raptor"] = true
 
 -- Ammunition
 L["Nadia Vernon"] = true
@@ -154,6 +156,11 @@ L["Trak'gen"] = true
 L["Asoran"] = true
 L["Jin'sora"] = true
 L["Zendo'jian"] = true
+L["Jark"] = true
+L["Ghrawt"] = true
+L["K'waii"] = true
+L["Trayexir"] = true
+L["Duokna"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -213,6 +220,8 @@ L["Izzy Coppergrab"] = true
 L["Barkeep Morag"] = true
 L["Larhka"] = true
 L["Denni'ka"] = true
+L["Grimtak"] = true
+L["Zlagk"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -230,6 +239,7 @@ L["Innkeeper Shay"] = true
 L["Innkeeper Norman"] = true
 L["Innkeeper Renee"] = true
 L["Innkeeper Kaylisk"] = true
+L["Innkeeper Grosk"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -264,6 +274,8 @@ L["Hagrus"] = true
 L["Borya"] = true
 L["Xen'to"] = true
 L["Zeal'aya"] = true
+L["Flakk"] = true
+L["Zansoa"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -309,6 +321,13 @@ L["Muragus"] = true
 L["Burkrum"] = true
 L["Vrang Wildgore"] = true
 L["Tor'phan"] = true
+L["Cutac"] = true
+L["Uhgar"] = true
+L["Wuark"] = true
+L["Tai'tasi"] = true
+L["Huklah"] = true
+L["Rarc"] = true
+L["Kzan Thornslash"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -318,6 +337,7 @@ L["Anya Maulray"] = true
 L["Morganus"] = true
 L["Xon'cha"] = true
 L["Qeeju"] = true
+L["Shoja'my"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -425,6 +445,30 @@ L["Snang"] = true
 L["Magar"] = true
 L["Zamja"] = true
 L["Jandi"] = true
+L["Tai'jin"] = true
+L["Swart"] = true
+L["Rawrk"] = true
+L["Tarshaw Jaggedscar"] = true
+L["Kitha"] = true
+L["Dhugru Gorelust"] = true
+L["Mukdrak"] = true
+L["Dwukk"] = true
+L["Krunn"] = true
+L["Thotar"] = true
+L["Harruk"] = true
+L["Kaplak"] = true
+L["Miao'zan"] = true
+L["Mishiki"] = true
+L["Xar'Ti"] = true
+L["Un'Thuwa"] = true
+L["Frang"] = true
+L["Jen'shan"] = true
+L["Mai'ah"] = true
+L["Shikrik"] = true
+L["Ken'jai"] = true
+L["Rwag"] = true
+L["Hraug"] = true
+L["Nartok"] = true
 
 -- Transportation Zones
 L["Durotar"] = true

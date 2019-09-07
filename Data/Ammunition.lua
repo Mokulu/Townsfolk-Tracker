@@ -1,4 +1,9 @@
 TF_AMMUNITION_VENDORS = {
+    { zone = ZONE.DUROTAR, x = 0.4258, y = 0.6734, name = "Duokna", tag = "General Goods", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5439, y = 0.4218, name = "Jark", tag = "General Goods", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5298, y = 0.4103, name = "Ghrawt", tag = "Bowyer", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5629, y = 0.7340, name = "K'waii", tag = "General Goods", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5647, y = 0.7312, name = "Trayexir", tag = "Weapon Merchant", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.4812, y = 0.8052, name = "Trak'gen", tag = "General Goods Merchant", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.4606, y = 0.4085, name = "Asoran", tag = "General Goods Vendor", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.7807, y = 0.3845, name = "Jin'sora", tag = "Bow Merchant", faction = FACTION.HORDE },

@@ -1,4 +1,12 @@
 TF_REPAIR_VENDORS = {
+    { zone = ZONE.DUROTAR, x = 0.4061, y = 0.6781, name = "Huklah", tag = "Cloth & Leather Armor Merchant", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.4048, y = 0.6782, name = "Rarc", tag = "Armorer & Shieldcrafter", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.4047, y = 0.6801, name = "Kzan Thornslash", tag = "Weaponsmith", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5311, y = 0.4086, name = "Cutac", tag = "Cloth & Leather Armor Merchant", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5298, y = 0.4103, name = "Ghrawt", tag = "Bowyer", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5202, y = 0.4045, name = "Uhgar", tag = "Weaponsmith", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5190, y = 0.4114, name = "Wuark", tag = "Armorer & Shieldcrafter", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5647, y = 0.7312, name = "Trayexir", tag = "Weapon Merchant", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.4755, y = 0.6842, name = "Urtharo", tag = "Weapon Merchant", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.2974, y = 0.7417, name = "Ukra'nor", tag = "Staff Merchant", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.7324, y = 0.4225, name = "Kiro", tag = "War Harness Maker", faction = FACTION.HORDE },

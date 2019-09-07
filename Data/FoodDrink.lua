@@ -1,4 +1,8 @@
 TF_FOOD_DRINK_VENDORS = {
+    { zone = ZONE.DUROTAR, x = 0.4264, y = 0.6719, name = "Zlagk", tag = "Butcher", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.4258, y = 0.6734, name = "Duokna", tag = "General Goods", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5152, y = 0.4165, name = "Innkeeper Grosk", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5113, y = 0.4263, name = "Grimtak", tag = "Butcher", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.5463, y = 0.6769, name = "Barkeep Morag", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.4812, y = 0.8052, name = "Trak'gen", tag = "General Goods Merchant", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.4606, y = 0.4085, name = "Asoran", tag = "General Goods Vendor", faction = FACTION.HORDE },

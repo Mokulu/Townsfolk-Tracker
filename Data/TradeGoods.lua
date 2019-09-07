@@ -1,5 +1,8 @@
 TF_TRADE_GOOD_VENDORS = {
+    { zone = ZONE.DUROTAR, x = 0.5298, y = 0.4198, name = "Flakk", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5641, y = 0.7379, name = "Tai'tasi", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.4791, y = 0.8034, name = "Shimra", faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5606, y = 0.7338, name = "Zansoa", tag = "Fishing Supplies", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.5387, y = 0.3802, name = "Kithas", tag = "Enchanting Supplies", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.5605, y = 0.3413, name = "Kor'geld", tag = "Alchemy Supplies", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.7000, y = 0.2977, name = "Shankys", tag = "Fishing Supplies", faction = FACTION.HORDE },

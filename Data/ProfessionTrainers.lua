@@ -1,4 +1,11 @@
 TF_PROFESSION_TRAINERS = {
+    { zone = ZONE.DUROTAR, x = 0.5417, y = 0.4193, name = "Rawrk", profession = PROFESSION.FIRST_AID, faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5218, y = 0.4080, name = "Mukdrak", profession = PROFESSION.ENGINEERING, level = TRAINING_LEVEL.JOURNEYMAN, faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5203, y = 0.4071, name = "Dwukk", profession = PROFESSION.BLACKSMITH, level = TRAINING_LEVEL.JOURNEYMAN, faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5181, y = 0.4088, name = "Krunn", profession = PROFESSION.MINING, faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5541, y = 0.7395, name = "Miao'zan", profession = PROFESSION.ALCHEMY, level = TRAINING_LEVEL.JOURNEYMAN, faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5544, y = 0.7508, name = "Mishiki", profession = PROFESSION.HERBALISM, faction = FACTION.HORDE },
+    { zone = ZONE.DUROTAR, x = 0.5528, y = 0.7548, name = "Xar'Ti", profession = PROFESSION.RIDING, tag = "Raptor", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.3416, y = 0.8457, name = "Arnok", profession = PROFESSION.FIRST_AID, faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.5349, y = 0.3858, name = "Jhag", profession = PROFESSION.ENCHANTING, level = TRAINING_LEVEL.JOURNEYMAN, faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.5390, y = 0.3870, name = "Godan", profession = PROFESSION.ENCHANTING, level = TRAINING_LEVEL.EXPERT, faction = FACTION.HORDE },
