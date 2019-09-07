@@ -293,7 +293,11 @@ function TownsfolkTracker:DrawMapIcons()
                 -- only show based on valid restrictions
                 if (displayIcon) then
                     -- minimap icons
-                    Pins:AddMinimapIconMap("TownsfolkTracker", point.minimapNode, point.zone, point.x, point.y, true, false)
+                    local floatEdge = false
+                    if (TownsfolkUtil_IsInstanceType(folktype) and point.entrance) then
+                        floatEdge = true
+                    end
+                    Pins:AddMinimapIconMap("TownsfolkTracker", point.minimapNode, point.zone, point.x, point.y, true, floatEdge)
 
                     -- map icons
                     if self:IsUseWorldMap() then

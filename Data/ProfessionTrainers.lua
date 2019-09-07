@@ -28,6 +28,7 @@ TF_PROFESSION_TRAINERS = {
     { zone = ZONE.ORGRIMMAR, x = 0.6362, y = 0.4992, name = "Magar", profession = PROFESSION.TAILORING, level = TRAINING_LEVEL.EXPERT, faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.5739, y = 0.5395, name = "Zamja", profession = PROFESSION.COOKING, faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.5560, y = 0.3946, name = "Jandi", profession = PROFESSION.HERBALISM, faction = FACTION.HORDE },
+    { zone = ZONE.ASHENVALE, x = 0.1082, y = 0.3366, name = "Kil'Hiwana", profession = PROFESSION.FISHING, faction = FACTION.HORDE },
     { zone = ZONE.THE_BARRENS, x = 0.5130, y = 0.2891, name = "Traugh", profession = PROFESSION.BLACKSMITHING, level = TRAINING_LEVEL.EXPERT, faction = FACTION.HORDE },
     { zone = ZONE.THE_BARRENS, x = 0.5221, y = 0.3170, name = "Kil'hala", profession = PROFESSION.TAILORING, level = TRAINING_LEVEL.JOURNEYMAN, faction = FACTION.HORDE },
     { zone = ZONE.THE_BARRENS, x = 0.6266, y = 0.3631, name = "Tinkerwiz", profession = PROFESSION.ENGINEERING, level = TRAINING_LEVEL.JOURNEYMAN },

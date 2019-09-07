@@ -133,6 +133,7 @@ L["Herbalism Supplier"] = true
 L["Enchanting Supplies"] = true
 L["Alchemy Supplies"] = true
 L["Fishing Supplies"] = true
+L["Fish Merchant & Supplies"] = true
 L["Fisherman"] = true
 L["Cooking Supplies"] = true
 L["Freewheeling Tradeswoman"] = true
@@ -241,6 +242,7 @@ L["Doras"] = true
 L["Vhulgra"] = true
 L["Bragok"] = true
 L["Omusa Thunderhorn"] = true
+L["Andruk"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -505,6 +507,7 @@ L["Tinkerwiz"] = true
 L["Krulmoo Fullmoon"] = true
 L["Mahani"] = true
 L["Dranh"] = true
+L["Kil'Hiwana"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

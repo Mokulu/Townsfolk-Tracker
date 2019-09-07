@@ -12,6 +12,7 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = ZONE.ORGRIMMAR, x = 0.6308, y = 0.5146, name = "Borya", tag = "Tailoring Supplies", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.5759, y = 0.5288, name = "Xen'to", tag = "Cooking Supplies", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.5496, y = 0.3946, name = "Zeal'aya", tag = "Herbalism Supplier", faction = FACTION.HORDE },
+    { zone = ZONE.ASHENVALE, x = 0.1171, y = 0.3410, name = "Wik'Tar", tag = "Fish Merchant & Supplies", faction = FACTION.HORDE },
     { zone = ZONE.THE_BARRENS, x = 0.5113, y = 0.2896, name = "Hraq", tag = "Blacksmithing Supplier", faction = FACTION.HORDE },
     { zone = ZONE.THE_BARRENS, x = 0.5225, y = 0.3170, name = "Wrahk", tag = "Tailoring Supplies", faction = FACTION.HORDE },
     { zone = ZONE.THE_BARRENS, x = 0.6264, y = 0.3627, name = "Gagsprocket", tag = "Engineering Goods" },
