@@ -1,5 +1,5 @@
 TF_DUNGEONS = {
-    { zone = ZONE.ORGRIMMAR, x = 0.516, y = 0.4983, name = "Ragefire Chasm", minLevel = 10, recommendedLevel = { 13, 18 } },
+    { zone = ZONE.ORGRIMMAR, x = 0.5275, y = 0.4899, name = "Ragefire Chasm", minLevel = 10, recommendedLevel = { 13, 18 } },
     { zone = ZONE.THE_BARRENS, x = 0.4597, y = 0.3634, name = "Wailing Caverns", minLevel = 10, recommendedLevel = { 17, 24 } },
     { zone = ZONE.WESTFALL, x = 0.4257, y = 0.7171, name = "The Deadmines", minLevel = 10, recommendedLevel = { 17, 24 } },
     { zone = ZONE.SILVERPINE_FOREST, x = 0.448, y = 0.678, name = "Shadowfang Keep", minLevel = 14, recommendedLevel = { 22, 30 } },

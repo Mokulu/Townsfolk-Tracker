@@ -138,5 +138,9 @@ function TownsfolkUtil_GetTrainerTag(trainerType, expertise)
         return ""
     end
 
+    if (expertise == TRAINING_LEVEL.ARMORSMITH or expertise == TRAINING_LEVEL.WEAPONSMITH) then
+        return expertise
+    end
+
     return expertise.." "..profession
 end

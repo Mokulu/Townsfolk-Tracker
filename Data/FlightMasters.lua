@@ -1,4 +1,5 @@
 TF_FLIGHTMASTERS = {
+    { zone = ZONE.ORGRIMMAR, x = 0.4512, y = 0.6386, name = "Doras", faction = FACTION.HORDE },
     { zone = ZONE.ASHENVALE, x = 0.7318, y = 0.6159, name = "Vhulgra", faction = FACTION.HORDE },
     { zone = ZONE.THE_BARRENS, x = 0.5150, y = 0.3034, name = "Devrak", faction = FACTION.HORDE },
     { zone = ZONE.UNDERCITY, x = 0.6324, y = 0.4855, name = "Michael Garrett", faction = FACTION.HORDE },

@@ -54,6 +54,9 @@ TRAINING_LEVEL = {
     EXPERT = 'Expert',
     ARTISAN = 'Artisan',
     MASTER = 'Master',
+    -- Blacksmithing special
+    WEAPONSMITH = 'Weaponsmith',
+    ARMORSMITH = 'Armorsmith',
 }
 
 FACTION = {

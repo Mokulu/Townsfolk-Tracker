@@ -36,6 +36,7 @@ L["Raid Size"] = true
 -- Classes
 L["Druid Trainer"] = true
 L["Hunter Trainer"] = true
+L["Pet Trainer"] = true
 L["Mage Trainer"] = true
 L["Portal Trainer"] = true
 L["Paladin Trainer"] = true
@@ -75,6 +76,8 @@ L["Journeyman Blacksmith"] = true
 L["Expert Blacksmith"] = true
 L["Artisan Blacksmith"] = true
 L["Master Blacksmith"] = true
+L["Armorsmith"] = true
+L["Weaponsmith"] = true
 L["Apprentice Engineer"] = true
 L["Journeyman Engineer"] = true
 L["Expert Engineer"] = true
@@ -95,7 +98,8 @@ L["Riding Instructor"] = true
 L["General Trade Supplier"] = true
 L["General Supplies"] = true
 L["General Goods"] = true
-L["General Trade Goods"] = true
+L["General Goods Merchant"] = true
+L["General Goods Vendor"] = true
 L["Bowyer"] = true
 L["Bow Merchant"] = true
 L["Clothier"] = true
@@ -107,9 +111,12 @@ L["Cloth & Leather Armor Merchant"] = true
 L["Leather Armor Merchant"] = true
 L["Heavy Armor Merchant"] = true
 L["Weaponsmith"] = true
+L["Weaponsmith & Armorcrafter"] = true
 L["Weapon Merchant"] = true
+L["Blade Merchant"] = true
+L["Two-Handed Weapons Merchant"] = true
 L["Thrown Weapons Merchant"] = true
-L["Tradesman"] = true
+L["Mace & Staves Vendor"] = true
 L["Tailoring Supplies"] = true
 L["Leatherworking Supplies"] = true
 L["Engineering Supplies"] = true
@@ -118,14 +125,20 @@ L["Mining Supplier"] = true
 L["Herbalism Supplier"] = true
 L["Enchanting Supplies"] = true
 L["Alchemy Supplies"] = true
+L["Fishing Supplies"] = true
+L["Cooking Supplies"] = true
 L["Freewheeling Tradeswoman"] = true
 L["Blade Merchant"] = true
 L["Staff Merchant"] = true
+L["Wand Merchant"] = true
 L["Wand Vendor"] = true
 L["Gun Merchant"] = true
 L["Apprentice Weaponsmith"] = true
 L["Apprentice Armorer"] = true
+L["Butcher"] = true
 L["Undead Horse"] = true
+L["Wolf"] = true
+L["War Harness Maker"] = true
 
 -- Ammunition
 L["Nadia Vernon"] = true
@@ -137,6 +150,10 @@ L["Nicholas Atwood"] = true
 L["Abigail Sawyer"] = true
 L["Mrs. Winters"] = true
 L["Joshua Kien"] = true
+L["Trak'gen"] = true
+L["Asoran"] = true
+L["Jin'sora"] = true
+L["Zendo'jian"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -160,6 +177,9 @@ L["Warsong Gulch"] = true
 L["Grizzle Halfmane"] = true
 L["Sir Malory Wheeler"] = true
 L["Kurden Bloodclaw"] = true
+L["Brakgul Deathbringer"] = true
+L["Kartra Bloodsnarl"] = true
+L["Deze Snowbane"] = true
 
 -- Bankers
 L["Karus"] = true
@@ -192,12 +212,14 @@ L["Izzy Coppergrab"] = true
 -- Food & Drink
 L["Barkeep Morag"] = true
 L["Larhka"] = true
+L["Denni'ka"] = true
 
 -- Flight Masters
 L["Devrak"] = true
 L["Michael Garrett"] = true
 L["Karos Razok"] = true
 L["Zarise"] = true
+L["Doras"] = true
 L["Vhulgra"] = true
 
 -- Innkeepers
@@ -212,6 +234,7 @@ L["Innkeeper Kaylisk"] = true
 -- Poisons
 L["Patrice Dwyer"] = true
 L["Ezekiel Graves"] = true
+L["Rekkul"] = true
 
 -- Reagents
 L["Christoph Jeffcoat"] = true
@@ -228,6 +251,19 @@ L["Katrina Alliestar"] = true
 L["Thaddeus Webb"] = true
 L["Algernon"] = true
 L["Abigail Shiel"] = true
+L["Horthus"] = true
+L["Shimra"] = true
+L["Magenius"] = true
+L["Kithas"] = true
+L["Kor'geld"] = true
+L["Shankys"] = true
+L["Sovik"] = true
+L["Sumi"] = true
+L["Gorina"] = true
+L["Hagrus"] = true
+L["Borya"] = true
+L["Xen'to"] = true
+L["Zeal'aya"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -256,7 +292,23 @@ L["Constance Brisboise"] = true
 L["Harold Raims"] = true
 L["Blacksmith Rand"] = true
 L["Archibald Kava"] = true
+L["Urtharo"] = true
+L["Ukra'nor"] = true
+L["Kardris Dreamseeker"] = true
+L["Sagorne Creststrider"] = true
+L["Sian'tsu"] = true
+L["Kiro"] = true
+L["Martine Trambley"] = true
+L["Tumi"] = true
+L["Galthuk"] = true
+L["Shoma"] = true
+L["Koru"] = true
+L["Kareth"] = true
+L["Katis"] = true
+L["Muragus"] = true
 L["Burkrum"] = true
+L["Vrang Wildgore"] = true
+L["Tor'phan"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -264,6 +316,7 @@ L["Sarah Goode"] = true
 L["Theodore Mont Claire"] = true
 L["Anya Maulray"] = true
 L["Morganus"] = true
+L["Xon'cha"] = true
 L["Qeeju"] = true
 
 -- Trainers
@@ -328,6 +381,50 @@ L["Maximillion"] = true
 L["Kayla Smithe"] = true
 L["David Trias"] = true
 L["Dannal Stern"] = true
+L["Uthel'nay"] = true
+L["Deino"] = true
+L["Pephredo"] = true
+L["Enyo"] = true
+L["Thuul"] = true
+L["Ur'kyo"] = true
+L["X'yera"] = true
+L["Zayus"] = true
+L["Arnok"] = true
+L["Jhag"] = true
+L["Godan"] = true
+L["Whuut"] = true
+L["Yelmak"] = true
+L["Sorek"] = true
+L["Zel'mak"] = true
+L["Grezz Ragefist"] = true
+L["Lumak"] = true
+L["Nogg"] = true
+L["Roxxik"] = true
+L["Thund"] = true
+L["Saru Steelfury"] = true
+L["Ug'thok"] = true
+L["Okothos Ironrager"] = true
+L["Snarl"] = true
+L["Borgosh Corebender"] = true
+L["Hanashi"] = true
+L["Sayoc"] = true
+L["Makaru"] = true
+L["Kildar"] = true
+L["Xao'tsu"] = true
+L["Ormak Grimshot"] = true
+L["Xor'juul"] = true
+L["Sian'dur"] = true
+L["Ormok"] = true
+L["Shenthul"] = true
+L["Gest"] = true
+L["Kurgul"] = true
+L["Grol'dar"] = true
+L["Zevrost"] = true
+L["Mirket"] = true
+L["Snang"] = true
+L["Magar"] = true
+L["Zamja"] = true
+L["Jandi"] = true
 
 -- Transportation Zones
 L["Durotar"] = true
