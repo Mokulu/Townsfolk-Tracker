@@ -118,7 +118,7 @@ function TownsfolkUtil_GetTrainerTitle(trainerType)
     end
 end
 
-function TownsfolkUtil_GetTrainerTag(trainerType, expertise)
+function TownsfolkUtil_GetTrainerTag(trainerType, expertise, branch)
     local profession
 
     -- profession
@@ -138,9 +138,13 @@ function TownsfolkUtil_GetTrainerTag(trainerType, expertise)
         return ""
     end
 
-    if (expertise == TRAINING_LEVEL.ARMORSMITH or expertise == TRAINING_LEVEL.WEAPONSMITH) then
-        return expertise
+    if (branch == PROFESSION_BRANCH.ARMORSMITH or branch == PROFESSION_BRANCH.WEAPONSMITH) then
+        return branch
     end
 
-    return expertise.." "..profession
+    if (branch) then
+        return expertise.." "..branch.." "..profession
+    else
+        return expertise.." "..profession
+    end
 end

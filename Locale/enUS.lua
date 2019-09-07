@@ -83,6 +83,8 @@ L["Journeyman Engineer"] = true
 L["Expert Engineer"] = true
 L["Artisan Engineer"] = true
 L["Master Engineer"] = true
+L["Master Goblin Engineer"] = true
+L["Master Gnomish Engineer"] = true
 L["Apprentice Enchanter"] = true
 L["Journeyman Enchanter"] = true
 L["Expert Enchanter"] = true
@@ -101,6 +103,7 @@ L["General Goods"] = true
 L["General Goods Merchant"] = true
 L["General Goods Vendor"] = true
 L["Bowyer"] = true
+L["Bowyer & Gunsmith"] = true
 L["Bow Merchant"] = true
 L["Clothier"] = true
 L["Apprentice Clothier"] = true
@@ -109,6 +112,7 @@ L["Light Armor Merchant"] = true
 L["Cloth Armor Merchant"] = true
 L["Cloth & Leather Armor Merchant"] = true
 L["Leather Armor Merchant"] = true
+L["Leather & Mail Armor Merchant"] = true
 L["Heavy Armor Merchant"] = true
 L["Weaponsmith"] = true
 L["Weaponsmith & Armorcrafter"] = true
@@ -120,13 +124,16 @@ L["Thrown Weapons Merchant"] = true
 L["Mace & Staves Vendor"] = true
 L["Tailoring Supplies"] = true
 L["Leatherworking Supplies"] = true
+L["Tailoring & Leatherworking Supplies"] = true
 L["Engineering Supplies"] = true
+L["Engineering Goods"] = true
 L["Blacksmithing Supplier"] = true
 L["Mining Supplier"] = true
 L["Herbalism Supplier"] = true
 L["Enchanting Supplies"] = true
 L["Alchemy Supplies"] = true
 L["Fishing Supplies"] = true
+L["Fisherman"] = true
 L["Cooking Supplies"] = true
 L["Freewheeling Tradeswoman"] = true
 L["Blade Merchant"] = true
@@ -161,6 +168,8 @@ L["Ghrawt"] = true
 L["K'waii"] = true
 L["Trayexir"] = true
 L["Duokna"] = true
+L["Uthrok"] = true
+L["Jazzik"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -230,6 +239,8 @@ L["Karos Razok"] = true
 L["Zarise"] = true
 L["Doras"] = true
 L["Vhulgra"] = true
+L["Bragok"] = true
+L["Omusa Thunderhorn"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -240,6 +251,8 @@ L["Innkeeper Norman"] = true
 L["Innkeeper Renee"] = true
 L["Innkeeper Kaylisk"] = true
 L["Innkeeper Grosk"] = true
+L["Innkeeper Wiley"] = true
+L["Innkeeper Byula"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -276,6 +289,13 @@ L["Xen'to"] = true
 L["Zeal'aya"] = true
 L["Flakk"] = true
 L["Zansoa"] = true
+L["Hula'mahi"] = true
+L["Hraq"] = true
+L["Wrahk"] = true
+L["Kilxx"] = true
+L["Ranik"] = true
+L["Gagsprocket"] = true
+L["Yonada"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -328,6 +348,13 @@ L["Tai'tasi"] = true
 L["Huklah"] = true
 L["Rarc"] = true
 L["Kzan Thornslash"] = true
+L["Jahan Hawkwing"] = true
+L["Nargal Deatheye"] = true
+L["Halija Whitestrider"] = true
+L["Ironzar"] = true
+L["Vexspindle"] = true
+L["Grazlix"] = true
+L["Sanuye Runetotem"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -338,6 +365,8 @@ L["Morganus"] = true
 L["Xon'cha"] = true
 L["Qeeju"] = true
 L["Shoja'my"] = true
+L["Reggifuz"] = true
+L["Kelsuwa"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -469,10 +498,17 @@ L["Ken'jai"] = true
 L["Rwag"] = true
 L["Hraug"] = true
 L["Nartok"] = true
+L["Traugh"] = true
+L["Kil'hala"] = true
+L["Vazario Linkgrease"] = true
+L["Tinkerwiz"] = true
+L["Krulmoo Fullmoon"] = true
+L["Mahani"] = true
+L["Dranh"] = true
 
 -- Transportation Zones
-L["Durotar"] = true
-L["Tirisfal Glades"] = true
+L["Skull Rock, Durotar"] = true
+L["Brill, Tirisfal Glades"] = true
 L["Grom'gol Base Camp, Stranglethorn Vale"] = true
 L["Booty Bay, Stranglethorn Vale"] = true
 L["Menethil Harbor, Wetlands"] = true

@@ -7,6 +7,8 @@ TF_AMMUNITION_VENDORS = {
     { zone = ZONE.ORGRIMMAR, x = 0.4812, y = 0.8052, name = "Trak'gen", tag = "General Goods Merchant", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.4606, y = 0.4085, name = "Asoran", tag = "General Goods Vendor", faction = FACTION.HORDE },
     { zone = ZONE.ORGRIMMAR, x = 0.7807, y = 0.3845, name = "Jin'sora", tag = "Bow Merchant", faction = FACTION.HORDE },
+    { zone = ZONE.THE_BARRENS, x = 0.5111, y = 0.2907, name = "Uthrok", tag = "Bowyer & Gunsmith", faction = FACTION.HORDE },
+    { zone = ZONE.THE_BARRENS, x = 0.6192, y = 0.3880, name = "Jazzik", tag = "General Supplies" },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.3228, y = 0.6544, name = "Joshua Kien", tag = "General Supplies", faction = FACTION.HORDE },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.6115, y = 0.5259, name = "Mrs. Winters", tag = "General Supplies", faction = FACTION.HORDE },
     { zone = ZONE.UNDERCITY, x = 0.6917, y = 0.4892, name = "Eleanor Rusk", tag = "General Goods", faction = FACTION.HORDE },

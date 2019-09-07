@@ -48,15 +48,18 @@ PROFESSION = {
     RIDING = 'RIDING',
 }
 
+PROFESSION_BRANCH = {
+    WEAPONSMITH = 'Weaponsmith',
+    ARMORSMITH = 'Armorsmith',
+    GOBLIN = 'Goblin',
+}
+
 TRAINING_LEVEL = {
     APPRENTICE = 'Apprentice',
     JOURNEYMAN = 'Journeyman',
     EXPERT = 'Expert',
     ARTISAN = 'Artisan',
     MASTER = 'Master',
-    -- Blacksmithing special
-    WEAPONSMITH = 'Weaponsmith',
-    ARMORSMITH = 'Armorsmith',
 }
 
 FACTION = {

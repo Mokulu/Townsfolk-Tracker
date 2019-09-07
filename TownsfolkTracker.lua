@@ -203,8 +203,8 @@ function TownsfolkTracker:GenerateTooltip(title, point, folktype)
             GameTooltip:AddLine("<"..L[point.tag]..">", 0.8, 0.8, 0.8)
         end
         -- profession level
-        if (point.level and point.profession) then
-            GameTooltip:AddLine("<"..L[TownsfolkUtil_GetTrainerTag(point.profession, point.level)]..">", 0.8, 0.8, 0.8)
+        if ((point.level or point.branch) and point.profession) then
+            GameTooltip:AddLine("<"..L[TownsfolkUtil_GetTrainerTag(point.profession, point.level, point.branch)]..">", 0.8, 0.8, 0.8)
         end
     end
 end
