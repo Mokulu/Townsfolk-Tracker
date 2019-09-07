@@ -299,8 +299,8 @@ function TownsfolkTracker:DrawMapIcons()
                     end
                     Pins:AddMinimapIconMap("TownsfolkTracker", point.minimapNode, point.zone, point.x, point.y, true, floatEdge)
 
-                    -- map icons
-                    if self:IsUseWorldMap() then
+                    -- map icons (don't show internal instance entrances on map at all)
+                    if self:IsUseWorldMap() and not point.entrance then
                         local worldMapShowFlag = HBD_PINS_WORLDMAP_SHOW_PARENT
                         if (TownsfolkUtil_IsInstanceType(folktype) and self:IsShowInstanceOnWorldMap(nil)) then
                             worldMapShowFlag = HBD_PINS_WORLDMAP_SHOW_WORLD
