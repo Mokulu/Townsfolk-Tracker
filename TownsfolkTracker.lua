@@ -222,21 +222,19 @@ function TownsfolkTracker:CreateMapMarker(iconType, point, townsfolk, folktype, 
 
     -- marker size
     if (iconType == TF_ATLAS_ICON) then
-        if (TownsfolkUtil_IsInstanceType(folktype)) then
-            marker:SetWidth(24)
-            marker:SetHeight(24)
-        else
-            marker:SetWidth(10)
-            marker:SetHeight(10)
+        local size = 10
+        if (townsfolk.iconSize) then
+            size = size * townsfolk.iconSize
         end
+        marker:SetWidth(size)
+        marker:SetHeight(size)
     else
-        if (TownsfolkUtil_IsInstanceType(folktype)) then
-            marker:SetWidth(28)
-            marker:SetHeight(28)
-        else
-            marker:SetWidth(12)
-            marker:SetHeight(12)
+        local size = 12
+        if (townsfolk.iconSize) then
+            size = size * townsfolk.iconSize
         end
+        marker:SetWidth(size)
+        marker:SetHeight(size)
     end
 
     -- icon

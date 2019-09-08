@@ -86,16 +86,19 @@ TOWNSFOLK = {
         icon = [[Interface\Addons\TownsfolkTracker\Icons\Transportation.tga]],
         allianceIcon = [[Interface\Addons\TownsfolkTracker\Icons\AllianceTransportation.tga]],
         hordeIcon = [[Interface\Addons\TownsfolkTracker\Icons\HordeTransportation.tga]],
+        iconSize = 1.25,
         points = TF_TRANSPORTATION_SPOTS,
     },
     [TF_DUNGEON] = {
         title = L["Dungeon"],
         icon = [[Interface\MINIMAP\Dungeon]],
+        iconSize = 2.4,
         points = TF_DUNGEONS,
     },
     [TF_RAID] = {
         title = L["Raid"],
         icon = [[Interface\MINIMAP\Raid]],
+        iconSize = 2.4,
         points = TF_RAIDS,
     },
 };
