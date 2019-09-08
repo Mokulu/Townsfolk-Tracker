@@ -27,6 +27,7 @@ L["Raid"] = true
 L["Required Level"] = true
 L["Recommended Level"] = true
 L["Raid Size"] = true
+L["Cave Entrance"] = true
 
 --[[
     NPC Names
@@ -125,6 +126,7 @@ L["Mace & Staves Vendor"] = true
 L["Tailoring Supplies"] = true
 L["Leatherworking Supplies"] = true
 L["Tailoring & Leatherworking Supplies"] = true
+L["Specialist Leatherworking Supplies"] = true
 L["Engineering Supplies"] = true
 L["Engineering Goods"] = true
 L["Blacksmithing Supplier"] = true
@@ -262,6 +264,7 @@ L["Ezekiel Graves"] = true
 L["Rekkul"] = true
 
 -- Reagents
+L["Ronald Burch"] = true
 L["Christoph Jeffcoat"] = true
 L["Mallen Swain"] = true
 L["Daniel Bartlett"] = true
@@ -298,6 +301,7 @@ L["Kilxx"] = true
 L["Ranik"] = true
 L["Gagsprocket"] = true
 L["Yonada"] = true
+L["Kalldan Felmoon"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -508,6 +512,7 @@ L["Krulmoo Fullmoon"] = true
 L["Mahani"] = true
 L["Dranh"] = true
 L["Kil'Hiwana"] = true
+L["Waldor"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

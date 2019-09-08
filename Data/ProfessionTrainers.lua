@@ -36,6 +36,7 @@ TF_PROFESSION_TRAINERS = {
     { zone = ZONE.THE_BARRENS, x = 0.4484, y = 0.5946, name = "Krulmoo Fullmoon", profession = PROFESSION.LEATHERWORKING, level = TRAINING_LEVEL.EXPERT, faction = FACTION.HORDE },
     { zone = ZONE.THE_BARRENS, x = 0.4493, y = 0.5940, name = "Mahani", profession = PROFESSION.TAILORING, level = TRAINING_LEVEL.EXPERT, faction = FACTION.HORDE },
     { zone = ZONE.THE_BARRENS, x = 0.4507, y = 0.5909, name = "Dranh", profession = PROFESSION.SKINNING, faction = FACTION.HORDE },
+    { zone = ZONE.THE_BARRENS, x = 0.4598, y = 0.3584, name = "Waldor", profession = PROFESSION.LEATHERWORKING, level = TRAINING_LEVEL.JOURNEYMAN },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.5259, y = 0.5553, name = "Bowen Brisboise", profession = PROFESSION.TAILORING, level = TRAINING_LEVEL.JOURNEYMAN, faction = FACTION.HORDE },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.5979, y = 0.5211, name = "Faruza", profession = PROFESSION.HERBALISM, faction = FACTION.HORDE },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.5944, y = 0.5219, name = "Carolai Anise", profession = PROFESSION.ALCHEMY, level = TRAINING_LEVEL.JOURNEYMAN, faction = FACTION.HORDE },
