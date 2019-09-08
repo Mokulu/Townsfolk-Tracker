@@ -10,4 +10,7 @@ TF_AUCTIONEERS = {
     { zone = ZONE.UNDERCITY, x = 0.6440, y = 0.3581, name = "Auctioneer Naxxremis", faction = FACTION.HORDE },
     { zone = ZONE.UNDERCITY, x = 0.6766, y = 0.3588, name = "Auctioneer Cain", faction = FACTION.HORDE },
     { zone = ZONE.UNDERCITY, x = 0.7150, y = 0.4191, name = "Auctioneer Yarly", faction = FACTION.HORDE },
+    { zone = ZONE.IRONFORGE, x = 0.2379, y = 0.7186, name = "Auctioneer Buckler", faction = FACTION.ALLIANCE },
+    { zone = ZONE.IRONFORGE, x = 0.2420, y = 0.7462, name = "Auctioneer Redmuse", faction = FACTION.ALLIANCE },
+    { zone = ZONE.IRONFORGE, x = 0.2580, y = 0.7553, name = "Auctioneer Lympkin", faction = FACTION.ALLIANCE },
 }

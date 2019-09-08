@@ -1,10 +1,10 @@
 TF_MAILBOXES = {
-    { zone = ZONE.DUN_MOROGH, x = 0.47, y = 0.526, faction = FACTION.ALLIANCE },
+    { zone = ZONE.DUN_MOROGH, x = 0.4702, y = 0.5258, faction = FACTION.ALLIANCE }, --
     { zone = ZONE.IRONFORGE, x = 0.2096, y = 0.524, faction = FACTION.ALLIANCE }, --
     { zone = ZONE.IRONFORGE, x = 0.3322, y = 0.6466, faction = FACTION.ALLIANCE }, --
     { zone = ZONE.IRONFORGE, x = 0.7132, y = 0.7217, faction = FACTION.ALLIANCE }, --
     { zone = ZONE.IRONFORGE, x = 0.7229, y = 0.491, faction = FACTION.ALLIANCE }, --
-    { zone = ZONE.LOCH_MODAN, x = 0.348, y = 0.477, faction = FACTION.ALLIANCE },
+    { zone = ZONE.LOCH_MODAN, x = 0.3482, y = 0.4773, faction = FACTION.ALLIANCE }, --
     { zone = ZONE.ELWYNN_FOREST, x = 0.429, y = 0.656, faction = FACTION.ALLIANCE },
     { zone = ZONE.STORMWIND, x = 0.40, y = 0.845, faction = FACTION.ALLIANCE },
     { zone = ZONE.STORMWIND, x = 0.545, y = 0.665, faction = FACTION.ALLIANCE },
@@ -28,9 +28,9 @@ TF_MAILBOXES = {
     { zone = ZONE.TANARIS, x = 0.523, y = 0.278 },
     { zone = ZONE.DUSTWALLOW_MARSH, x = 0.659, y = 0.454, faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.109, y = 0.597, faction = FACTION.ALLIANCE },
-    { zone = ZONE.TIRISFAL_GLADES, x = 0.615, y = 0.531, faction = FACTION.HORDE },
-    { zone = ZONE.UNDERCITY, x = 0.6815, y = 0.3825, faction = FACTION.HORDE },
-    { zone = ZONE.SILVERPINE_FOREST, x = 0.4341, y = 0.4153, faction = FACTION.HORDE },
+    { zone = ZONE.TIRISFAL_GLADES, x = 0.615, y = 0.531, faction = FACTION.HORDE }, --
+    { zone = ZONE.UNDERCITY, x = 0.6815, y = 0.3825, faction = FACTION.HORDE }, --
+    { zone = ZONE.SILVERPINE_FOREST, x = 0.4341, y = 0.4153, faction = FACTION.HORDE }, --
     { zone = ZONE.HILLSBRAD_FOOTHILLS, x = 0.505, y = 0.586, faction = FACTION.ALLIANCE },
     { zone = ZONE.HILLSBRAD_FOOTHILLS, x = 0.6237, y = 0.1971, faction = FACTION.HORDE }, --
     { zone = ZONE.ARATHI_HIGHLANDS, x = 0.739, y = 0.332, faction = FACTION.HORDE },

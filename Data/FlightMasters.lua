@@ -8,4 +8,6 @@ TF_FLIGHTMASTERS = {
     { zone = ZONE.UNDERCITY, x = 0.6324, y = 0.4855, name = "Michael Garrett", faction = FACTION.HORDE },
     { zone = ZONE.SILVERPINE_FOREST, x = 0.4562, y = 0.4260, name = "Karos Razok", faction = FACTION.HORDE },
     { zone = ZONE.HILLSBRAD_FOOTHILLS, x = 0.6015, y = 0.1863, name = "Zarise", faction = FACTION.HORDE },
+    { zone = ZONE.IRONFORGE, x = 0.5550, y = 0.4774, name = "Gryth Thurden", faction = FACTION.ALLIANCE },
+    { zone = ZONE.LOCH_MODAN, x = 0.3394, y = 0.5095, name = "Thorgrum Borrelson", faction = FACTION.ALLIANCE },
 }

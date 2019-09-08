@@ -9,4 +9,7 @@ TF_INNKEEPERS = {
     { zone = ZONE.UNDERCITY, x = 0.6773, y = 0.3791, name = "Innkeeper Norman", faction = FACTION.HORDE },
     { zone = ZONE.SILVERPINE_FOREST, x = 0.4318, y = 0.4127, name = "Innkeeper Bates", faction = FACTION.HORDE },
     { zone = ZONE.HILLSBRAD_FOOTHILLS, x = 0.6276, y = 0.1902, name = "Innkeeper Shay", faction = FACTION.HORDE },
+    { zone = ZONE.DUN_MOROGH, x = 0.4738, y = 0.5252, name = "Innkeeper Belm", faction = FACTION.ALLIANCE },
+    { zone = ZONE.IRONFORGE, x = 0.1818, y = 0.5147, name = "Innkeeper Firebrew", faction = FACTION.ALLIANCE },
+    { zone = ZONE.LOCH_MODAN, x = 0.3553, y = 0.4841, name = "Innkeeper Hearthstove", faction = FACTION.ALLIANCE },
 }

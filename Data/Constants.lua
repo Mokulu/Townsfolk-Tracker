@@ -52,6 +52,7 @@ PROFESSION_BRANCH = {
     WEAPONSMITH = 'Weaponsmith',
     ARMORSMITH = 'Armorsmith',
     GOBLIN = 'Goblin',
+    GNOME = 'Gnome',
 }
 
 TRAINING_LEVEL = {

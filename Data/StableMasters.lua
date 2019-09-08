@@ -9,4 +9,7 @@ TF_STABLE_MASTERS = {
     { zone = ZONE.UNDERCITY, x = 0.6743, y = 0.3758, name = "Anya Maulray", faction = FACTION.HORDE },
     { zone = ZONE.SILVERPINE_FOREST, x = 0.4345, y = 0.4118, name = "Sarah Goode", faction = FACTION.HORDE },
     { zone = ZONE.HILLSBRAD_FOOTHILLS, x = 0.6230, y = 0.1970, name = "Theodore Mont Claire", faction = FACTION.HORDE },
+    { zone = ZONE.DUN_MOROGH, x = 0.4701, y = 0.5266, name = "Shelby Stoneflint", faction = FACTION.ALLIANCE },
+    { zone = ZONE.IRONFORGE, x = 0.6929, y = 0.8356, name = "Ulbrek Firehand", faction = FACTION.ALLIANCE },
+    { zone = ZONE.LOCH_MODAN, x = 0.3464, y = 0.4810, name = "Lina Hearthstove", faction = FACTION.ALLIANCE },
 }
