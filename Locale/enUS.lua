@@ -22,7 +22,9 @@ L["Transportation"] = true
 
 L["Instances"] = true
 L["Dungeon"] = true
+L["Dungeons"] = true
 L["Raid"] = true
+L["Raids"] = true
 
 L["Required Level"] = true
 L["Recommended Level"] = true
@@ -725,19 +727,23 @@ L["Zul'Farrak"] = true
 L["Maraudon"] = true
 L["The Temple of Atal'Hakkar"] = true
 L["Blackrock Depths"] = true
-L["Blackrock Spire"] = true
+L["Lower Blackrock Spire"] = true
+L["Upper Blackrock Spire"] = true
 L["Dire Maul"] = true
 L["Scholomance"] = true
 L["Stratholme"] = true
+L["Lv %s"] = true
 
 -- Raids
 L["Zul'Gurub"] = true
 L["Ruins of Ahn'Qiraj"] = true
+L["Blackrock Mountain"] = true
 L["Molten Core"] = true
 L["Onyxia's Lair"] = true
 L["Blackwing Lair"] = true
 L["Temple of Ahn'Qiraj"] = true
 L["Naxxramas"] = true
+L["%d Players"] = true
 
 --[[
     Options

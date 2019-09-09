@@ -14,10 +14,24 @@ TF_DUNGEONS = {
     { zone = ZONE.DESOLACE, x = 0.291, y = 0.625, name = "Maraudon", minLevel = 30, recommendedLevel = { 46, 55 } },
     { zone = ZONE.SWAMP_OF_SORROWS, x = 0.695, y = 0.525, name = "The Temple of Atal'Hakkar", minLevel = 45, recommendedLevel = { 50, 56 } },
     -- TODO find and get zone/cords of all blackrock mountain instances
-    { zone = ZONE.SEARING_GORGE, x = 0.347, y = 0.86, name = "Blackrock Depths", minLevel = 48, recommendedLevel = { 52, 60 } },
-    { zone = ZONE.SEARING_GORGE, x = 0.347, y = 0.86, name = "Blackrock Spire", minLevel = 48, recommendedLevel = { 55, 60 } }, -- Lower
-    { zone = ZONE.SEARING_GORGE, x = 0.347, y = 0.86, name = "Blackrock Spire", minLevel = 48, recommendedLevel = { 55, 60 }, attunement = { item = 12344 } }, -- Upper
+--    { zone = ZONE.SEARING_GORGE, x = 0.347, y = 0.86, name = "Blackrock Depths", minLevel = 48, recommendedLevel = { 52, 60 } },
+--    { zone = ZONE.SEARING_GORGE, x = 0.347, y = 0.86, name = "Lower Blackrock Spire", minLevel = 48, recommendedLevel = { 55, 60 } }, -- Lower
+--    { zone = ZONE.SEARING_GORGE, x = 0.347, y = 0.86, name = "Upper Blackrock Spire", minLevel = 48, recommendedLevel = { 55, 60 }, attunement = { item = 12344 } }, -- Upper
+    -- TODO: add all Dire Maul wing entrances
     { zone = ZONE.FERALAS, x = 0.589, y = 0.415, name = "Dire Maul", minLevel = 48, recommendedLevel = { 55, 60 } },
     { zone = ZONE.WESTERN_PLAGUELANDS, x = 0.69, y = 0.729, name = "Scholomance", minLevel = 48, recommendedLevel = { 58, 60 } },
     { zone = ZONE.EASTERN_PLAGUELANDS, x = 0.3085, y = 0.17, name = "Stratholme", minLevel = 48, recommendedLevel = { 58, 60 } },
+
+    -- Blackrock Mountain instances
+    { zone = ZONE.BURNING_STEPPES, x = 0.2905, y = 0.3813, name = "Blackrock Mountain", group = {
+        dungeons = {
+            { name = "Blackrock Depths", recommendedLevel = { 52, 60 } },
+            { name = "Lower Blackrock Spire", recommendedLevel = { 55, 60 } },
+            { name = "Upper Blackrock Spire", recommendedLevel = { 55, 60 } },
+        },
+        raids = {
+            { name = "Molten Core", raidSize = 40 },
+            { name = "Blackwing Lair", raidSize = 40 },
+        }
+    }, altEntrance = { zone = ZONE.SEARING_GORGE, x = 0.3469, y = 0.8402 } }
 }

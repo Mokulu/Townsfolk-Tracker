@@ -92,12 +92,14 @@ TOWNSFOLK = {
     [TF_DUNGEON] = {
         title = L["Dungeon"],
         icon = [[Interface\MINIMAP\Dungeon]],
+        groupIcon = [[Interface\Addons\TownsfolkTracker\Icons\InstanceGroup.tga]],
         iconSize = 2.4,
         points = TF_DUNGEONS,
     },
     [TF_RAID] = {
         title = L["Raid"],
         icon = [[Interface\MINIMAP\Raid]],
+        groupIcon = [[Interface\Addons\TownsfolkTracker\Icons\InstanceGroup.tga]],
         iconSize = 2.4,
         points = TF_RAIDS,
     },

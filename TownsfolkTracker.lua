@@ -141,6 +141,37 @@ function TownsfolkTracker:PLAYER_LOGIN()
     end
 end
 
+function TownsfolkTracker:GetRecommendedLevel(recommendedLevel)
+    local r, g, b
+    local playerLevel = TownsfolkUtil_GetPlayerLevel()
+    local lowLevel = recommendedLevel[1]
+    local highLevel = recommendedLevel[2]
+    local recommendedGroup = TownsfolkUtil_GetPlayerDungeonRecommendation(playerLevel, lowLevel, highLevel)
+
+    -- gray for over leveled
+    if (recommendedGroup == 0) then
+        r, g, b = 0.5, 0.5, 0.5
+    end
+    -- green for high level
+    if (recommendedGroup == 1) then
+        r, g, b = 0.25, 0.746, 0.25
+    end
+    -- yellow for recommended level
+    if (recommendedGroup == 2) then
+        r, g, b = 1, 1, 0
+    end
+    -- orange for low level
+    if (recommendedGroup == 3) then
+        r, g, b = 1, 0.5, 0.25
+    end
+    -- red for underleveled
+    if (recommendedGroup == 4) then
+        r, g, b = 1, 0, 0
+    end
+
+    return format("%d - %d", lowLevel, highLevel), r, g, b
+end
+
 function TownsfolkTracker:GenerateTooltip(title, point, folktype, inside)
     GameTooltip:SetOwner(UIParent, "ANCHOR_CURSOR_RIGHT")
 
@@ -158,41 +189,35 @@ function TownsfolkTracker:GenerateTooltip(title, point, folktype, inside)
         end
         -- instance rec level
         if (point.recommendedLevel) then
-            local r, g, b
-            local playerLevel = TownsfolkUtil_GetPlayerLevel()
-            local lowLevel = point.recommendedLevel[1]
-            local highLevel = point.recommendedLevel[2]
-            local recommendedGroup = TownsfolkUtil_GetPlayerDungeonRecommendation(playerLevel, lowLevel, highLevel)
-
-            -- gray for over leveled
-            if (recommendedGroup == 0) then
-                r, g, b = 0.5, 0.5, 0.5
-            end
-            -- green for high level
-            if (recommendedGroup == 1) then
-                r, g, b = 0.25, 0.746, 0.25
-            end
-            -- yellow for recommended level
-            if (recommendedGroup == 2) then
-                r, g, b = 1, 1, 0
-            end
-            -- orange for low level
-            if (recommendedGroup == 3) then
-                r, g, b = 1, 0.5, 0.25
-            end
-            -- red for underleveled
-            if (recommendedGroup == 4) then
-                r, g, b = 1, 0, 0
-            end
-
-            GameTooltip:AddDoubleLine(L["Recommended Level"]..":", format("%d - %d", lowLevel, highLevel), 0.8, 0.8, 0.8, r, g, b)
+            local recommendedLevel, r, g, b = self:GetRecommendedLevel(point.recommendedLevel)
+            GameTooltip:AddDoubleLine(L["Recommended Level"]..":", recommendedLevel, 0.8, 0.8, 0.8, r, g, b)
         end
         -- instance raid size
         if (point.raidSize) then
             GameTooltip:AddDoubleLine(L["Raid Size"]..":", point.raidSize, 0.8, 0.8, 0.8, 1, 1, 1)
         end
-        if (point.entrance and not inside) then
+        if (point.entrance and not inside or point.group) then
             GameTooltip:AddLine("("..L["Cave Entrance"]..")", 0.6, 0.6, 0.6);
+        end
+
+        -- instance groups
+        if (point.group) then
+            if (point.group.dungeons) then
+                GameTooltip:AddLine(' ')
+                GameTooltip:AddLine(L["Dungeons"], 0.235, 0.725, 0.812)
+                for _, dungeon in pairs(point.group.dungeons) do
+                    local recommendedLevel, r, g, b = self:GetRecommendedLevel(dungeon.recommendedLevel)
+                    GameTooltip:AddDoubleLine(L[dungeon.name], format(L["Lv %s"], recommendedLevel), 0.8, 0.8, 0.8, r, g, b)
+                end
+            end
+
+            if (point.group.raids) then
+                GameTooltip:AddLine(' ')
+                GameTooltip:AddLine(L["Raids"], 0.07, 0.647, 0.137)
+                for _, raid in pairs(point.group.raids) do
+                    GameTooltip:AddDoubleLine(L[raid.name], format(L["%d Players"], raid.raidSize), 0.8, 0.8, 0.8, 1, 1, 1)
+                end
+            end
         end
     else
         if TownsfolkUtil_IsTrainerType(folktype) then
@@ -252,6 +277,9 @@ function TownsfolkTracker:CreateMapMarker(iconType, point, townsfolk, folktype, 
     if (folktype == TF_FLIGHTMASTER and point.faction == nil) then
         texture:SetTexture(townsfolk.neutralIcon)
     end
+    if (TownsfolkUtil_IsInstanceType(folktype) and point.group) then
+        texture:SetTexture(townsfolk.groupIcon)
+    end
     marker.texture = texture
     marker:SetPoint("CENTER", 0, 0)
     marker:Hide()
@@ -277,6 +305,10 @@ function TownsfolkTracker:CreateIcons()
                 point.entranceNode = self:CreateMapMarker(TF_MINIMAP_ICON, point, townsfolk, folktype, true)
             end
             point.mapNode = self:CreateMapMarker(TF_ATLAS_ICON, point, townsfolk, folktype)
+            if (point.altEntrance) then
+                point.minimapNodeAlt = self:CreateMapMarker(TF_MINIMAP_ICON, point, townsfolk, folktype)
+                point.mapNodeAlt = self:CreateMapMarker(TF_ATLAS_ICON, point, townsfolk, folktype)
+            end
         end
     end
 end
@@ -303,6 +335,9 @@ function TownsfolkTracker:DrawMapIcons()
                 if (displayIcon) then
                     -- minimap icons
                     Pins:AddMinimapIconMap("TownsfolkTracker", point.minimapNode, point.zone, point.x, point.y, true, false)
+                    if (TownsfolkUtil_IsInstanceType(folktype) and point.altEntrance) then
+                        Pins:AddMinimapIconMap("TownsfolkTracker", point.minimapNodeAlt, point.altEntrance.zone, point.altEntrance.x, point.altEntrance.y, true, false)
+                    end
 
                     -- map icons (don't show internal instance entrances on map at all)
                     if self:IsUseWorldMap() then
@@ -311,6 +346,9 @@ function TownsfolkTracker:DrawMapIcons()
                             worldMapShowFlag = HBD_PINS_WORLDMAP_SHOW_WORLD
                         end
                         Pins:AddWorldMapIconMap("TownsfolkTracker", point.mapNode, point.zone, point.x, point.y, worldMapShowFlag)
+                        if (TownsfolkUtil_IsInstanceType(folktype) and point.altEntrance) then
+                            Pins:AddWorldMapIconMap("TownsfolkTracker", point.mapNodeAlt, point.altEntrance.zone, point.altEntrance.x, point.altEntrance.y, HBD_PINS_WORLDMAP_SHOW_PARENT)
+                        end
                     end
                 end
             end
