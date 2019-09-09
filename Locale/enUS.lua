@@ -174,6 +174,7 @@ L["Superior Armorer"] = true
 L["Butcher"] = true
 L["Engineering & General Goods Supplier"] = true
 L["Ale and Wine"] = true
+L["Apprentice Witch Doctor"] = true
 L["Undead Horse"] = true
 L["Wolf"] = true
 L["War Harness Maker"] = true
@@ -221,6 +222,8 @@ L["Neal Allen"] = true
 L["Daeolyn Summerleaf"] = true
 L["Narianna"] = true
 L["Haren Kanmae"] = true
+L["Borand"] = true
+L["Grawnal"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -297,6 +300,7 @@ L["Greishan Ironstove"] = true
 L["My'lanna"] = true
 L["Dargon"] = true
 L["Nixxrax Fillamug"] = true
+L["Krond"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -316,6 +320,7 @@ L["Sindrayl"] = true
 L["Faustron"] = true
 L["Gyll"] = true
 L["Gringer"] = true
+L["Tharm"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -333,6 +338,7 @@ L["Innkeeper Belm"] = true
 L["Innkeeper Firebrew"] = true
 L["Innkeeper Helbrek"] = true
 L["Innkeeper Skindle"] = true
+L["Innkeeper Jayka"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -418,6 +424,8 @@ L["Rikqiz"] = true
 L["Jansen Underwood"] = true
 L["Hurklor"] = true
 L["Old Man Heming"] = true
+L["Kulwia"] = true
+L["Jeeda"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -532,6 +540,7 @@ L["Shelby Stoneflint"] = true
 L["Ulbrek Firehand"] = true
 L["Bethaine Flinthammer"] = true
 L["Grimestack"] = true
+L["Gereck"] = true
 
 -- Trainers
 L["Eunice Burch"] = true

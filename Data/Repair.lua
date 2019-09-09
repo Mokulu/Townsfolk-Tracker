@@ -30,6 +30,7 @@ TF_REPAIR_VENDORS = {
     { zone = ZONE.THE_BARRENS, x = 0.6216, y = 0.3845, name = "Vexspindle", tag = "Cloth & Leather Armor Merchant" },
     { zone = ZONE.THE_BARRENS, x = 0.6221, y = 0.3841, name = "Grazlix", tag = "Armorer & Shieldcrafter" },
     { zone = ZONE.THE_BARRENS, x = 0.4512, y = 0.5901, name = "Sanuye Runetotem", tag = "Leather Armor Merchant", faction = FACTION.HORDE },
+    { zone = ZONE.STONETALON_MOUNTAINS, x = 0.4535, y = 0.5911, name = "Borand", tag = "Bowyer", faction = FACTION.HORDE },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.3242, y = 0.6644, name = "Harold Raims", tag = "Apprentice Weaponsmith", faction = FACTION.HORDE },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.3238, y = 0.6623, name = "Blacksmith Rand", tag = "Apprentice Armorer", faction = FACTION.HORDE },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.3243, y = 0.6563, name = "Archibald Kava", tag = "Cloth & Leather Armor Merchant", faction = FACTION.HORDE },

@@ -20,6 +20,7 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = ZONE.THE_BARRENS, x = 0.6193, y = 0.3870, name = "Ranik" },
     { zone = ZONE.THE_BARRENS, x = 0.4501, y = 0.5933, name = "Yonada", tag = "Tailoring & Leatherworking Supplies", faction = FACTION.HORDE },
     { zone = ZONE.THE_BARRENS, x = 0.4591, y = 0.3569, name = "Kalldan Felmoon", tag = "Specialist Leatherworking Supplies" },
+    { zone = ZONE.STONETALON_MOUNTAINS, x = 0.4539, y = 0.5934, name = "Kulwia", faction = FACTION.HORDE },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.6103, y = 0.5239, name = "Abigail Shiel", faction = FACTION.HORDE },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.6586, y = 0.5963, name = "Martine Trambley", tag = "Fishing Supplies", faction = FACTION.HORDE },
     { zone = ZONE.UNDERCITY, x = 0.6230, y = 0.4311, name = "Ronald Burch", tag = "Cooking Supplies", faction = FACTION.HORDE },

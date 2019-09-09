@@ -5,6 +5,7 @@ TF_STABLE_MASTERS = {
     { zone = ZONE.THE_BARRENS, x = 0.5174, y = 0.2966, name = "Sikwa", faction = FACTION.HORDE },
     { zone = ZONE.THE_BARRENS, x = 0.6219, y = 0.3921, name = "Reggifuz" },
     { zone = ZONE.THE_BARRENS, x = 0.4530, y = 0.5866, name = "Kelsuwa", faction = FACTION.HORDE },
+    { zone = ZONE.STONETALON_MOUNTAINS, x = 0.4793, y = 0.6139, name = "Gereck", faction = FACTION.HORDE },
     { zone = ZONE.TIRISFAL_GLADES, x = 0.6004, y = 0.5216, name = "Morganus", faction = FACTION.HORDE },
     { zone = ZONE.UNDERCITY, x = 0.6743, y = 0.3758, name = "Anya Maulray", faction = FACTION.HORDE },
     { zone = ZONE.SILVERPINE_FOREST, x = 0.4345, y = 0.4118, name = "Sarah Goode", faction = FACTION.HORDE },
