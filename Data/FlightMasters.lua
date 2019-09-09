@@ -10,4 +10,5 @@ TF_FLIGHTMASTERS = {
     { zone = ZONE.HILLSBRAD_FOOTHILLS, x = 0.6015, y = 0.1863, name = "Zarise", faction = FACTION.HORDE },
     { zone = ZONE.IRONFORGE, x = 0.5550, y = 0.4774, name = "Gryth Thurden", faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.3394, y = 0.5095, name = "Thorgrum Borrelson", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.0949, y = 0.5969, name = "Shellei Brondir", faction = FACTION.ALLIANCE },
 }

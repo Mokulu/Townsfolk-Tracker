@@ -22,4 +22,7 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = ZONE.LOCH_MODAN, x = 0.3553, y = 0.4841, name = "Innkeeper Hearthstove", faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.3434, y = 0.4726, name = "Greishan Ironstove", tag = "Traveling Merchant", faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.8249, y = 0.6333, name = "Xandar Goodbeard", tag = "General Supplies", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1068, y = 0.6149, name = "Innkeeper Helbrek", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1208, y = 0.5794, name = "Gruham Rumdnul", tag = "General Supplies", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1077, y = 0.5672, name = "Neal Allen", tag = "Engineering & General Goods Supplier", faction = FACTION.ALLIANCE },
 }

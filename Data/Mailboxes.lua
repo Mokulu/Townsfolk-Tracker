@@ -27,7 +27,7 @@ TF_MAILBOXES = {
     { zone = ZONE.THOUSAND_NEEDLES, x = 0.458, y = 0.510 },
     { zone = ZONE.TANARIS, x = 0.523, y = 0.278 },
     { zone = ZONE.DUSTWALLOW_MARSH, x = 0.659, y = 0.454, faction = FACTION.ALLIANCE },
-    { zone = ZONE.WETLANDS, x = 0.109, y = 0.597, faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1086, y = 0.5972, faction = FACTION.ALLIANCE }, --
     { zone = ZONE.TIRISFAL_GLADES, x = 0.615, y = 0.531, faction = FACTION.HORDE }, --
     { zone = ZONE.UNDERCITY, x = 0.6815, y = 0.3825, faction = FACTION.HORDE }, --
     { zone = ZONE.SILVERPINE_FOREST, x = 0.4341, y = 0.4153, faction = FACTION.HORDE }, --

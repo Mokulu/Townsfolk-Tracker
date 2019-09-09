@@ -109,4 +109,7 @@ TF_PROFESSION_TRAINERS = {
     { zone = ZONE.LOCH_MODAN, x = 0.3726, y = 0.4693, name = "Brock Stoneseeker", profession = PROFESSION.MINING, faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.4055, y = 0.3970, name = "Warg Deepwater", profession = PROFESSION.FISHING, faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.4591, y = 0.1344, name = "Deek Fizzlebizz", profession = PROFESSION.ENGINEERING, level = TRAINING_LEVEL.JOURNEYMAN, faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.0809, y = 0.5859, name = "Harold Riggs", profession = PROFESSION.FISHING, faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1082, y = 0.6136, name = "Fremal Doohickey", profession = PROFESSION.FIRST_AID, faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.0786, y = 0.5580, name = "Telurinon Moonshadow", profession = PROFESSION.HERBALISM, faction = FACTION.ALLIANCE },
 }

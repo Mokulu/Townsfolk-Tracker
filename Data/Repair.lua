@@ -95,4 +95,9 @@ TF_REPAIR_VENDORS = {
     { zone = ZONE.LOCH_MODAN, x = 0.8302, y = 0.6291, name = "Cliff Hadin", tag = "Bowyer", faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.8318, y = 0.6342, name = "Irene Sureshot", tag = "Gunsmith", faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.8265, y = 0.6411, name = "Kat Sampson", tag = "Leather Armor Merchant", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1133, y = 0.5958, name = "Murndan Derth", tag = "Gunsmith", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1154, y = 0.5986, name = "Brahnmar", tag = "Armorer", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1152, y = 0.5962, name = "Brak Durnad", tag = "Weaponsmith", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1128, y = 0.5821, name = "Naela Trance", tag = "Bowyer", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1112, y = 0.5830, name = "Edwina Monzor", tag = "Fletcher", faction = FACTION.ALLIANCE },
 }

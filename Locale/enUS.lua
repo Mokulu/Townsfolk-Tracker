@@ -107,6 +107,7 @@ L["General Goods Merchant"] = true
 L["General Goods Vendor"] = true
 L["Traveling Merchant"] = true
 L["Bowyer"] = true
+L["Fletcher"] = true
 L["Gunsmith"] = true
 L["Bowyer & Gunsmith"] = true
 L["Bow Merchant"] = true
@@ -132,6 +133,7 @@ L["Thrown Weapons Merchant"] = true
 L["Mace & Staves Vendor"] = true
 L["Maces & Staves"] = true
 L["Tailoring Supplies"] = true
+L["Tailoring Supplies & Specialty Goods"] = true
 L["Leatherworking Supplies"] = true
 L["Tailoring & Leatherworking Supplies"] = true
 L["Specialty Tailoring Supplies"] = true
@@ -164,6 +166,7 @@ L["Apprentice Weaponsmith"] = true
 L["Armorer"] = true
 L["Apprentice Armorer"] = true
 L["Butcher"] = true
+L["Engineering & General Goods Supplier"] = true
 L["Ale and Wine"] = true
 L["Undead Horse"] = true
 L["Wolf"] = true
@@ -204,6 +207,11 @@ L["Bryllia Ironbrand"] = true
 L["Cliff Hadin"] = true
 L["Irene Sureshot"] = true
 L["Xandar Goodbeard"] = true
+L["Murndan Derth"] = true
+L["Gruham Rumdnul"] = true
+L["Naela Trance"] = true
+L["Edwina Monzor"] = true
+L["Neal Allen"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -288,6 +296,7 @@ L["Omusa Thunderhorn"] = true
 L["Andruk"] = true
 L["Thorgrum Borrelson"] = true
 L["Gryth Thurden"] = true
+L["Shellei Brondir"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -303,12 +312,14 @@ L["Innkeeper Byula"] = true
 L["Innkeeper Hearthstove"] = true
 L["Innkeeper Belm"] = true
 L["Innkeeper Firebrew"] = true
+L["Innkeeper Helbrek"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
 L["Ezekiel Graves"] = true
 L["Rekkul"] = true
 L["Tynnus Venomsprout"] = true
+L["Samor Festivus"] = true
 
 -- Reagents
 L["Ronald Burch"] = true
@@ -371,6 +382,11 @@ L["Gearcutter Cogspinner"] = true
 L["Soolie Berryfizz"] = true
 L["Fillius Fizzlespinner"] = true
 L["Khara Deepwater"] = true
+L["Stuart Fleming"] = true
+L["Kersok Prond"] = true
+L["Falkan Armonis"] = true
+L["Dewin Shimmerdawn"] = true
+L["Jennabink Powerseam"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -459,6 +475,8 @@ L["Hegnar Swiftaxe"] = true
 L["Nillen Andemar"] = true
 L["Aldren Cordon"] = true
 L["Kat Sampson"] = true
+L["Brak Durnad"] = true
+L["Brahnmar"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -474,6 +492,7 @@ L["Kelsuwa"] = true
 L["Lina Hearthstove"] = true
 L["Shelby Stoneflint"] = true
 L["Ulbrek Firehand"] = true
+L["Bethaine Flinthammer"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -700,6 +719,9 @@ L["Warg Deepwater"] = true
 L["Deek Fizzlebizz"] = true
 L["Claude Erksine"] = true
 L["Dargh Trueaim"] = true
+L["Harold Riggs"] = true
+L["Fremal Doohickey"] = true
+L["Telurinon Moonshadow"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true
@@ -708,6 +730,8 @@ L["Grom'gol Base Camp, Stranglethorn Vale"] = true
 L["Booty Bay, Stranglethorn Vale"] = true
 L["Menethil Harbor, Wetlands"] = true
 L["Auberdine, Darkshore"] = true
+L["Rut'theran Village, Teldrassil"] = true
+L["Thereamore Isle, Dustwallow Marsh"] = true
 L["Deeprun Tram, Stormwind City"] = true
 L["Deeprun Tram, Ironforge"] = true
 

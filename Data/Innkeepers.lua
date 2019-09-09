@@ -12,4 +12,5 @@ TF_INNKEEPERS = {
     { zone = ZONE.DUN_MOROGH, x = 0.4738, y = 0.5252, name = "Innkeeper Belm", faction = FACTION.ALLIANCE },
     { zone = ZONE.IRONFORGE, x = 0.1818, y = 0.5147, name = "Innkeeper Firebrew", faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.3553, y = 0.4841, name = "Innkeeper Hearthstove", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1068, y = 0.6149, name = "Innkeeper Helbrek", faction = FACTION.ALLIANCE },
 }

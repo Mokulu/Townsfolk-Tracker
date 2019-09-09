@@ -29,4 +29,9 @@ TF_AMMUNITION_VENDORS = {
     { zone = ZONE.LOCH_MODAN, x = 0.8302, y = 0.6291, name = "Cliff Hadin", tag = "Bowyer", faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.8318, y = 0.6342, name = "Irene Sureshot", tag = "Gunsmith", faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.8249, y = 0.6333, name = "Xandar Goodbeard", tag = "General Supplies", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1133, y = 0.5958, name = "Murndan Derth", tag = "Gunsmith", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1208, y = 0.5794, name = "Gruham Rumdnul", tag = "General Supplies", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1128, y = 0.5821, name = "Naela Trance", tag = "Bowyer", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1112, y = 0.5830, name = "Edwina Monzor", tag = "Fletcher", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1077, y = 0.5672, name = "Neal Allen", tag = "Engineering & General Goods Supplier", faction = FACTION.ALLIANCE },
 }

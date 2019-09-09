@@ -56,4 +56,9 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = ZONE.LOCH_MODAN, x = 0.3594, y = 0.4587, name = "Rann Flamespinner", tag = "Tailoring Supplies", faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.3713, y = 0.4715, name = "Karm Ironquill", tag = "Mining Supplies", faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.4028, y = 0.3928, name = "Khara Deepwater", tag = "Fishing Supplies", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.0802, y = 0.5834, name = "Stuart Fleming", tag = "Fisherman", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1038, y = 0.6062, name = "Kersok Prond", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.1077, y = 0.5672, name = "Neal Allen", tag = "Engineering & General Goods Supplier", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.0795, y = 0.5634, name = "Dewin Shimmerdawn", tag = "Alchemy Supplies", faction = FACTION.ALLIANCE },
+    { zone = ZONE.WETLANDS, x = 0.0812, y = 0.5584, name = "Jennabink Powerseam", tag = "Tailoring Supplies & Specialty Goods", faction = FACTION.ALLIANCE },
 }
