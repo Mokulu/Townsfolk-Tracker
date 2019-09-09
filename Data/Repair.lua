@@ -100,4 +100,8 @@ TF_REPAIR_VENDORS = {
     { zone = ZONE.WETLANDS, x = 0.1152, y = 0.5962, name = "Brak Durnad", tag = "Weaponsmith", faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.1128, y = 0.5821, name = "Naela Trance", tag = "Bowyer", faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.1112, y = 0.5830, name = "Edwina Monzor", tag = "Fletcher", faction = FACTION.ALLIANCE },
+    { zone = ZONE.MOONGLADE, x = 0.5660, y = 0.2995, name = "Kharedon", tag = "Light Armor Merchant" },
+    { zone = ZONE.MOONGLADE, x = 0.5200, y = 0.3289, name = "Geenia Sunshadow", tag = "Specialty Dress Maker" },
+    { zone = ZONE.MOONGLADE, x = 0.5118, y = 0.4231, name = "Meliri", tag = "Weaponsmith" },
+    { zone = ZONE.MOONGLADE, x = 0.5335, y = 0.4270, name = "Narianna", tag = "Bowyer" },
 }

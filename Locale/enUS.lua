@@ -115,6 +115,7 @@ L["Clothier"] = true
 L["Apprentice Clothier"] = true
 L["Robe Vendor"] = true
 L["Robe Merchant"] = true
+L["Specialty Dress Maker"] = true
 L["Light Armor Merchant"] = true
 L["Cloth Armor Merchant"] = true
 L["Cloth & Leather Armor Merchant"] = true
@@ -212,6 +213,8 @@ L["Gruham Rumdnul"] = true
 L["Naela Trance"] = true
 L["Edwina Monzor"] = true
 L["Neal Allen"] = true
+L["Daeolyn Summerleaf"] = true
+L["Narianna"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -283,6 +286,8 @@ L["Kazan Mogosh"] = true
 L["Keeg Gibn"] = true
 L["Gwenna Firebrew"] = true
 L["Greishan Ironstove"] = true
+L["My'lanna"] = true
+L["Dargon"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -297,6 +302,9 @@ L["Andruk"] = true
 L["Thorgrum Borrelson"] = true
 L["Gryth Thurden"] = true
 L["Shellei Brondir"] = true
+L["Silva Fil'naveth"] = true
+L["Sindrayl"] = true
+L["Faustron"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -387,6 +395,8 @@ L["Kersok Prond"] = true
 L["Falkan Armonis"] = true
 L["Dewin Shimmerdawn"] = true
 L["Jennabink Powerseam"] = true
+L["Darnall"] = true
+L["Lorelae Wintersong"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -477,6 +487,9 @@ L["Aldren Cordon"] = true
 L["Kat Sampson"] = true
 L["Brak Durnad"] = true
 L["Brahnmar"] = true
+L["Kharedon"] = true
+L["Geenia Sunshadow"] = true
+L["Meliri"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -722,6 +735,8 @@ L["Dargh Trueaim"] = true
 L["Harold Riggs"] = true
 L["Fremal Doohickey"] = true
 L["Telurinon Moonshadow"] = true
+L["Loganaar"] = true
+L["Malvor"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

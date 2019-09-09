@@ -11,4 +11,8 @@ TF_FLIGHTMASTERS = {
     { zone = ZONE.IRONFORGE, x = 0.5550, y = 0.4774, name = "Gryth Thurden", faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.3394, y = 0.5095, name = "Thorgrum Borrelson", faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.0949, y = 0.5969, name = "Shellei Brondir", faction = FACTION.ALLIANCE },
+    { zone = ZONE.MOONGLADE, x = 0.4415, y = 0.4523, name = "Silva Fil'naveth", faction = FACTION.ALLIANCE, class = CLASS.DRUID },
+    { zone = ZONE.MOONGLADE, x = 0.4429, y = 0.4587, name = "Bunthen Plainswind", faction = FACTION.HORDE, class = CLASS.DRUID },
+    { zone = ZONE.MOONGLADE, x = 0.4810, y = 0.6734, name = "Sindrayl", faction = FACTION.ALLIANCE },
+    { zone = ZONE.MOONGLADE, x = 0.3209, y = 0.6661, name = "Faustron", faction = FACTION.HORDE },
 }

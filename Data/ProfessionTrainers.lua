@@ -112,4 +112,5 @@ TF_PROFESSION_TRAINERS = {
     { zone = ZONE.WETLANDS, x = 0.0809, y = 0.5859, name = "Harold Riggs", profession = PROFESSION.FISHING, faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.1082, y = 0.6136, name = "Fremal Doohickey", profession = PROFESSION.FIRST_AID, faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.0786, y = 0.5580, name = "Telurinon Moonshadow", profession = PROFESSION.HERBALISM, faction = FACTION.ALLIANCE },
+    { zone = ZONE.MOONGLADE, x = 0.4542, y = 0.4697, name = "Malvor", profession = PROFESSION.HERBALISM },
 }

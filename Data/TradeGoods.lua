@@ -61,4 +61,6 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = ZONE.WETLANDS, x = 0.1077, y = 0.5672, name = "Neal Allen", tag = "Engineering & General Goods Supplier", faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.0795, y = 0.5634, name = "Dewin Shimmerdawn", tag = "Alchemy Supplies", faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.0812, y = 0.5584, name = "Jennabink Powerseam", tag = "Tailoring Supplies & Specialty Goods", faction = FACTION.ALLIANCE },
+    { zone = ZONE.MOONGLADE, x = 0.5147, y = 0.3325, name = "Darnall", tag = "Tailoring Supplies" },
+    { zone = ZONE.MOONGLADE, x = 0.4824, y = 0.4014, name = "Lorelae Wintersong" },
 }

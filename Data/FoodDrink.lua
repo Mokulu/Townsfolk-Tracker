@@ -25,4 +25,7 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = ZONE.WETLANDS, x = 0.1068, y = 0.6149, name = "Innkeeper Helbrek", faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.1208, y = 0.5794, name = "Gruham Rumdnul", tag = "General Supplies", faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.1077, y = 0.5672, name = "Neal Allen", tag = "Engineering & General Goods Supplier", faction = FACTION.ALLIANCE },
+    { zone = ZONE.MOONGLADE, x = 0.4519, y = 0.3474, name = "Daeolyn Summerleaf", tag = "General Goods" },
+    { zone = ZONE.MOONGLADE, x = 0.4451, y = 0.3388, name = "My'lanna" },
+    { zone = ZONE.MOONGLADE, x = 0.4887, y = 0.3916, name = "Dargon" },
 }

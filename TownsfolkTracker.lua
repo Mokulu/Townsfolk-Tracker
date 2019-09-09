@@ -328,7 +328,12 @@ function TownsfolkTracker:DrawMapIcons()
                 -- faction restriction
                 displayIcon = (point.faction == nil or point.faction == TownsfolkUtil_GetPlayerFaction())
                 -- class restriction
+                --  restrict trainer by class, but not if "ShowAllTrainers"
                 if (displayIcon and folktype == TF_CLASS_TRAINER and not self:IsShowAllClassTrainers()) then
+                    displayIcon = TownsfolkUtil_GetPlayerClass() == point.class
+                end
+                --  restrict other nodes by class, e.g. Druid flight paths
+                if (displayIcon and folktype ~= TF_CLASS_TRAINER and point.class) then
                     displayIcon = TownsfolkUtil_GetPlayerClass() == point.class
                 end
                 -- only show based on valid restrictions

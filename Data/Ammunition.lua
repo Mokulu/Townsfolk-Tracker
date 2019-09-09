@@ -34,4 +34,6 @@ TF_AMMUNITION_VENDORS = {
     { zone = ZONE.WETLANDS, x = 0.1128, y = 0.5821, name = "Naela Trance", tag = "Bowyer", faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.1112, y = 0.5830, name = "Edwina Monzor", tag = "Fletcher", faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.1077, y = 0.5672, name = "Neal Allen", tag = "Engineering & General Goods Supplier", faction = FACTION.ALLIANCE },
+    { zone = ZONE.MOONGLADE, x = 0.4519, y = 0.3474, name = "Daeolyn Summerleaf", tag = "General Goods" },
+    { zone = ZONE.MOONGLADE, x = 0.5335, y = 0.4270, name = "Narianna", tag = "Bowyer" },
 }
