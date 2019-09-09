@@ -1,7 +1,7 @@
 TF_BANKERS = {
-    { zone = ZONE.DARNASSUS, x = 0.4, y = 0.422, name = "Garryeth", faction = FACTION.ALLIANCE },
-    { zone = ZONE.DARNASSUS, x = 0.398, y = 0.424, name = "Idriana", faction = FACTION.ALLIANCE },
-    { zone = ZONE.DARNASSUS, x = 0.4, y = 0.418, name = "Lairn", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.3949, y = 0.4200, name = "Garryeth", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.3944, y = 0.4244, name = "Idriana", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.3957, y = 0.4158, name = "Lairn", faction = FACTION.ALLIANCE },
     { zone = ZONE.IRONFORGE, x = 0.3593, y = 0.6013, name = "Bailey Stonemantle", faction = FACTION.ALLIANCE },
     { zone = ZONE.IRONFORGE, x = 0.3681, y = 0.6186, name = "Soleil Stonemantle", faction = FACTION.ALLIANCE },
     { zone = ZONE.IRONFORGE, x = 0.3497, y = 0.5841, name = "Barnum Stonemantle", faction = FACTION.ALLIANCE },

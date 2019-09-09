@@ -15,4 +15,5 @@ TF_INNKEEPERS = {
     { zone = ZONE.LOCH_MODAN, x = 0.3553, y = 0.4841, name = "Innkeeper Hearthstove", faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.1068, y = 0.6149, name = "Innkeeper Helbrek", faction = FACTION.ALLIANCE },
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2704, y = 0.7731, name = "Innkeeper Skindle" },
+    { zone = ZONE.DARNASSUS, x = 0.6742, y = 0.1565, name = "Innkeeper Saelienne", faction = FACTION.ALLIANCE },
 }

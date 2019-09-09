@@ -15,4 +15,8 @@ TF_AUCTIONEERS = {
     { zone = ZONE.IRONFORGE, x = 0.2580, y = 0.7553, name = "Auctioneer Lympkin", faction = FACTION.ALLIANCE },
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2659, y = 0.7635, name = "Auctioneer O'reely" },
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2778, y = 0.7705, name = "Auctioneer Kresky" },
+    { zone = ZONE.DARNASSUS, x = 0.5625, y = 0.5405, name = "Auctioneer Golothas", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.5638, y = 0.5184, name = "Auctioneer Tolon", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.5557, y = 0.5244, name = "Auctioneer Cazarez", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.5730, y = 0.5356, name = "Auctioneer Silva'las", faction = FACTION.ALLIANCE },
 }

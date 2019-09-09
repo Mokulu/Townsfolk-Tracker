@@ -33,4 +33,8 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = ZONE.MOONGLADE, x = 0.4887, y = 0.3916, name = "Dargon" },
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2704, y = 0.7731, name = "Innkeeper Skindle" },
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2704, y = 0.7717, name = "Nixxrax Fillamug" },
+    { zone = ZONE.DARNASSUS, x = 0.4348, y = 0.1849, name = "Dendrythis", wanders = true, faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.6742, y = 0.1565, name = "Innkeeper Saelienne", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.6935, y = 0.4502, name = "Fyrenna", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.6423, y = 0.7149, name = "Jaeana", wanders = true, tag = "Meat Vendor", faction = FACTION.ALLIANCE },
 }

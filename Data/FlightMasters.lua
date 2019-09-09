@@ -18,4 +18,5 @@ TF_FLIGHTMASTERS = {
     { zone = ZONE.MOONGLADE, x = 0.3209, y = 0.6661, name = "Faustron", faction = FACTION.HORDE },
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2753, y = 0.7778, name = "Gyll", faction = FACTION.ALLIANCE },
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2687, y = 0.7709, name = "Gringer", faction = FACTION.HORDE },
+    { zone = ZONE.TELDRASSIL, x = 0.5840, y = 0.9402, name = "Vesprystus", faction = FACTION.ALLIANCE },
 }

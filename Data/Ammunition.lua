@@ -39,4 +39,8 @@ TF_AMMUNITION_VENDORS = {
     { zone = ZONE.MOONGLADE, x = 0.4519, y = 0.3474, name = "Daeolyn Summerleaf", tag = "General Goods" },
     { zone = ZONE.MOONGLADE, x = 0.5335, y = 0.4270, name = "Narianna", tag = "Bowyer" },
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2830, y = 0.7456, name = "Haren Kanmae", tag = "Superior Bowyer" },
+    { zone = ZONE.DARNASSUS, x = 0.7068, y = 0.4539, name = "Mydrannul", tag = "General Goods Vendor", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.6473, y = 0.5297, name = "Ellandrieth", tag = "General Goods Vendor", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.6327, y = 0.6627, name = "Landria", tag = "Bow Merchant", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.6267, y = 0.6558, name = "Turian", faction = FACTION.ALLIANCE },
 }

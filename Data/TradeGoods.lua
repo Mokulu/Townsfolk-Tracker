@@ -73,4 +73,12 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2907, y = 0.7548, name = "Jansen Underwood", tag = "Blacksmithing Supplies" },
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2897, y = 0.7506, name = "Hurklor", tag = "Blacksmithing Supplies" },
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2742, y = 0.7716, name = "Old Man Heming", tag = "Fisherman" },
+    { zone = ZONE.TELDRASSIL, x = 0.5625, y = 0.9244, name = "Nessa Shadowsong", tag = "Fishing Supplies", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.4854, y = 0.2160, name = "Fyldan", tag = "Cooking Supplier", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.5584, y = 0.2449, name = "Ulthir", tag = "Alchemy Supplies", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.5858, y = 0.1471, name = "Vaean", tag = "Enchanting Supplies", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.6096, y = 0.1766, name = "Mythrin'dir", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.6458, y = 0.2158, name = "Elynna", tag = "Tailoring Supplies", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.6368, y = 0.2229, name = "Saenorion", tag = "Leatherworking Supplies", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.4694, y = 0.5701, name = "Voloren", tag = "Fishing Supplies", faction = FACTION.ALLIANCE },
 }

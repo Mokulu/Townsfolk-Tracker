@@ -8,4 +8,7 @@ TF_BATTLEMASTERS = {
     { zone = ZONE.IRONFORGE, x = 0.7070, y = 0.8896, name = "Lylandris", tag = "Warsong Gulch", faction = FACTION.ALLIANCE },
     { zone = ZONE.IRONFORGE, x = 0.6992, y = 0.8896, name = "Donal Osgood", tag = "Arathi Basin", faction = FACTION.ALLIANCE },
     { zone = ZONE.IRONFORGE, x = 0.6984, y = 0.9040, name = "Glordrum Steelbeard", tag = "Alterac Valley", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.5809, y = 0.4458, name = "Brogun Stoneshield", tag = "Alterac Valley", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.5802, y = 0.3728, name = "Keras Wolfheart", tag = "Arathi Basin", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.5903, y = 0.3694, name = "Aethalas", tag = "Warsong Gulch", faction = FACTION.ALLIANCE },
 }

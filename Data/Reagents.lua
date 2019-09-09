@@ -9,4 +9,6 @@ TF_REAGENT_VENDORS = {
     { zone = ZONE.IRONFORGE, x = 0.1916, y = 0.5611, name = "Barim Jurgenstaad", faction = FACTION.ALLIANCE },
     { zone = ZONE.IRONFORGE, x = 0.3133, y = 0.2776, name = "Ginny Longberry", faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.0834, y = 0.5641, name = "Falkan Armonis", faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.3891, y = 0.6768, name = "Alaindia", wanders = true, faction = FACTION.ALLIANCE },
+    { zone = ZONE.DARNASSUS, x = 0.3385, y = 0.0952, name = "Cyroen", faction = FACTION.ALLIANCE },
 }

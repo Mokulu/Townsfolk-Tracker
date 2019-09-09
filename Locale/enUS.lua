@@ -20,6 +20,8 @@ L["Stable Master"] = true
 L["Trade Goods"] = true
 L["Transportation"] = true
 
+L["Wanders this path"] = true
+
 L["Instances"] = true
 L["Dungeon"] = true
 L["Dungeons"] = true
@@ -134,8 +136,10 @@ L["Weapon Merchant"] = true
 L["Blade Merchant"] = true
 L["Two-Handed Weapons Merchant"] = true
 L["Thrown Weapons Merchant"] = true
+L["Mace & Staff Merchant"] = true
 L["Mace & Staves Vendor"] = true
 L["Maces & Staves"] = true
+L["Night Elf Armorer"] = true
 L["Tailoring Supplies"] = true
 L["Tailoring Supplies & Specialty Goods"] = true
 L["Leatherworking Supplies"] = true
@@ -171,7 +175,9 @@ L["Apprentice Weaponsmith"] = true
 L["Armorer"] = true
 L["Apprentice Armorer"] = true
 L["Superior Armorer"] = true
+L["Shield Merchant"] = true
 L["Butcher"] = true
+L["Meat Vendor"] = true
 L["Engineering & General Goods Supplier"] = true
 L["Ale and Wine"] = true
 L["Apprentice Witch Doctor"] = true
@@ -181,6 +187,7 @@ L["War Harness Maker"] = true
 L["Raptor"] = true
 L["Ram"] = true
 L["Mechanostrider"] = true
+L["Nightsaber"] = true
 
 -- Ammunition
 L["Nadia Vernon"] = true
@@ -224,6 +231,10 @@ L["Narianna"] = true
 L["Haren Kanmae"] = true
 L["Borand"] = true
 L["Grawnal"] = true
+L["Mydrannul"] = true
+L["Ellandrieth"] = true
+L["Landria"] = true
+L["Turian"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -242,6 +253,10 @@ L["Auctioneer Redmuse"] = true
 L["Auctioneer Buckler"] = true
 L["Auctioneer O'reely"] = true
 L["Auctioneer Kresky"] = true
+L["Auctioneer Golothas"] = true
+L["Auctioneer Tolon"] = true
+L["Auctioneer Cazarez"] = true
+L["Auctioneer Silva'las"] = true
 
 -- Battlegrounds
 L["Alterac Valley"] = true
@@ -258,6 +273,9 @@ L["Deze Snowbane"] = true
 L["Lylandris"] = true
 L["Donal Osgood"] = true
 L["Glordrum Steelbeard"] = true
+L["Brogun Stoneshield"] = true
+L["Keras Wolfheart"] = true
+L["Aethalas"] = true
 
 -- Bankers
 L["Karus"] = true
@@ -301,6 +319,9 @@ L["My'lanna"] = true
 L["Dargon"] = true
 L["Nixxrax Fillamug"] = true
 L["Krond"] = true
+L["Dendrythis"] = true
+L["Fyrenna"] = true
+L["Jaeana"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -321,6 +342,7 @@ L["Faustron"] = true
 L["Gyll"] = true
 L["Gringer"] = true
 L["Tharm"] = true
+L["Vesprystus"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -339,6 +361,7 @@ L["Innkeeper Firebrew"] = true
 L["Innkeeper Helbrek"] = true
 L["Innkeeper Skindle"] = true
 L["Innkeeper Jayka"] = true
+L["Innkeeper Saelienne"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -346,6 +369,7 @@ L["Ezekiel Graves"] = true
 L["Rekkul"] = true
 L["Tynnus Venomsprout"] = true
 L["Samor Festivus"] = true
+L["Kyrai"] = true
 
 -- Reagents
 L["Ronald Burch"] = true
@@ -426,6 +450,16 @@ L["Hurklor"] = true
 L["Old Man Heming"] = true
 L["Kulwia"] = true
 L["Jeeda"] = true
+L["Nessa Shadowsong"] = true
+L["Alaindia"] = true
+L["Cyroen"] = true
+L["Fyldan"] = true
+L["Ulthir"] = true
+L["Vaean"] = true
+L["Mythrin'dir"] = true
+L["Elynna"] = true
+L["Saenorion"] = true
+L["Voloren"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -523,6 +557,19 @@ L["Kizz Bluntstrike"] = true
 L["Zarena Cromwind"] = true
 L["Qixdi Goodstitch"] = true
 L["Fargon Mortalak"] = true
+L["Glorandiir"] = true
+L["Merelyssa"] = true
+L["Mythidan"] = true
+L["Kieran"] = true
+L["Vinasia"] = true
+L["Ealyshia Dewwhisper"] = true
+L["Melea"] = true
+L["Caynrus"] = true
+L["Andrus"] = true
+L["Anadyia"] = true
+L["Cyridan"] = true
+L["Cylania"] = true
+L["Ariyell Skyshadow"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -541,6 +588,7 @@ L["Ulbrek Firehand"] = true
 L["Bethaine Flinthammer"] = true
 L["Grimestack"] = true
 L["Gereck"] = true
+L["Alassin"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -779,6 +827,41 @@ L["Jaxin Chong"] = true
 L["Grarnik Goodstitch"] = true
 L["Oglethorpe Obnoticus"] = true
 L["Brikk Keencraft"] = true
+L["Hgarth"] = true
+L["Androl Oakhand"] = true
+L["Astarii Starseeker"] = true
+L["Priestess Alathea"] = true
+L["Lariia"] = true
+L["Jandria"] = true
+L["Elissa Dumas"] = true
+L["Jartsam"] = true
+L["Syurna"] = true
+L["Anishar"] = true
+L["Erion Shadewhisper"] = true
+L["Fylerian Nightwing"] = true
+L["Denatharion"] = true
+L["Mathrengyl Bearwalker"] = true
+L["Alegorn"] = true
+L["Milla Fairancora"] = true
+L["Sylvanna Forestmoon"] = true
+L["Ainethil"] = true
+L["Lalina Summermoon"] = true
+L["Dannelor"] = true
+L["Taladan"] = true
+L["Trianna"] = true
+L["Me'lynn"] = true
+L["Eladriel"] = true
+L["Darianna"] = true
+L["Faldron"] = true
+L["Telonis"] = true
+L["Ilyenia Moonfire"] = true
+L["Darnath Bladesinger"] = true
+L["Arias'ta Bladesinger"] = true
+L["Astaia"] = true
+L["Jocaste"] = true
+L["Dorion"] = true
+L["Silvaria"] = true
+L["Jeen'ra Nightrunner"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true
@@ -792,6 +875,7 @@ L["Rut'theran Village, Teldrassil"] = true
 L["Thereamore Isle, Dustwallow Marsh"] = true
 L["Deeprun Tram, Stormwind City"] = true
 L["Deeprun Tram, Ironforge"] = true
+L["Darnassus, Teldrassil"] = true
 
 -- Dungeons
 L["Ragefire Chasm"] = true

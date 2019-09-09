@@ -39,7 +39,7 @@ TF_MAILBOXES = {
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2670, y = 0.7636 },
     { zone = ZONE.STRANGLETHORN_VALE, x = 0.2728, y = 0.7741 },
     { zone = ZONE.TELDRASSIL, x = 0.561, y = 0.585, faction = FACTION.ALLIANCE }, --
-    { zone = ZONE.DARNASSUS, x = 0.416, y = 0.421, faction = FACTION.ALLIANCE }, --
+    { zone = ZONE.DARNASSUS, x = 0.4163, y = 0.4183, faction = FACTION.ALLIANCE },
     { zone = ZONE.DARKSHORE, x = 0.373, y = 0.438, faction = FACTION.ALLIANCE }, --
     { zone = ZONE.MULGORE, x = 0.47, y = 0.603, faction = FACTION.HORDE }, --
     { zone = ZONE.THUNDER_BLUFF, x = 0.45, y = 0.595, faction = FACTION.HORDE }, --

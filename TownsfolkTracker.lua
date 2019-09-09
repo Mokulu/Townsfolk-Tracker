@@ -238,6 +238,10 @@ function TownsfolkTracker:GenerateTooltip(title, point, folktype, inside)
         if ((point.level or point.branch) and point.profession) then
             GameTooltip:AddLine("<"..L[TownsfolkUtil_GetTrainerTag(point.profession, point.level, point.branch)]..">", 0.8, 0.8, 0.8)
         end
+        -- wanders a path
+        if (point.wanders) then
+            GameTooltip:AddLine("("..L["Wanders this path"]..")", 0.6, 0.6, 0.6)
+        end
     end
 end
 

@@ -11,4 +11,6 @@ TF_TRANSPORTATION_SPOTS = {
     { zone = ZONE.DARKSHORE, x = 0.3242, y = 0.4378, name = "Menethil Harbor, Wetlands", faction = FACTION.ALLIANCE },
     { zone = ZONE.DARKSHORE, x = 0.3318, y = 0.4014, name = "Rut'theran Village, Teldrassil", faction = FACTION.ALLIANCE },
     { zone = ZONE.TELDRASSIL, x = 0.5487, y = 0.9670, name = "Auberdine, Darkshore", faction = FACTION.ALLIANCE },
+    { zone = ZONE.TELDRASSIL, x = 0.5588, y = 0.8935, name = "Darnassus, Teldrassil", faction = FACTION.ALLIANCE, icon = [[Interface\Addons\TownsfolkTracker\Icons\AllianceTransportationPortal.tga]], iconSize = 1.5 },
+    { zone = ZONE.DARNASSUS, x = 0.294, y = 0.4138, name = "Rut'theran Village, Teldrassil", faction = FACTION.ALLIANCE, icon = [[Interface\Addons\TownsfolkTracker\Icons\AllianceTransportationPortal.tga]], iconSize = 1.5 },
 }
