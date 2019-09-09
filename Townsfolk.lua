@@ -80,6 +80,7 @@ TOWNSFOLK = {
     [TF_TRADE_GOODS] = {
         title = L["Trade Goods"],
         icon = [[Interface\Addons\TownsfolkTracker\Icons\TradeGoods.tga]],
+        iconSize = 0.8,
         points = TF_TRADE_GOOD_VENDORS,
     },
     [TF_TRANSPORTATION] = {

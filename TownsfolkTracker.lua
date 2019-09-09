@@ -248,14 +248,18 @@ function TownsfolkTracker:CreateMapMarker(iconType, point, townsfolk, folktype, 
     -- marker size
     if (iconType == TF_ATLAS_ICON) then
         local size = 10
-        if (townsfolk.iconSize) then
+        if (point.iconSize) then
+            size = size * point.iconSize
+        elseif (townsfolk.iconSize) then
             size = size * townsfolk.iconSize
         end
         marker:SetWidth(size)
         marker:SetHeight(size)
     else
         local size = 12
-        if (townsfolk.iconSize) then
+        if (point.iconSize) then
+            size = size * point.iconSize
+        elseif (townsfolk.iconSize) then
             size = size * townsfolk.iconSize
         end
         marker:SetWidth(size)
@@ -279,6 +283,10 @@ function TownsfolkTracker:CreateMapMarker(iconType, point, townsfolk, folktype, 
     end
     if (TownsfolkUtil_IsInstanceType(folktype) and point.group) then
         texture:SetTexture(townsfolk.groupIcon)
+    end
+    -- manual icon override
+    if (point.icon) then
+        texture:SetTexture(point.icon)
     end
     marker.texture = texture
     marker:SetPoint("CENTER", 0, 0)
