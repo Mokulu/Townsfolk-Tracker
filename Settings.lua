@@ -18,6 +18,8 @@ tfTrackingList = {
     [TF_STABLE_MASTER] = false,
     [TF_TRADE_GOODS] = false,
     [TF_TRANSPORTATION] = false,
+    [TF_DUNGEON] = true,
+    [TF_RAID] = true,
 }
 
 -- Addon Settings
