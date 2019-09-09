@@ -13,4 +13,5 @@ TF_STABLE_MASTERS = {
     { zone = ZONE.IRONFORGE, x = 0.6929, y = 0.8356, name = "Ulbrek Firehand", faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.3464, y = 0.4810, name = "Lina Hearthstove", faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.1053, y = 0.5974, name = "Bethaine Flinthammer", faction = FACTION.ALLIANCE },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2730, y = 0.7722, name = "Grimestack" },
 }

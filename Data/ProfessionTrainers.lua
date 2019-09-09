@@ -113,4 +113,10 @@ TF_PROFESSION_TRAINERS = {
     { zone = ZONE.WETLANDS, x = 0.1082, y = 0.6136, name = "Fremal Doohickey", profession = PROFESSION.FIRST_AID, faction = FACTION.ALLIANCE },
     { zone = ZONE.WETLANDS, x = 0.0786, y = 0.5580, name = "Telurinon Moonshadow", profession = PROFESSION.HERBALISM, faction = FACTION.ALLIANCE },
     { zone = ZONE.MOONGLADE, x = 0.4542, y = 0.4697, name = "Malvor", profession = PROFESSION.HERBALISM },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2746, y = 0.7711, name = "Myizz Luckycatch", profession = PROFESSION.FISHING },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2772, y = 0.7786, name = "Flora Silverwind", profession = PROFESSION.HERBALISM },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2804, y = 0.7799, name = "Jaxin Chong", profession = PROFESSION.ALCHEMY, level = TRAINING_LEVEL.EXPERT },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2877, y = 0.7684, name = "Grarnik Goodstitch", profession = PROFESSION.TAILORING, level = TRAINING_LEVEL.EXPERT },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2836, y = 0.7636, name = "Oglethorpe Obnoticus", profession = PROFESSION.ENGINEERING, level = TRAINING_LEVEL.MASTER, branch = PROFESSION_BRANCH.GNOME },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2899, y = 0.7556, name = "Brikk Keencraft", profession = PROFESSION.BLACKSMITHING, level = TRAINING_LEVEL.MASTER },
 }

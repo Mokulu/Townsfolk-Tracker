@@ -116,4 +116,5 @@ TF_CLASS_TRAINERS = {
     { zone = ZONE.LOCH_MODAN, x = 0.8239, y = 0.6239, name = "Dargh Trueaim", class = CLASS.HUNTER, faction = FACTION.ALLIANCE },
     { zone = ZONE.LOCH_MODAN, x = 0.8223, y = 0.6285, name = "Claude Erksine", class = CLASS.HUNTER, tag = "Pet Trainer", faction = FACTION.ALLIANCE },
     { zone = ZONE.MOONGLADE, x = 0.5252, y = 0.4057, name = "Loganaar", class = CLASS.DRUID },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2682, y = 0.7715, name = "Ian Strom", class = CLASS.ROGUE },
 }

@@ -15,4 +15,6 @@ TF_FLIGHTMASTERS = {
     { zone = ZONE.MOONGLADE, x = 0.4429, y = 0.4587, name = "Bunthen Plainswind", faction = FACTION.HORDE, class = CLASS.DRUID },
     { zone = ZONE.MOONGLADE, x = 0.4810, y = 0.6734, name = "Sindrayl", faction = FACTION.ALLIANCE },
     { zone = ZONE.MOONGLADE, x = 0.3209, y = 0.6661, name = "Faustron", faction = FACTION.HORDE },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2753, y = 0.7778, name = "Gyll", faction = FACTION.ALLIANCE },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2687, y = 0.7709, name = "Gringer", faction = FACTION.HORDE },
 }

@@ -28,4 +28,6 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = ZONE.MOONGLADE, x = 0.4519, y = 0.3474, name = "Daeolyn Summerleaf", tag = "General Goods" },
     { zone = ZONE.MOONGLADE, x = 0.4451, y = 0.3388, name = "My'lanna" },
     { zone = ZONE.MOONGLADE, x = 0.4887, y = 0.3916, name = "Dargon" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2704, y = 0.7731, name = "Innkeeper Skindle" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2704, y = 0.7717, name = "Nixxrax Fillamug" },
 }

@@ -63,4 +63,13 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = ZONE.WETLANDS, x = 0.0812, y = 0.5584, name = "Jennabink Powerseam", tag = "Tailoring Supplies & Specialty Goods", faction = FACTION.ALLIANCE },
     { zone = ZONE.MOONGLADE, x = 0.5147, y = 0.3325, name = "Darnall", tag = "Tailoring Supplies" },
     { zone = ZONE.MOONGLADE, x = 0.4824, y = 0.4014, name = "Lorelae Wintersong" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2823, y = 0.7434, name = "Kelsey Yance", tag = "Cook" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2850, y = 0.7512, name = "Mazk Snipeshot", tag = "Engineering Supplies" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2814, y = 0.7810, name = "Glyx Brewright", tag = "Alchemy Supplies" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2825, y = 0.7754, name = "Blixrez Goodstitch", tag = "Leatherworking Supplies" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2871, y = 0.7688, name = "Xizk Goodstitch", tag = "Tailoring Supplies" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2849, y = 0.7605, name = "Rikqiz", tag = "Leatherworking Supplies" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2907, y = 0.7548, name = "Jansen Underwood", tag = "Blacksmithing Supplies" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2897, y = 0.7506, name = "Hurklor", tag = "Blacksmithing Supplies" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2742, y = 0.7716, name = "Old Man Heming", tag = "Fisherman" },
 }

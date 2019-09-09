@@ -104,4 +104,9 @@ TF_REPAIR_VENDORS = {
     { zone = ZONE.MOONGLADE, x = 0.5200, y = 0.3289, name = "Geenia Sunshadow", tag = "Specialty Dress Maker" },
     { zone = ZONE.MOONGLADE, x = 0.5118, y = 0.4231, name = "Meliri", tag = "Weaponsmith" },
     { zone = ZONE.MOONGLADE, x = 0.5335, y = 0.4270, name = "Narianna", tag = "Bowyer" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2830, y = 0.7456, name = "Haren Kanmae", tag = "Superior Bowyer" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2827, y = 0.7522, name = "Kizz Bluntstrike", tag = "Macecrafter" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2834, y = 0.7546, name = "Zarena Cromwind", tag = "Superior Weaponsmith" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2815, y = 0.7757, name = "Qixdi Goodstitch", tag = "Cloth Armor and Accessories" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2904, y = 0.7500, name = "Fargon Mortalak", tag = "Superior Armorer" },
 }

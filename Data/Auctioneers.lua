@@ -13,4 +13,6 @@ TF_AUCTIONEERS = {
     { zone = ZONE.IRONFORGE, x = 0.2379, y = 0.7186, name = "Auctioneer Buckler", faction = FACTION.ALLIANCE },
     { zone = ZONE.IRONFORGE, x = 0.2420, y = 0.7462, name = "Auctioneer Redmuse", faction = FACTION.ALLIANCE },
     { zone = ZONE.IRONFORGE, x = 0.2580, y = 0.7553, name = "Auctioneer Lympkin", faction = FACTION.ALLIANCE },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2659, y = 0.7635, name = "Auctioneer O'reely" },
+    { zone = ZONE.STRANGLETHORN_VALE, x = 0.2778, y = 0.7705, name = "Auctioneer Kresky" },
 }
