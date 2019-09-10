@@ -65,53 +65,53 @@ function TownsfolkUtil_PairsByKeys(t, f)
 end
 
 function TownsfolkUtil_GetTrainerTitle(trainerType)
-    if (trainerType == CLASS.DRUID) then
+    if (trainerType == TF_CLASS.DRUID) then
         return "Druid Trainer"
-    elseif (trainerType == CLASS.DRUID) then
+    elseif (trainerType == TF_CLASS.DRUID) then
         return "Druid Trainer"
-    elseif (trainerType == CLASS.HUNTER) then
+    elseif (trainerType == TF_CLASS.HUNTER) then
         return "Hunter Trainer"
-    elseif (trainerType == CLASS.MAGE) then
+    elseif (trainerType == TF_CLASS.MAGE) then
         return "Mage Trainer"
-    elseif (trainerType == CLASS.PALADIN) then
+    elseif (trainerType == TF_CLASS.PALADIN) then
         return "Paladin Trainer"
-    elseif (trainerType == CLASS.PRIEST) then
+    elseif (trainerType == TF_CLASS.PRIEST) then
         return "Priest Trainer"
-    elseif (trainerType == CLASS.ROGUE) then
+    elseif (trainerType == TF_CLASS.ROGUE) then
         return "Rogue Trainer"
-    elseif (trainerType == CLASS.SHAMAN) then
+    elseif (trainerType == TF_CLASS.SHAMAN) then
         return "Shaman Trainer"
-    elseif (trainerType == CLASS.WARLOCK) then
+    elseif (trainerType == TF_CLASS.WARLOCK) then
         return "Warlock Trainer"
-    elseif (trainerType == CLASS.WARRIOR) then
+    elseif (trainerType == TF_CLASS.WARRIOR) then
         return "Warrior Trainer"
-    elseif (trainerType == PROFESSION.COOKING) then
+    elseif (trainerType == TF_PROFESSION.COOKING) then
         return "Cooking Trainer"
-    elseif (trainerType == PROFESSION.FIRST_AID) then
+    elseif (trainerType == TF_PROFESSION.FIRST_AID) then
         return "First Aid Trainer"
-    elseif (trainerType == PROFESSION.FISHING) then
+    elseif (trainerType == TF_PROFESSION.FISHING) then
         return "Fishing Trainer"
-    elseif (trainerType == PROFESSION.HERBALISM) then
+    elseif (trainerType == TF_PROFESSION.HERBALISM) then
         return "Herbalism Trainer"
-    elseif (trainerType == PROFESSION.SKINNING) then
+    elseif (trainerType == TF_PROFESSION.SKINNING) then
         return "Skinning Trainer"
-    elseif (trainerType == PROFESSION.MINING) then
+    elseif (trainerType == TF_PROFESSION.MINING) then
         return "Mining Trainer"
-    elseif (trainerType == PROFESSION.TAILORING) then
+    elseif (trainerType == TF_PROFESSION.TAILORING) then
         return "Tailoring Trainer"
-    elseif (trainerType == PROFESSION.LEATHERWORKING) then
+    elseif (trainerType == TF_PROFESSION.LEATHERWORKING) then
         return "Leatherworking Trainer"
-    elseif (trainerType == PROFESSION.BLACKSMITHING) then
+    elseif (trainerType == TF_PROFESSION.BLACKSMITHING) then
         return "Blacksmithing Trainer"
-    elseif (trainerType == PROFESSION.ALCHEMY) then
+    elseif (trainerType == TF_PROFESSION.ALCHEMY) then
         return "Alchemy Trainer"
-    elseif (trainerType == PROFESSION.ENGINEERING) then
+    elseif (trainerType == TF_PROFESSION.ENGINEERING) then
         return "Engineering Trainer"
-    elseif (trainerType == PROFESSION.ENCHANTING) then
+    elseif (trainerType == TF_PROFESSION.ENCHANTING) then
         return "Enchanting Trainer"
-    elseif (trainerType == PROFESSION.WEAPON) then
+    elseif (trainerType == TF_PROFESSION.WEAPON) then
         return "Weapon Master"
-    elseif (trainerType == PROFESSION.RIDING) then
+    elseif (trainerType == TF_PROFESSION.RIDING) then
         return "Riding Instructor"
     else
         return ""
@@ -122,23 +122,23 @@ function TownsfolkUtil_GetTrainerTag(trainerType, expertise, branch)
     local profession
 
     -- profession
-    if (trainerType == PROFESSION.TAILORING) then
+    if (trainerType == TF_PROFESSION.TAILORING) then
         profession = "Tailor"
-    elseif (trainerType == PROFESSION.LEATHERWORKING) then
+    elseif (trainerType == TF_PROFESSION.LEATHERWORKING) then
         profession = "Leatherworker"
-    elseif (trainerType == PROFESSION.BLACKSMITHING) then
+    elseif (trainerType == TF_PROFESSION.BLACKSMITHING) then
         profession = "Blacksmith"
-    elseif (trainerType == PROFESSION.ALCHEMY) then
+    elseif (trainerType == TF_PROFESSION.ALCHEMY) then
         profession = "Alchemist"
-    elseif (trainerType == PROFESSION.ENGINEERING) then
+    elseif (trainerType == TF_PROFESSION.ENGINEERING) then
         profession = "Engineer"
-    elseif (trainerType == PROFESSION.ENCHANTING) then
+    elseif (trainerType == TF_PROFESSION.ENCHANTING) then
         profession = "Enchanter"
     else
         return ""
     end
 
-    if (branch == PROFESSION_BRANCH.ARMORSMITH or branch == PROFESSION_BRANCH.WEAPONSMITH) then
+    if (branch == TF_PROFESSION_BRANCH.ARMORSMITH or branch == TF_PROFESSION_BRANCH.WEAPONSMITH) then
         return branch
     end
 

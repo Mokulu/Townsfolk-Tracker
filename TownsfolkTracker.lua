@@ -275,10 +275,10 @@ function TownsfolkTracker:CreateMapMarker(iconType, point, townsfolk, folktype, 
     texture:SetAllPoints(marker)
     texture:SetTexture(townsfolk.icon)
     if (point.faction ~= nil) then
-        if (point.faction == FACTION.ALLIANCE and townsfolk.allianceIcon ~= nil) then
+        if (point.faction == TF_FACTION.ALLIANCE and townsfolk.allianceIcon ~= nil) then
             texture:SetTexture(townsfolk.allianceIcon)
         end
-        if (point.faction == FACTION.HORDE and townsfolk.hordeIcon ~= nil) then
+        if (point.faction == TF_FACTION.HORDE and townsfolk.hordeIcon ~= nil) then
             texture:SetTexture(townsfolk.hordeIcon)
         end
     end

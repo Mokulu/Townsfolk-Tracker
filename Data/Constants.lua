@@ -19,7 +19,7 @@ TF_TRANSPORTATION = 'TRANSPORTATION'
 TF_DUNGEON = 'DUNGEON'
 TF_RAID = 'RAID'
 
-CLASS = {
+TF_CLASS = {
     DRUID = 'DRUID',
     HUNTER = 'HUNTER',
     MAGE = 'MAGE',
@@ -31,7 +31,7 @@ CLASS = {
     WARRIOR = 'WARRIOR',
 }
 
-PROFESSION = {
+TF_PROFESSION = {
     COOKING = 'COOKING',
     FIRST_AID = 'FIRST_AID',
     FISHING = 'FISHING',
@@ -48,14 +48,14 @@ PROFESSION = {
     RIDING = 'RIDING',
 }
 
-PROFESSION_BRANCH = {
+TF_PROFESSION_BRANCH = {
     WEAPONSMITH = 'Weaponsmith',
     ARMORSMITH = 'Armorsmith',
     GOBLIN = 'Goblin',
     GNOME = 'Gnome',
 }
 
-TRAINING_LEVEL = {
+TF_TRAINING_LEVEL = {
     APPRENTICE = 'Apprentice',
     JOURNEYMAN = 'Journeyman',
     EXPERT = 'Expert',
@@ -63,7 +63,7 @@ TRAINING_LEVEL = {
     MASTER = 'Master',
 }
 
-FACTION = {
+TF_FACTION = {
     ALLIANCE = 'Alliance',
     HORDE = 'Horde'
 }
@@ -71,7 +71,7 @@ FACTION = {
 TF_MINIMAP_ICON = 'MINIMAP_ICON'
 TF_ATLAS_ICON = 'ATLAS_ICON'
 
-ZONE = {
+TF_ZONE = {
     DUROTAR = 1411,
     MULGORE = 1412,
     THE_BARRENS = 1413,
@@ -114,7 +114,7 @@ ZONE = {
     MOONGLADE = 1450,
     SILITHUS = 1451,
     WINTERSPRING = 1452,
-    STORMWIND = 1453,
+    STORMWIND_CITY = 1453,
     ORGRIMMAR = 1454,
     IRONFORGE = 1455,
     THUNDER_BLUFF = 1456,
