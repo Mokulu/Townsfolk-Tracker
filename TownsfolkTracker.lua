@@ -172,11 +172,15 @@ function TownsfolkTracker:GetRecommendedLevel(recommendedLevel)
     return format("%d - %d", lowLevel, highLevel), r, g, b
 end
 
-function TownsfolkTracker:GenerateTooltip(title, point, folktype, inside)
+function TownsfolkTracker:GenerateTooltip(title, point, folktype, inside, prefix)
     GameTooltip:SetOwner(UIParent, "ANCHOR_CURSOR_RIGHT")
 
     if (TownsfolkUtil_IsInstanceType(folktype)) then
-        GameTooltip:SetText(L[point.name])
+        local name = L[point.name]
+        if (prefix) then
+            name = L[prefix]..": "..name
+        end
+        GameTooltip:SetText(name)
 
         -- instance min level
         if (point.minLevel) then
@@ -245,7 +249,7 @@ function TownsfolkTracker:GenerateTooltip(title, point, folktype, inside)
     end
 end
 
-function TownsfolkTracker:CreateMapMarker(iconType, point, townsfolk, folktype, inside)
+function TownsfolkTracker:CreateMapMarker(iconType, point, townsfolk, folktype, inside, prefix)
     local marker = CreateFrame("Button", nil, UIParent)
     marker:SetFrameStrata("HIGH")
 
@@ -285,7 +289,7 @@ function TownsfolkTracker:CreateMapMarker(iconType, point, townsfolk, folktype, 
     if (folktype == TF_FLIGHTMASTER and point.faction == nil) then
         texture:SetTexture(townsfolk.neutralIcon)
     end
-    if (TownsfolkUtil_IsInstanceType(folktype) and point.group) then
+    if (TownsfolkUtil_IsInstanceType(folktype) and point.group and point.group.dungeons and point.group.raids) then
         texture:SetTexture(townsfolk.groupIcon)
     end
     -- manual icon override
@@ -298,7 +302,7 @@ function TownsfolkTracker:CreateMapMarker(iconType, point, townsfolk, folktype, 
 
     -- tooltip scripts
     marker:SetScript("OnEnter", function(self)
-        TownsfolkTracker:GenerateTooltip(townsfolk.title, point, folktype, inside)
+        TownsfolkTracker:GenerateTooltip(townsfolk.title, point, folktype, inside, prefix)
         GameTooltip:Show()
     end)
 
@@ -315,6 +319,23 @@ function TownsfolkTracker:CreateIcons()
             point.minimapNode = self:CreateMapMarker(TF_MINIMAP_ICON, point, townsfolk, folktype)
             if (point.entrance) then
                 point.entranceNode = self:CreateMapMarker(TF_MINIMAP_ICON, point, townsfolk, folktype, true)
+            elseif (point.group) then
+                if (point.group.dungeons) then
+                    for _, dungeon in pairs(point.group.dungeons) do
+                        -- FIXME: temp condition
+                        if (dungeon.zone) then
+                            dungeon.entranceNode = self:CreateMapMarker(TF_MINIMAP_ICON, dungeon, townsfolk, folktype, true, point.group.prefix and point.name)
+                        end
+                    end
+                end
+                if (point.group.raids) then
+                    for _, raid in pairs(point.group.raids) do
+                        -- FIXME: temp condition
+                        if (raid.zone) then
+                            raid.entranceNode = self:CreateMapMarker(TF_MINIMAP_ICON, raid, townsfolk, folktype, true, point.group.prefix and point.name)
+                        end
+                    end
+                end
             end
             point.mapNode = self:CreateMapMarker(TF_ATLAS_ICON, point, townsfolk, folktype)
             if (point.altEntrance) then
@@ -377,6 +398,8 @@ function TownsfolkTracker:DrawMapIcons()
     TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
 end
 
+local INSTANCE_DISTANCE = 0.025
+
 -- runs when player changes maps
 function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
     local x, y = Maps:GetPlayerZonePosition()
@@ -389,8 +412,36 @@ function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
                 if (point.entrance and mapId == point.entrance.zone) then
                     -- find the distance
                     local distance, deltaX, deltaY = Maps:GetWorldDistance(mapId, x, y, point.entrance.x, point.entrance.y)
-                    if (distance <= 0.025) then
+                    if (distance <= INSTANCE_DISTANCE) then
                         Pins:AddMinimapIconMap("TownsfolkTrackerInternal", point.entranceNode, point.entrance.zone, point.entrance.x, point.entrance.y, true, true)
+                    end
+                end
+                if (point.group) then
+                    -- group dungeon entrances
+                    if (point.group.dungeons) then
+                        for _, dungeon in pairs(point.group.dungeons) do
+                            -- FIXME: temp condition
+                            if (dungeon.entranceNode and mapId == dungeon.zone) then
+                                -- find the distance
+                                local distance, deltaX, deltaY = Maps:GetWorldDistance(mapId, x, y, dungeon.x, dungeon.y)
+                                if (distance <= INSTANCE_DISTANCE) then
+                                    Pins:AddMinimapIconMap("TownsfolkTrackerInternal", dungeon.entranceNode, dungeon.zone, dungeon.x, dungeon.y, true, true)
+                                end
+                            end
+                        end
+                    end
+                    -- group raid entrances
+                    if (point.group.raids) then
+                        for _, raid in pairs(point.group.raids) do
+                            -- FIXME: temp condition
+                            if (raid.entranceNode and mapId == raid.zone) then
+                                -- find the distance
+                                local distance, deltaX, deltaY = Maps:GetWorldDistance(mapId, x, y, raid.x, raid.y)
+                                if (distance <= INSTANCE_DISTANCE) then
+                                    Pins:AddMinimapIconMap("TownsfolkTrackerInternal", raid.entranceNode, raid.zone, raid.x, raid.y, true, true)
+                                end
+                            end
+                        end
                     end
                 end
             end
