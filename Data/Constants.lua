@@ -53,6 +53,7 @@ TF_PROFESSION_BRANCH = {
     ARMORSMITH = 'Armorsmith',
     GOBLIN = 'Goblin',
     GNOME = 'Gnome',
+    DRAGONSCALE = 'Dragonscale',
 }
 
 TF_TRAINING_LEVEL = {

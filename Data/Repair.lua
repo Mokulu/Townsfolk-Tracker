@@ -148,4 +148,6 @@ TF_REPAIR_VENDORS = {
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5555, y = 0.5705, name = "Hogor Thunderhoof", tag = "Gun Merchant", faction = TF_FACTION.HORDE },
 	{ zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7252, y = 0.3336, name = "Mu'uta", tag = "Bowyer", faction = TF_FACTION.HORDE },
 	{ zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7338, y = 0.2968, name = "Rutherford Twing", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.BADLANDS, x = 0.4247, y = 0.5251, name = "Jazzrik", tag = "Blacksmithing Supplies" },
+    { zone = TF_ZONE.BADLANDS, x = 0.0291, y = 0.4725, name = "Sranda", tag = "Light Armor & Weapons Merchant", faction = TF_FACTION.HORDE },
 }

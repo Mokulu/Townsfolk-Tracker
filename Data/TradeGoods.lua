@@ -94,4 +94,5 @@ TF_TRADE_GOOD_VENDORS = {
 	{ zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7269, y = 0.3646, name = "Jun'ha", tag = "Tailoring Supplies", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7488, y = 0.3460, name = "Tunkk", tag = "Leatherworking Supplies", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7408, y = 0.3273, name = "Keena", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.BADLANDS, x = 0.4247, y = 0.5251, name = "Jazzrik", tag = "Blacksmithing Supplies" },
 }

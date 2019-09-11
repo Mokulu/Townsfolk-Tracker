@@ -50,4 +50,5 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7384, y = 0.3247, name = "Innkeeper Adegwa", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7412, y = 0.3238, name = "Graud", tag = "General Goods", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7421, y = 0.2929, name = "Kosco Copperpinch", tag = "Smokywood Pastures" },
+    { zone = TF_ZONE.BADLANDS, x = 0.0282, y = 0.4586, name = "Innkeeper Shul'kar", faction = TF_FACTION.HORDE },
 }

@@ -77,6 +77,7 @@ L["Journeyman Leatherworker"] = true
 L["Expert Leatherworker"] = true
 L["Artisan Leatherworker"] = true
 L["Master Leatherworker"] = true
+L["Master Dragonscale Leatherworker"] = true
 L["Apprentice Blacksmith"] = true
 L["Journeyman Blacksmith"] = true
 L["Expert Blacksmith"] = true
@@ -124,6 +125,7 @@ L["Specialty Dress Maker"] = true
 L["Light Armor Merchant"] = true
 L["Cloth Armor and Accessories"] = true
 L["Cloth Armor Merchant"] = true
+L["Light Armor & Weapons Merchant"] = true
 L["Cloth & Leather Armor Merchant"] = true
 L["Leather Armor Merchant"] = true
 L["Leather & Mail Armor Merchant"] = true
@@ -252,6 +254,7 @@ L["Kuna Thunderhorn"] = true
 L["Hogor Thunderhoof"] = true
 L["Mu'uta"] = true
 L["Graud"] = true
+L["Grawl"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -374,6 +377,7 @@ L["Tharm"] = true
 L["Vesprystus"] = true
 L["Tal"] = true
 L["Urda"] = true
+L["Gorrik"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -396,6 +400,7 @@ L["Innkeeper Saelienne"] = true
 L["Innkeeper Kauth"] = true
 L["Innkeeper Pala"] = true
 L["Innkeeper Adegwa"] = true
+L["Innkeeper Shul'kar"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -638,6 +643,8 @@ L["Ohanko"] = true
 L["Etu Ragetotem"] = true
 L["Delgo Ragetotem"] = true
 L["Rutherford Twing"] = true
+L["Jazzrik"] = true
+L["Sranda"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -660,6 +667,7 @@ L["Alassin"] = true
 L["Seikwa"] = true
 L["Bulrug"] = true
 L["Tharlidun"] = true
+L["Greth"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -985,6 +993,7 @@ L["Teg Dawnstrider"] = true
 L["Kah Mistrunner"] = true
 L["Aska Mistrunner"] = true
 L["Slagg"] = true
+L["Thorkaf Dragoneye"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true
