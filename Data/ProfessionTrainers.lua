@@ -159,4 +159,5 @@ TF_PROFESSION_TRAINERS = {
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4491, y = 0.3749, name = "Teg Dawnstrider", profession = TF_PROFESSION.ENCHANTING, level = TF_TRAINING_LEVEL.EXPERT, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5613, y = 0.4636, name = "Kah Mistrunner", profession = TF_PROFESSION.FISHING, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5071, y = 0.5312, name = "Aska Mistrunner", profession = TF_PROFESSION.COOKING, faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7408, y = 0.3382, name = "Slagg", tag = "Superior Butcher", profession = TF_PROFESSION.COOKING, faction = TF_FACTION.HORDE },
 }

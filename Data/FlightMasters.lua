@@ -20,4 +20,5 @@ TF_FLIGHTMASTERS = {
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2687, y = 0.7709, name = "Gringer", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5840, y = 0.9402, name = "Vesprystus", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4701, y = 0.4981, name = "Tal", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7303, y = 0.3265, name = "Urda", faction = TF_FACTION.HORDE },
 }

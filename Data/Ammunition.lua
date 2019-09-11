@@ -49,4 +49,6 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4142, y = 0.6237, name = "Jyn Stonehoof", tag = "Weapon Merchant", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4700, y = 0.4570, name = "Kuna Thunderhorn", tag = "Bowyer & Fletching Goods", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5555, y = 0.5705, name = "Hogor Thunderhoof", tag = "Gun Merchant", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7252, y = 0.3336, name = "Mu'uta", tag = "Bowyer", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7412, y = 0.3238, name = "Graud", tag = "General Goods", faction = TF_FACTION.HORDE },
 }

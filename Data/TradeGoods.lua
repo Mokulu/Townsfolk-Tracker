@@ -91,4 +91,7 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4498, y = 0.3876, name = "Nata Dawnstrider", tag = "Enchanting Supplies", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5579, y = 0.4702, name = "Sewa Mistrunner", tag = "Fishing Supplier", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5098, y = 0.5246, name = "Naal Mistrunner", tag = "Cooking Supplier", faction = TF_FACTION.HORDE },
+	{ zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7269, y = 0.3646, name = "Jun'ha", tag = "Tailoring Supplies", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7488, y = 0.3460, name = "Tunkk", tag = "Leatherworking Supplies", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7408, y = 0.3273, name = "Keena", faction = TF_FACTION.HORDE },
 }

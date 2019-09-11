@@ -180,6 +180,8 @@ L["Apprentice Armorer"] = true
 L["Superior Armorer"] = true
 L["Shield Merchant"] = true
 L["Butcher"] = true
+L["Superior Butcher"] = true
+L["Smokywood Pastures"] = true
 L["Baker"] = true
 L["Bread Vendor"] = true
 L["Fruit Vendor"] = true
@@ -248,6 +250,8 @@ L["Kuruk"] = true
 L["Jyn Stonehoof"] = true
 L["Kuna Thunderhorn"] = true
 L["Hogor Thunderhoof"] = true
+L["Mu'uta"] = true
+L["Graud"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -345,6 +349,8 @@ L["Moodan Sungrain"] = true
 L["Fyr Mistrunner"] = true
 L["Nan Mistrunner"] = true
 L["Kaga Mistrunner"] = true
+L["Uttnar"] = true
+L["Kosco Copperpinch"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -367,6 +373,7 @@ L["Gringer"] = true
 L["Tharm"] = true
 L["Vesprystus"] = true
 L["Tal"] = true
+L["Urda"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -388,6 +395,7 @@ L["Innkeeper Jayka"] = true
 L["Innkeeper Saelienne"] = true
 L["Innkeeper Kauth"] = true
 L["Innkeeper Pala"] = true
+L["Innkeeper Adegwa"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -497,6 +505,9 @@ L["Nata Dawnstrider"] = true
 L["Sewa Mistrunner"] = true
 L["Naal Mistrunner"] = true
 L["Chepi"] = true
+L["Jun'ha"] = true
+L["Tunkk"] = true
+L["Keena"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -626,6 +637,7 @@ L["Kard Ragetotem"] = true
 L["Ohanko"] = true
 L["Etu Ragetotem"] = true
 L["Delgo Ragetotem"] = true
+L["Rutherford Twing"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -647,6 +659,7 @@ L["Gereck"] = true
 L["Alassin"] = true
 L["Seikwa"] = true
 L["Bulrug"] = true
+L["Tharlidun"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -971,6 +984,7 @@ L["Mot Dawnstrider"] = true
 L["Teg Dawnstrider"] = true
 L["Kah Mistrunner"] = true
 L["Aska Mistrunner"] = true
+L["Slagg"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

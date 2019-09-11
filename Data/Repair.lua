@@ -146,4 +146,6 @@ TF_REPAIR_VENDORS = {
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5319, y = 0.5829, name = "Etu Ragetotem", tag = "Mace & Staff Merchant", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5410, y = 0.5721, name = "Delgo Ragetotem", tag = "Axe Merchant", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5555, y = 0.5705, name = "Hogor Thunderhoof", tag = "Gun Merchant", faction = TF_FACTION.HORDE },
+	{ zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7252, y = 0.3336, name = "Mu'uta", tag = "Bowyer", faction = TF_FACTION.HORDE },
+	{ zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7338, y = 0.2968, name = "Rutherford Twing", faction = TF_FACTION.HORDE },
 }

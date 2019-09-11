@@ -46,4 +46,8 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4144, y = 0.5319, name = "Fyr Mistrunner", tag = "Bread Vendor", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4735, y = 0.4250, name = "Nan Mistrunner", tag = "Fruit Vendor", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5230, y = 0.4777, name = "Kaga Mistrunner", tag = "Meat Vendor", faction = TF_FACTION.HORDE },
+	{ zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7418, y = 0.3395, name = "Uttnar", tag = "Butcher", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7384, y = 0.3247, name = "Innkeeper Adegwa", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7412, y = 0.3238, name = "Graud", tag = "General Goods", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7421, y = 0.2929, name = "Kosco Copperpinch", tag = "Smokywood Pastures" },
 }
