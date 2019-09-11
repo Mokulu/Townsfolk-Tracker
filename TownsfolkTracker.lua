@@ -457,12 +457,17 @@ function TownsfolkTracker:CreateTrackerList()
         local info = UIDropDownMenu_CreateInfo()
         -- none checked?
         local noneChecked = true
+        local allChecked = true
         for _, val in pairs(tfTrackingList) do
             if (val) then
                 noneChecked = false
+            else
+                allChecked = false
             end
         end
-        info.text, info.checked, info.icon, info.isNotRadio, info.arg1, info.func = " "..L["None"], noneChecked, [[Interface\Addons\TownsfolkTracker\Icons\Empty.tga]], true, "", self.SetValue
+        info.text, info.checked, info.icon, info.isNotRadio, info.arg1, info.func = " "..L["All"], allChecked, [[Interface\Addons\TownsfolkTracker\Icons\Empty.tga]], true, "ALL", self.SetValue
+        UIDropDownMenu_AddButton(info)
+        info.text, info.checked, info.arg1 = " "..L["None"], noneChecked, ""
         UIDropDownMenu_AddButton(info)
 
         UIDropDownMenu_AddSeparator()
@@ -507,9 +512,9 @@ function TownsfolkTracker:CreateTrackerList()
 
     function dropDown:SetValue(folktype)
         -- selected "None" option, clear all
-        if folktype == "" then
+        if folktype == "" or folktype == "ALL" then
             for key, _ in pairs(tfTrackingList) do
-                tfTrackingList[key] = false
+                tfTrackingList[key] = folktype == "ALL"
             end
         else
             -- toggle the value

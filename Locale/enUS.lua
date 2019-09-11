@@ -1,6 +1,7 @@
 local L = LibStub("AceLocale-3.0"):NewLocale("TownsfolkTracker", "enUS", true)
 
 L["Townsfolk"] = true
+L["All"] = true
 L["None"] = true
 -- Townsfolk Types
 L["Ammunition"] = true
