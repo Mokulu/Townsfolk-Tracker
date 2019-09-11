@@ -11,4 +11,7 @@ TF_BATTLEMASTERS = {
     { zone = TF_ZONE.DARNASSUS, x = 0.5809, y = 0.4458, name = "Brogun Stoneshield", tag = "Alterac Valley", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.5802, y = 0.3728, name = "Keras Wolfheart", tag = "Arathi Basin", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.5903, y = 0.3694, name = "Aethalas", tag = "Warsong Gulch", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.2868, y = 0.2087, name = "Martin Lindsey", tag = "Arathi Basin", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5894, y = 0.7680, name = "Taim Ragetotem", tag = "Alterac Valley", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5678, y = 0.7647, name = "Kergul Bloodaxe", tag = "Warsong Gulch", faction = TF_FACTION.HORDE },
 }

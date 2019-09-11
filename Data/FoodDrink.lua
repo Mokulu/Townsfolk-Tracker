@@ -37,4 +37,13 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = TF_ZONE.DARNASSUS, x = 0.6742, y = 0.1565, name = "Innkeeper Saelienne", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.6935, y = 0.4502, name = "Fyrenna", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.6423, y = 0.7149, name = "Jaeana", wanders = true, tag = "Meat Vendor", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.MULGORE, x = 0.4763, y = 0.6149, name = "Jhawna Oatwind", tag = "Baker", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.MULGORE, x = 0.4662, y = 0.6110, name = "Innkeeper Kauth", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.MULGORE, x = 0.4465, y = 0.7790, name = "Moodan Sungrain", tag = "Baker", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.MULGORE, x = 0.4530, y = 0.7652, name = "Kawnie Softbreeze", tag = "General Goods", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.3890, y = 0.6471, name = "Kuruk", tag = "General Goods Vendor", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4582, y = 0.6471, name = "Innkeeper Pala", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4144, y = 0.5319, name = "Fyr Mistrunner", tag = "Bread Vendor", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4735, y = 0.4250, name = "Nan Mistrunner", tag = "Fruit Vendor", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5230, y = 0.4777, name = "Kaga Mistrunner", tag = "Meat Vendor", faction = TF_FACTION.HORDE },
 }

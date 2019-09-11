@@ -113,6 +113,7 @@ L["Superior Bowyer"] = true
 L["Fletcher"] = true
 L["Gunsmith"] = true
 L["Bowyer & Gunsmith"] = true
+L["Bowyer & Fletching Goods"] = true
 L["Bow Merchant"] = true
 L["Clothier"] = true
 L["Apprentice Clothier"] = true
@@ -134,6 +135,7 @@ L["Weaponsmith & Armorcrafter"] = true
 L["Armorer & Shieldcrafter"] = true
 L["Weapon Merchant"] = true
 L["Blade Merchant"] = true
+L["Sword and Dagger Merchant"] = true
 L["Two-Handed Weapons Merchant"] = true
 L["Thrown Weapons Merchant"] = true
 L["Mace & Staff Merchant"] = true
@@ -177,6 +179,9 @@ L["Apprentice Armorer"] = true
 L["Superior Armorer"] = true
 L["Shield Merchant"] = true
 L["Butcher"] = true
+L["Baker"] = true
+L["Bread Vendor"] = true
+L["Fruit Vendor"] = true
 L["Meat Vendor"] = true
 L["Engineering & General Goods Supplier"] = true
 L["Ale and Wine"] = true
@@ -184,6 +189,7 @@ L["Apprentice Witch Doctor"] = true
 L["Undead Horse"] = true
 L["Wolf"] = true
 L["War Harness Maker"] = true
+L["War Harness Vendor"] = true
 L["Raptor"] = true
 L["Ram"] = true
 L["Mechanostrider"] = true
@@ -235,6 +241,12 @@ L["Mydrannul"] = true
 L["Ellandrieth"] = true
 L["Landria"] = true
 L["Turian"] = true
+L["Moorat Longstride"] = true
+L["Kawnie Softbreeze"] = true
+L["Kuruk"] = true
+L["Jyn Stonehoof"] = true
+L["Kuna Thunderhorn"] = true
+L["Hogor Thunderhoof"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -257,6 +269,8 @@ L["Auctioneer Golothas"] = true
 L["Auctioneer Tolon"] = true
 L["Auctioneer Cazarez"] = true
 L["Auctioneer Silva'las"] = true
+L["Auctioneer Stampi"] = true
+L["Auctioneer Gullem"] = true
 
 -- Battlegrounds
 L["Alterac Valley"] = true
@@ -276,6 +290,9 @@ L["Glordrum Steelbeard"] = true
 L["Brogun Stoneshield"] = true
 L["Keras Wolfheart"] = true
 L["Aethalas"] = true
+L["Martin Lindsey"] = true
+L["Taim Ragetotem"] = true
+L["Kergul Bloodaxe"] = true
 
 -- Bankers
 L["Karus"] = true
@@ -322,6 +339,11 @@ L["Krond"] = true
 L["Dendrythis"] = true
 L["Fyrenna"] = true
 L["Jaeana"] = true
+L["Jhawna Oatwind"] = true
+L["Moodan Sungrain"] = true
+L["Fyr Mistrunner"] = true
+L["Nan Mistrunner"] = true
+L["Kaga Mistrunner"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -343,6 +365,7 @@ L["Gyll"] = true
 L["Gringer"] = true
 L["Tharm"] = true
 L["Vesprystus"] = true
+L["Tal"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -362,6 +385,8 @@ L["Innkeeper Helbrek"] = true
 L["Innkeeper Skindle"] = true
 L["Innkeeper Jayka"] = true
 L["Innkeeper Saelienne"] = true
+L["Innkeeper Kauth"] = true
+L["Innkeeper Pala"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -460,6 +485,17 @@ L["Mythrin'dir"] = true
 L["Elynna"] = true
 L["Saenorion"] = true
 L["Voloren"] = true
+L["Wunna Darkmane"] = true
+L["Harn Longcast"] = true
+L["Shadi Mistrunner"] = true
+L["Kurm Stonehoof"] = true
+L["Mahu"] = true
+L["Nida Winterhoof"] = true
+L["Mani Winterhoof"] = true
+L["Nata Dawnstrider"] = true
+L["Sewa Mistrunner"] = true
+L["Naal Mistrunner"] = true
+L["Chepi"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -570,6 +606,25 @@ L["Anadyia"] = true
 L["Cyridan"] = true
 L["Cylania"] = true
 L["Ariyell Skyshadow"] = true
+L["Harant Ironbrace"] = true
+L["Varg Windwhisper"] = true
+L["Mahnott Roughwound"] = true
+L["Kennah Hawkseye"] = true
+L["Bronk Steelrage"] = true
+L["Marjak Keenblade"] = true
+L["Varia Hardhide"] = true
+L["Elki"] = true
+L["Hewa"] = true
+L["Ahanu"] = true
+L["Grod"] = true
+L["Fela"] = true
+L["Tagain"] = true
+L["Sunn Ragetotem"] = true
+L["Sura Wildmane"] = true
+L["Kard Ragetotem"] = true
+L["Ohanko"] = true
+L["Etu Ragetotem"] = true
+L["Delgo Ragetotem"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -589,6 +644,8 @@ L["Bethaine Flinthammer"] = true
 L["Grimestack"] = true
 L["Gereck"] = true
 L["Alassin"] = true
+L["Seikwa"] = true
+L["Bulrug"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -862,6 +919,57 @@ L["Jocaste"] = true
 L["Dorion"] = true
 L["Silvaria"] = true
 L["Jeen'ra Nightrunner"] = true
+L["Krang Stonehoof"] = true
+L["Gennia Runetotem"] = true
+L["Narm Skychaser"] = true
+L["Reban Freerunner"] = true
+L["Yaw Sharpmane"] = true
+L["Harutt Thunderhorn"] = true
+L["Lanka Farshot"] = true
+L["Meela Dawnstrider"] = true
+L["Gart Mistrunner"] = true
+L["Ursyn Ghull"] = true
+L["Miles Welsh"] = true
+L["Malakai Cross"] = true
+L["Birgitte Cranston"] = true
+L["Archmage Shymm"] = true
+L["Thurston Xane"] = true
+L["Father Cobb"] = true
+L["Tigor Skychaser"] = true
+L["Siln Skychaser"] = true
+L["Beram Skychaser"] = true
+L["Kym Wildmane"] = true
+L["Turak Runetotem"] = true
+L["Sheal Runetotem"] = true
+L["Ker Ragetotem"] = true
+L["Torm Ragetotem"] = true
+L["Sark Ragetotem"] = true
+L["Holt Thunderhorn"] = true
+L["Kary Thunderhorn"] = true
+L["Urek Thunderhorn"] = true
+L["Hesuwa Thunderhorn"] = true
+L["Kar Stormsinger"] = true
+L["Vira Younghoof"] = true
+L["Pyall Silentstride"] = true
+L["Chaw Stronghide"] = true
+L["Yonn Deepcut"] = true
+L["Uthan Stillwater"] = true
+L["Ansekhwa"] = true
+L["Brek Stonehoof"] = true
+L["Pand Stonebinder"] = true
+L["Tarn"] = true
+L["Una"] = true
+L["Mak"] = true
+L["Tepa"] = true
+L["Vhan"] = true
+L["Mooranta"] = true
+L["Komin Winterhoof"] = true
+L["Bena Winterhoof"] = true
+L["Kray"] = true
+L["Mot Dawnstrider"] = true
+L["Teg Dawnstrider"] = true
+L["Kah Mistrunner"] = true
+L["Aska Mistrunner"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

@@ -16,4 +16,6 @@ TF_INNKEEPERS = {
     { zone = TF_ZONE.WETLANDS, x = 0.1068, y = 0.6149, name = "Innkeeper Helbrek", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2704, y = 0.7731, name = "Innkeeper Skindle" },
     { zone = TF_ZONE.DARNASSUS, x = 0.6742, y = 0.1565, name = "Innkeeper Saelienne", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.MULGORE, x = 0.4662, y = 0.6110, name = "Innkeeper Kauth", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4582, y = 0.6471, name = "Innkeeper Pala", faction = TF_FACTION.HORDE },
 }

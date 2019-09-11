@@ -19,4 +19,6 @@ TF_AUCTIONEERS = {
     { zone = TF_ZONE.DARNASSUS, x = 0.5638, y = 0.5184, name = "Auctioneer Tolon", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.5557, y = 0.5244, name = "Auctioneer Cazarez", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.5730, y = 0.5356, name = "Auctioneer Silva'las", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4043, y = 0.5175, name = "Auctioneer Stampi", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.3890, y = 0.5018, name = "Auctioneer Gullem", faction = TF_FACTION.HORDE },
 }

@@ -43,4 +43,10 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.DARNASSUS, x = 0.6473, y = 0.5297, name = "Ellandrieth", tag = "General Goods Vendor", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.6327, y = 0.6627, name = "Landria", tag = "Bow Merchant", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.6267, y = 0.6558, name = "Turian", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.MULGORE, x = 0.4586, y = 0.5766, name = "Moorat Longstride", tag = "General Goods", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.MULGORE, x = 0.4530, y = 0.7652, name = "Kawnie Softbreeze", tag = "General Goods", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.3890, y = 0.6471, name = "Kuruk", tag = "General Goods Vendor", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4142, y = 0.6237, name = "Jyn Stonehoof", tag = "Weapon Merchant", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4700, y = 0.4570, name = "Kuna Thunderhorn", tag = "Bowyer & Fletching Goods", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5555, y = 0.5705, name = "Hogor Thunderhoof", tag = "Gun Merchant", faction = TF_FACTION.HORDE },
 }

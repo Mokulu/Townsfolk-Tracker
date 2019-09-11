@@ -11,4 +11,5 @@ TF_REAGENT_VENDORS = {
     { zone = TF_ZONE.WETLANDS, x = 0.0834, y = 0.5641, name = "Falkan Armonis", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.3891, y = 0.6768, name = "Alaindia", wanders = true, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.3385, y = 0.0952, name = "Cyroen", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4229, y = 0.5921, name = "Chepi", wanders = true, faction = TF_FACTION.HORDE },
 }

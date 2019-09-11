@@ -21,8 +21,8 @@ TF_BANKERS = {
     { zone = TF_ZONE.TANARIS, x = 0.526, y = 0.282, name = "Gimblethorn" },
     { zone = TF_ZONE.THE_BARRENS, x = 0.6264, y = 0.3742, name = "Fuzruckle" },
     { zone = TF_ZONE.THE_BARRENS, x = 0.6268, y = 0.3740, name = "Zikkel" },
-    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.47, y = 0.59, name = "Atepa", faction = TF_FACTION.HORDE },
-    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.474, y = 0.586, name = "Torn", faction = TF_FACTION.HORDE },
-    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.468, y = 0.582, name = "Chesmu", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4720, y = 0.5935, name = "Atepa", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4763, y = 0.5858, name = "Torn", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4712, y = 0.5787, name = "Chesmu", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.WINTERSPRING, x = 0.614, y = 0.37, name = "Izzy Coppergrab" },
 }
