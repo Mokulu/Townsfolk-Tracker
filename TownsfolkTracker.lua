@@ -130,21 +130,24 @@ function TownsfolkTracker:OnEnable()
     self:RegisterMapButton()
 
     -- Register events
-    self:RegisterEvent("PLAYER_LOGIN")
+    self:RegisterEvent("PLAYER_ENTERING_WORLD")
     Maps.RegisterCallback("TownsfolkTracker", "PlayerZoneChanged", function (event, currentPlayerUiMapID, currentPlayerUiMapType)
         TownsfolkTracker:DrawDungeonMinimapIcons(currentPlayerUiMapID)
     end)
 end
 
-function TownsfolkTracker:PLAYER_LOGIN()
-    self:CreateTrackerList()
-    self:CreateIcons()
-    self:DrawMapIcons()
+function TownsfolkTracker:PLAYER_ENTERING_WORLD()
+    -- only run on first ui load
+    if (tfTrackingMenu == nil) then
+        TownsfolkTracker:CreateTrackerList()
+        TownsfolkTracker:CreateIcons()
+        TownsfolkTracker:DrawMapIcons()
 
-    if (self:IsShowMinimapButton()) then
-        LDBIcon:Show("TownsfolkTracker")
-    else
-        LDBIcon:Hide("TownsfolkTracker")
+        if (TownsfolkTracker:IsShowMinimapButton()) then
+            LDBIcon:Show("TownsfolkTracker")
+        else
+            LDBIcon:Hide("TownsfolkTracker")
+        end
     end
 end
 

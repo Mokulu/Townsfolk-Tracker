@@ -195,6 +195,7 @@ L["Master of Cooking Recipes"] = true
 L["Freewheeling Tradeswoman"] = true
 L["Blade Merchant"] = true
 L["Axe Merchant"] = true
+L["Superior Axecrafter"] = true
 L["Staff Merchant"] = true
 L["Staff & Mace Merchant"] = true
 L["Wand Merchant"] = true
