@@ -74,6 +74,8 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2897, y = 0.7506, name = "Hurklor", tag = "Blacksmithing Supplies" },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2742, y = 0.7716, name = "Old Man Heming", tag = "Fisherman" },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5625, y = 0.9244, name = "Nessa Shadowsong", tag = "Fishing Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.TELDRASSIL, x = 0.5527, y = 0.5715, name = "Narret Shadowgrove", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.TELDRASSIL, x = 0.5719, y = 0.6126, name = "Nyoma", tag = "Cooking Supplies", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.4854, y = 0.2160, name = "Fyldan", tag = "Cooking Supplier", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.5584, y = 0.2449, name = "Ulthir", tag = "Alchemy Supplies", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.5858, y = 0.1471, name = "Vaean", tag = "Enchanting Supplies", faction = TF_FACTION.ALLIANCE },

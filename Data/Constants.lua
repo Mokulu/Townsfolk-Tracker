@@ -57,7 +57,6 @@ TF_PROFESSION_BRANCH = {
 }
 
 TF_TRAINING_LEVEL = {
-    APPRENTICE = 'Apprentice',
     JOURNEYMAN = 'Journeyman',
     EXPERT = 'Expert',
     ARTISAN = 'Artisan',

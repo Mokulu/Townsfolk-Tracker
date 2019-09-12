@@ -255,6 +255,9 @@ L["Hogor Thunderhoof"] = true
 L["Mu'uta"] = true
 L["Graud"] = true
 L["Grawl"] = true
+L["Aldia"] = true
+L["Jeena Featherbow"] = true
+L["Lyrai"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -354,6 +357,8 @@ L["Nan Mistrunner"] = true
 L["Kaga Mistrunner"] = true
 L["Uttnar"] = true
 L["Kosco Copperpinch"] = true
+L["Danlyia"] = true
+L["Dellylah"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -401,6 +406,7 @@ L["Innkeeper Kauth"] = true
 L["Innkeeper Pala"] = true
 L["Innkeeper Adegwa"] = true
 L["Innkeeper Shul'kar"] = true
+L["Innkeeper Keldamyr"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -513,6 +519,8 @@ L["Chepi"] = true
 L["Jun'ha"] = true
 L["Tunkk"] = true
 L["Keena"] = true
+L["Narret Shadowgrove"] = true
+L["Nyoma"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -645,6 +653,15 @@ L["Delgo Ragetotem"] = true
 L["Rutherford Twing"] = true
 L["Jazzrik"] = true
 L["Sranda"] = true
+L["Meri Ironweave"] = true
+L["Shalomon"] = true
+L["Sinda"] = true
+L["Brannol Eaglemoon"] = true
+L["Janna Brightmoon"] = true
+L["Keina"] = true
+L["Freja Nightwing"] = true
+L["Khardan Proudblade"] = true
+L["Andiss"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -668,6 +685,7 @@ L["Seikwa"] = true
 L["Bulrug"] = true
 L["Tharlidun"] = true
 L["Greth"] = true
+L["Seriadne"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -994,6 +1012,24 @@ L["Kah Mistrunner"] = true
 L["Aska Mistrunner"] = true
 L["Slagg"] = true
 L["Thorkaf Dragoneye"] = true
+L["Laurna Morninglight"] = true
+L["Kyra Windblade"] = true
+L["Jannok Breezesong"] = true
+L["Dazalar"] = true
+L["Keldas"] = true
+L["Kal"] = true
+L["Shanda"] = true
+L["Frahun Shadewhisper"] = true
+L["Alyissia"] = true
+L["Ayanna Everstride"] = true
+L["Mardant Strongoak"] = true
+L["Radnaal Maneweaver"] = true
+L["Nadyia Maneweaver"] = true
+L["Alanna Raveneye"] = true
+L["Byancie"] = true
+L["Malorne Bladeleaf"] = true
+L["Cyndra Kindwhisper"] = true
+L["Zarrin"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

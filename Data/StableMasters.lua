@@ -15,6 +15,7 @@ TF_STABLE_MASTERS = {
     { zone = TF_ZONE.LOCH_MODAN, x = 0.3464, y = 0.4810, name = "Lina Hearthstove", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WETLANDS, x = 0.1053, y = 0.5974, name = "Bethaine Flinthammer", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2730, y = 0.7722, name = "Grimestack" },
+    { zone = TF_ZONE.TELDRASSIL, x = 0.5663, y = 0.5962, name = "Seriadne", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.3927, y = 0.1005, name = "Alassin", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.MULGORE, x = 0.4676, y = 0.6036, name = "Seikwa", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4511, y = 0.6022, name = "Bulrug", faction = TF_FACTION.HORDE },
