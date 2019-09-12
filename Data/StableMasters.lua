@@ -21,4 +21,6 @@ TF_STABLE_MASTERS = {
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4511, y = 0.6022, name = "Bulrug", faction = TF_FACTION.HORDE },
 	{ zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7393, y = 0.3313, name = "Tharlidun", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.BADLANDS, x = 0.0367, y = 0.4759, name = "Greth", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.6147, y = 0.1716, name = "Jenova Stoneshield", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.2959, y = 0.5122, name = "Sylista", faction = TF_FACTION.ALLIANCE },
 }

@@ -6,6 +6,7 @@ TF_TRANSPORTATION_SPOTS = {
     { zone = TF_ZONE.THE_BARRENS, x = 0.6366, y = 0.3860, name = "Booty Bay, Stranglethorn Vale" },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2588, y = 0.7313, name = "Ratchet, The Barrens" },
     { zone = TF_ZONE.IRONFORGE, x = 0.7684, y = 0.5124, name = "Deeprun Tram, Stormwind City", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.6394, y = 0.0812, name = "Deeprun Tram, Ironforge", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WETLANDS, x = 0.0466, y = 0.5718, name = "Auberdine, Darkshore", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WETLANDS, x = 0.0510, y = 0.6339, name = "Thereamore Isle, Dustwallow Marsh", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARKSHORE, x = 0.3242, y = 0.4378, name = "Menethil Harbor, Wetlands", faction = TF_FACTION.ALLIANCE },

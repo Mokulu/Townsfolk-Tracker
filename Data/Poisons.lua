@@ -5,4 +5,6 @@ TF_POISON_VENDORS = {
     { zone = TF_ZONE.IRONFORGE, x = 0.5295, y = 0.1371, name = "Tynnus Venomsprout", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WETLANDS, x = 0.1050, y = 0.6020, name = "Samor Festivus", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.3254, y = 0.1973, name = "Kyrai", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.7832, y = 0.5899, name = "Jasper Fel", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.7620, y = 0.5999, name = "Sloan McCoy", faction = TF_FACTION.ALLIANCE },
 }

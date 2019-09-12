@@ -4,8 +4,8 @@ TF_DUNGEONS = {
     { zone = TF_ZONE.WESTFALL, x = 0.4256, y = 0.7176, name = "The Deadmines", minLevel = 10, recommendedLevel = { 17, 24 } },
     { zone = TF_ZONE.SILVERPINE_FOREST, x = 0.448, y = 0.678, name = "Shadowfang Keep", minLevel = 14, recommendedLevel = { 22, 30 } },
     { zone = TF_ZONE.ASHENVALE, x = 0.1415, y = 0.14, name = "Blackfathom Deeps", minLevel = 15, recommendedLevel = { 24, 32 }, entrance = { zone = TF_ZONE.KALIMDOR, x = 0.4435, y = 0.3486 } },
-    { zone = TF_ZONE.STORMWIND_CITY, x = 0.4028, y = 0.5521, name = "The Stockade", minLevel = 15, recommendedLevel = { 24, 32 } },
-    { zone = TF_ZONE.DUN_MOROGH, x = 0.2434, y = 0.3978, name = "Gnomeregan", minLevel = 19, recommendedLevel = { 29, 38 } },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.3970, y = 0.5405, name = "The Stockade", minLevel = 15, recommendedLevel = { 24, 32 } },
+    { zone = TF_ZONE.DUN_MOROGH, x = 0.2434, y = 0.3978, name = "Gnomeregan", minLevel = 19, recommendedLevel = { 29, 38 }, entrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.4280, y = 0.5382 } },
     { zone = TF_ZONE.THE_BARRENS, x = 0.4231, y = 0.899, name = "Razorfen Kraul", minLevel = 25, recommendedLevel = { 29, 38 } },
     { zone = TF_ZONE.TIRISFAL_GLADES, x = 0.8244, y = 0.3299, name = "Scarlet Monastery", group = {
         prefix = true,

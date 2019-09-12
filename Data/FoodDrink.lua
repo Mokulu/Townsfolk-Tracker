@@ -54,4 +54,13 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7412, y = 0.3238, name = "Graud", tag = "General Goods", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7421, y = 0.2929, name = "Kosco Copperpinch", tag = "Smokywood Pastures" },
     { zone = TF_ZONE.BADLANDS, x = 0.0282, y = 0.4586, name = "Innkeeper Shul'kar", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.7345, y = 0.3882, name = "Elly Langston", tag = "Barmaid", wanders = true, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.2882, y = 0.7533, name = "Jarel Moor", tag = "Bartender", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.4106, y = 0.9004, name = "Joachim Brenlow", tag = "Bartender", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.5209, y = 0.6805, name = "Roberto Pupellyverbos", tag = "Merlot Connoisseur", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.5203, y = 0.6884, name = "Julia Gallina", tag = "Wine Vendor", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.5261, y = 0.6571, name = "Innkeeper Allison", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.6033, y = 0.6341, name = "Ben Trias", tag = "Apprentice of Cheese", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.6056, y = 0.6328, name = "Elaine Trias", tag = "Mistress of Cheese", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.5813, y = 0.6536, name = "Thomas Miller", tag = "Baker", wanders = true, faction = TF_FACTION.ALLIANCE },
 }

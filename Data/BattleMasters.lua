@@ -14,4 +14,7 @@ TF_BATTLEMASTERS = {
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.2868, y = 0.2087, name = "Martin Lindsey", tag = "Arathi Basin", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5894, y = 0.7680, name = "Taim Ragetotem", tag = "Alterac Valley", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5678, y = 0.7647, name = "Kergul Bloodaxe", tag = "Warsong Gulch", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.7721, y = 0.1624, name = "Thelman Slatefist", tag = "Alterac Valley", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.7901, y = 0.1961, name = "Elfarran", tag = "Warsong Gulch", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.7828, y = 0.1580, name = "Lady Hoteshem", tag = "Arathi Basin", faction = TF_FACTION.ALLIANCE },
 }

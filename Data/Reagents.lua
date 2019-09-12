@@ -12,4 +12,9 @@ TF_REAGENT_VENDORS = {
     { zone = TF_ZONE.DARNASSUS, x = 0.3891, y = 0.6768, name = "Alaindia", wanders = true, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.3385, y = 0.0952, name = "Cyroen", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4229, y = 0.5921, name = "Chepi", wanders = true, faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.4350, y = 0.2697, name = "Brother Cassius", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.3219, y = 0.7985, name = "Charys Yserian", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.3588, y = 0.7499, name = "Owen Vaughn", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.5610, y = 0.6534, name = "Kyra Boucher", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.5572, y = 0.6540, name = "Keldric Boucher", faction = TF_FACTION.ALLIANCE },
 }

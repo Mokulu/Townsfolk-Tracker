@@ -55,4 +55,7 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7252, y = 0.3336, name = "Mu'uta", tag = "Bowyer", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7412, y = 0.3238, name = "Graud", tag = "General Goods", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.BADLANDS, x = 0.0312, y = 0.4594, name = "Grawl", tag = "General Goods", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.5046, y = 0.5723, name = "Lina Stover", tag = "Bow & Gun Merchant", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.4999, y = 0.5764, name = "Frederick Stover", tag = "Bow & Arrow Merchant", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.5463, y = 0.1566, name = "Thulman Flintcrag", tag = "Guns Vendor", faction = TF_FACTION.ALLIANCE },
 }
