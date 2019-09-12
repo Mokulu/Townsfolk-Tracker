@@ -24,4 +24,5 @@ TF_STABLE_MASTERS = {
     { zone = TF_ZONE.BADLANDS, x = 0.0367, y = 0.4759, name = "Greth", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.6147, y = 0.1716, name = "Jenova Stoneshield", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.2959, y = 0.5122, name = "Sylista", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4577, y = 0.5106, name = "Awenasa", faction = TF_FACTION.HORDE },
 }

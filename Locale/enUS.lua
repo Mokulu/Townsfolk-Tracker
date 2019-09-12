@@ -293,6 +293,7 @@ L["Grawl"] = true
 L["Aldia"] = true
 L["Jeena Featherbow"] = true
 L["Lyrai"] = true
+L["Jawn Highmesa"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -410,6 +411,7 @@ L["Elaine Trias"] = true
 L["Thomas Miller"] = true
 L["Uthok"] = true
 L["Nargatt"] = true
+L["Turhaw"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -436,6 +438,7 @@ L["Urda"] = true
 L["Gorrik"] = true
 L["Dungar Longdrink"] = true
 L["Thysta"] = true
+L["Nyse"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -461,6 +464,7 @@ L["Innkeeper Adegwa"] = true
 L["Innkeeper Shul'kar"] = true
 L["Innkeeper Keldamyr"] = true
 L["Innkeeper Thulbek"] = true
+L["Innkeeper Abeqwa"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -600,6 +604,8 @@ L["Eldraeith"] = true
 L["Alexandra Bolero"] = true
 L["Catherine Leland"] = true
 L["Nerrist"] = true
+L["Montarr"] = true
+L["Jandia"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -771,6 +777,8 @@ L["Thulman Flintcrag"] = true
 L["Hragran"] = true
 L["Vharr"] = true
 L["Krakk"] = true
+L["Jaquilina Dramet"] = true
+L["Starn"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -798,6 +806,7 @@ L["Seriadne"] = true
 L["Jenova Stoneshield"] = true
 L["Sylista"] = true
 L["Durik"] = true
+L["Awenasa"] = true
 
 -- Trainers
 L["Eunice Burch"] = true

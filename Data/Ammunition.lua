@@ -59,4 +59,6 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5046, y = 0.5723, name = "Lina Stover", tag = "Bow & Gun Merchant", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.4999, y = 0.5764, name = "Frederick Stover", tag = "Bow & Arrow Merchant", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5463, y = 0.1566, name = "Thulman Flintcrag", tag = "Guns Vendor", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4489, y = 0.5068, name = "Starn", tag = "Bowyer & Gunsmith", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4591, y = 0.5148, name = "Jawn Highmesa", tag = "General Goods", faction = TF_FACTION.HORDE },
 }

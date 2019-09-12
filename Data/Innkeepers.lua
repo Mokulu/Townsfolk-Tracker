@@ -23,4 +23,5 @@ TF_INNKEEPERS = {
 	{ zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7384, y = 0.3247, name = "Innkeeper Adegwa", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.BADLANDS, x = 0.0282, y = 0.4586, name = "Innkeeper Shul'kar", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5261, y = 0.6571, name = "Innkeeper Allison", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4607, y = 0.5152, name = "Innkeeper Abeqwa", faction = TF_FACTION.HORDE },
 }

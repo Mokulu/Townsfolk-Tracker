@@ -113,4 +113,5 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.4666, y = 0.7865, name = "Eldraeith", tag = "Herbalism Supplier", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.4325, y = 0.7407, name = "Alexandra Bolero", tag = "Tailoring Supplies", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.4577, y = 0.5856, name = "Catherine Leland", tag = "Fishing Supplier", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4620, y = 0.5150, name = "Jandia", faction = TF_FACTION.HORDE },
 }

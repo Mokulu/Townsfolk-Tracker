@@ -24,4 +24,5 @@ TF_FLIGHTMASTERS = {
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7303, y = 0.3265, name = "Urda", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.BADLANDS, x = 0.0399, y = 0.4478, name = "Gorrik", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.6628, y = 0.6212, name = "Dungar Longdrink", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4514, y = 0.4911, name = "Nyse", faction = TF_FACTION.HORDE },
 }
