@@ -407,6 +407,8 @@ L["Julia Gallina"] = true
 L["Ben Trias"] = true
 L["Elaine Trias"] = true
 L["Thomas Miller"] = true
+L["Uthok"] = true
+L["Nargatt"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -432,6 +434,7 @@ L["Tal"] = true
 L["Urda"] = true
 L["Gorrik"] = true
 L["Dungar Longdrink"] = true
+L["Thysta"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -456,6 +459,7 @@ L["Innkeeper Pala"] = true
 L["Innkeeper Adegwa"] = true
 L["Innkeeper Shul'kar"] = true
 L["Innkeeper Keldamyr"] = true
+L["Innkeeper Thulbek"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -467,6 +471,7 @@ L["Kyrai"] = true
 L["Innkeeper Allison"] = true
 L["Jasper Fel"] = true
 L["Sloan McCoy"] = true
+L["Sly Garrett"] = true
 
 -- Reagents
 L["Ronald Burch"] = true
@@ -593,6 +598,7 @@ L["Maria Lumere"] = true
 L["Eldraeith"] = true
 L["Alexandra Bolero"] = true
 L["Catherine Leland"] = true
+L["Nerrist"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -761,6 +767,9 @@ L["Carla Granger"] = true
 L["Gunther Weller"] = true
 L["Marda Weller"] = true
 L["Thulman Flintcrag"] = true
+L["Hragran"] = true
+L["Vharr"] = true
+L["Krakk"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -787,6 +796,7 @@ L["Greth"] = true
 L["Seriadne"] = true
 L["Jenova Stoneshield"] = true
 L["Sylista"] = true
+L["Durik"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -1180,6 +1190,11 @@ L["Lawrence Schneider"] = true
 L["Georgio Bolero"] = true
 L["Woo Ping"] = true
 L["Arnold Leland"] = true
+L["Zudd"] = true
+L["Kragg"] = true
+L["Mudduk"] = true
+L["Angrun"] = true
+L["Brawn"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

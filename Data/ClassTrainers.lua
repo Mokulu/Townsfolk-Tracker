@@ -117,6 +117,8 @@ TF_CLASS_TRAINERS = {
     { zone = TF_ZONE.LOCH_MODAN, x = 0.8223, y = 0.6285, name = "Claude Erksine", class = TF_CLASS.HUNTER, tag = "Pet Trainer", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.MOONGLADE, x = 0.5252, y = 0.4057, name = "Loganaar", class = TF_CLASS.DRUID },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2682, y = 0.7715, name = "Ian Strom", class = TF_CLASS.ROGUE },
+    { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3112, y = 0.2894, name = "Zudd", class = TF_CLASS.HUNTER, tag = "Pet Trainer", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3124, y = 0.2868, name = "Kragg", class = TF_CLASS.HUNTER, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5556, y = 0.5674, name = "Laurna Morninglight", class = TF_CLASS.PRIEST, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5622, y = 0.5920, name = "Kyra Windblade", class = TF_CLASS.WARRIOR, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5638, y = 0.6014, name = "Jannok Breezesong", class = TF_CLASS.ROGUE, faction = TF_FACTION.ALLIANCE },

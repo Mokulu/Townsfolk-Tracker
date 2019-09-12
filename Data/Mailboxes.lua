@@ -35,7 +35,7 @@ TF_MAILBOXES = {
     { zone = TF_ZONE.HILLSBRAD_FOOTHILLS, x = 0.6237, y = 0.1971, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7386, y = 0.3311, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THE_HINTERLANDS, x = 0.141, y = 0.457, faction = TF_FACTION.ALLIANCE }, --
-    { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.325, y = 0.287, faction = TF_FACTION.HORDE }, --
+    { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3252, y = 0.2865, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2670, y = 0.7636 },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2728, y = 0.7741 },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5612, y = 0.5843, faction = TF_FACTION.ALLIANCE },

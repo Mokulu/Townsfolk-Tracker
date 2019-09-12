@@ -15,6 +15,7 @@ TF_INNKEEPERS = {
     { zone = TF_ZONE.LOCH_MODAN, x = 0.3553, y = 0.4841, name = "Innkeeper Hearthstove", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WETLANDS, x = 0.1068, y = 0.6149, name = "Innkeeper Helbrek", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2704, y = 0.7731, name = "Innkeeper Skindle" },
+    { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3148, y = 0.2975, name = "Innkeeper Thulbek" },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5562, y = 0.5979, name = "Innkeeper Keldamyr", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.6742, y = 0.1565, name = "Innkeeper Saelienne", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.MULGORE, x = 0.4662, y = 0.6110, name = "Innkeeper Kauth", faction = TF_FACTION.HORDE },
