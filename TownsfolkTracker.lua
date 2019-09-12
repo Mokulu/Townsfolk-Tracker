@@ -115,6 +115,13 @@ function TownsfolkTracker:ToggleUseWorldMap(info, value)
     self:ShowMapButton()
 end
 
+function TownsfolkTracker:ResetTracking(info)
+    --noinspection GlobalCreationOutsideO
+    tfTrackingList = TownsfolkUtil_CopyTable(TF_DEFAULT_TRACKING)
+    DEFAULT_CHAT_FRAME:AddMessage("|cffffd000"..L["Townsfolk Tracker"].."|r - "..L["Tracking list reset."])
+    self:DrawMapIcons()
+end
+
 -- On Enable of addon
 function TownsfolkTracker:OnEnable()
     -- Register minimap icon
@@ -355,7 +362,8 @@ function TownsfolkTracker:DrawMapIcons()
     -- redraw visible icons
     for folktype, townsfolk in pairs(TOWNSFOLK) do
         -- do not loop through types not tracked
-        if tfTrackingList[folktype] then
+        -- we need to loop through every profession since each has its own tracking option
+        if tfTrackingList[folktype] or folktype == TF_PROFESSION_TRAINER then
             for _, point in pairs(townsfolk.points) do
                 local displayIcon = true
                 -- faction restriction
@@ -368,6 +376,10 @@ function TownsfolkTracker:DrawMapIcons()
                 --  restrict other nodes by class, e.g. Druid flight paths
                 if (displayIcon and folktype ~= TF_CLASS_TRAINER and point.class) then
                     displayIcon = TownsfolkUtil_GetPlayerClass() == point.class
+                end
+                -- hide all untracked profession types
+                if (displayIcon and folktype == TF_PROFESSION_TRAINER) then
+                    displayIcon = tfTrackingList[point.profession]
                 end
                 -- only show based on valid restrictions
                 if (displayIcon) then
@@ -455,57 +467,112 @@ function TownsfolkTracker:CreateTrackerList()
     UIDropDownMenu_Initialize(dropDown, function(self, level, menuList)
         -- None checkbox
         local info = UIDropDownMenu_CreateInfo()
-        -- none checked?
-        local noneChecked = true
-        local allChecked = true
-        for _, val in pairs(tfTrackingList) do
-            if (val) then
-                noneChecked = false
-            else
-                allChecked = false
+
+        if ((level or 1) == 1) then
+            -- none checked?
+            local noneChecked = true
+            local allChecked = true
+            local allProfessions = true
+            for key, val in pairs(tfTrackingList) do
+                if (val) then
+                    noneChecked = false
+                else
+                    if (TownsfolkUtil_ContainsValue(TF_PROFESSION, key)) then
+                        allProfessions = false
+                    end
+                    allChecked = false
+                end
             end
-        end
-        info.text, info.checked, info.icon, info.isNotRadio, info.arg1, info.func = " "..L["All"], allChecked, [[Interface\Addons\TownsfolkTracker\Icons\Empty.tga]], true, "ALL", self.SetValue
-        UIDropDownMenu_AddButton(info)
-        info.text, info.checked, info.arg1 = " "..L["None"], noneChecked, ""
-        UIDropDownMenu_AddButton(info)
+            info.text, info.checked, info.icon, info.isNotRadio, info.arg1, info.func = " "..L["All"], allChecked, [[Interface\Addons\TownsfolkTracker\Icons\Empty.tga]], true, "ALL", self.SetValue
+            UIDropDownMenu_AddButton(info)
+            info.text, info.checked, info.arg1 = " "..L["None"], noneChecked, ""
+            UIDropDownMenu_AddButton(info)
 
-        UIDropDownMenu_AddSeparator()
+            UIDropDownMenu_AddSeparator()
 
-        -- Townsfolk types
-        local info = UIDropDownMenu_CreateInfo()
-        info.text, info.notCheckable, info.isTitle = L["Townsfolk"], true, true
-        UIDropDownMenu_AddButton(info)
+            -- Townsfolk types
+            UIDropDownMenu_AddButton(TownsfolkUtil_MenuLabel(L["Townsfolk"]))
 
-        info = UIDropDownMenu_CreateInfo()
-        for folktype, townsfolk in TownsfolkUtil_PairsByKeys(TOWNSFOLK) do
-            if not TownsfolkUtil_IsInstanceType(folktype) then
-                info.text = " "..townsfolk.title
-                info.icon = townsfolk.icon
-                info.checked = tfTrackingList[folktype] or false
-                info.isNotRadio = true
-                info.keepShownOnClick = true
-                info.arg1 = folktype
-                info.func = self.SetValue
-                UIDropDownMenu_AddButton(info)
+            info = UIDropDownMenu_CreateInfo()
+            for folktype, townsfolk in TownsfolkUtil_PairsByKeys(TOWNSFOLK) do
+                if not TownsfolkUtil_IsInstanceType(folktype) then
+                    info.text = " "..townsfolk.title
+                    info.icon = folktype ~= TF_PROFESSION_TRAINER and townsfolk.icon or nil
+                    if (folktype == TF_PROFESSION_TRAINER) then
+                        info.checked = allProfessions
+                    else
+                        info.checked = tfTrackingList[folktype] or false
+                    end
+                    info.isNotRadio = true
+                    info.keepShownOnClick = folktype ~= TF_PROFESSION_TRAINER
+                    info.arg1 = folktype
+                    info.func = self.SetValue
+                    info.menuList = folktype
+                    info.hasArrow = folktype == TF_PROFESSION_TRAINER
+                    UIDropDownMenu_AddButton(info)
+                end
             end
-        end
-        -- Instances types
-        UIDropDownMenu_AddSeparator()
-        local info = UIDropDownMenu_CreateInfo()
-        info.text, info.notCheckable, info.isTitle = L["Instances"], true, true
-        UIDropDownMenu_AddButton(info)
-        local info = UIDropDownMenu_CreateInfo()
-        for folktype, townsfolk in TownsfolkUtil_PairsByKeys(TOWNSFOLK) do
-            if TownsfolkUtil_IsInstanceType(folktype) then
-                info.text = " "..townsfolk.title
-                info.icon = townsfolk.icon
-                info.checked = tfTrackingList[folktype] or false
-                info.isNotRadio = true
-                info.keepShownOnClick = true
-                info.arg1 = folktype
-                info.func = self.SetValue
-                UIDropDownMenu_AddButton(info)
+            -- Instances types
+            UIDropDownMenu_AddSeparator()
+            UIDropDownMenu_AddButton(TownsfolkUtil_MenuLabel(L["Instances"]))
+            local info = UIDropDownMenu_CreateInfo()
+            for folktype, townsfolk in TownsfolkUtil_PairsByKeys(TOWNSFOLK) do
+                if TownsfolkUtil_IsInstanceType(folktype) then
+                    info.text = " "..townsfolk.title
+                    info.icon = townsfolk.icon
+                    info.checked = tfTrackingList[folktype] or false
+                    info.isNotRadio = true
+                    info.keepShownOnClick = true
+                    info.arg1 = folktype
+                    info.func = self.SetValue
+                    UIDropDownMenu_AddButton(info)
+                end
+            end
+        elseif (level == 2) then
+            if (menuList == TF_PROFESSION_TRAINER) then
+                -- primary professions
+                UIDropDownMenu_AddButton(TownsfolkUtil_MenuLabel(L["Primary Professions"]), level)
+                local info = UIDropDownMenu_CreateInfo()
+                for _, profType in pairs(TF_PRIMARY_PROFESSION) do
+                    info.text = " "..L[profType]
+                    info.icon = TOWNSFOLK[TF_PROFESSION_TRAINER].icon
+                    info.checked = tfTrackingList[profType] or false
+                    info.isNotRadio = true
+                    info.keepShownOnClick = true
+                    info.arg1 = profType
+                    info.func = self.SetValue
+                    UIDropDownMenu_AddButton(info, level)
+                end
+
+                -- secondary
+                UIDropDownMenu_AddSeparator(level)
+                UIDropDownMenu_AddButton(TownsfolkUtil_MenuLabel(L["Secondary Professions"]), level)
+                local info = UIDropDownMenu_CreateInfo()
+                for _, profType in pairs(TF_SECONDARY_PROFESSION) do
+                    info.text = " "..L[profType]
+                    info.icon = TOWNSFOLK[TF_PROFESSION_TRAINER].icon
+                    info.checked = tfTrackingList[profType] or false
+                    info.isNotRadio = true
+                    info.keepShownOnClick = true
+                    info.arg1 = profType
+                    info.func = self.SetValue
+                    UIDropDownMenu_AddButton(info, level)
+                end
+
+                -- other training
+                UIDropDownMenu_AddSeparator(level)
+                UIDropDownMenu_AddButton(TownsfolkUtil_MenuLabel(L["Other Training"]), level)
+                local info = UIDropDownMenu_CreateInfo()
+                for _, profType in pairs(TF_ALT_TRAINING) do
+                    info.text = " "..L[profType]
+                    info.icon = TOWNSFOLK[TF_PROFESSION_TRAINER].icon
+                    info.checked = tfTrackingList[profType] or false
+                    info.isNotRadio = true
+                    info.keepShownOnClick = true
+                    info.arg1 = profType
+                    info.func = self.SetValue
+                    UIDropDownMenu_AddButton(info, level)
+                end
             end
         end
     end, "MENU")
@@ -515,6 +582,17 @@ function TownsfolkTracker:CreateTrackerList()
         if folktype == "" or folktype == "ALL" then
             for key, _ in pairs(tfTrackingList) do
                 tfTrackingList[key] = folktype == "ALL"
+            end
+        elseif folktype == TF_PROFESSION_TRAINER then
+            local allSelected = true
+            for _, key in pairs(TF_PROFESSION) do
+                if (not tfTrackingList[key]) then
+                    allSelected = false
+                end
+            end
+            -- toggle all professions
+            for _, key in pairs(TF_PROFESSION) do
+                tfTrackingList[key] = not allSelected
             end
         else
             -- toggle the value

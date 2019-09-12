@@ -1,26 +1,41 @@
 local L = LibStub("AceLocale-3.0"):GetLocale("TownsfolkTracker")
 
--- SavedVariablesPerCharacter
-tfTrackingList = {
+TF_DEFAULT_TRACKING = {
     [TF_AMMUNITION] = false,
     [TF_AUCTIONEER] = false,
     [TF_BANKER] = false,
     [TF_BATTLEMASTER] = false,
-    [TF_CLASS_TRAINER] = false,
-    [TF_FLIGHTMASTER] = false,
+    [TF_CLASS_TRAINER] = true,
+    [TF_FLIGHTMASTER] = true,
     [TF_FOOD_DRINK] = false,
     [TF_INNKEEPER] = false,
-    [TF_MAILBOX] = false,
+    [TF_MAILBOX] = true,
     [TF_POISONS] = false,
-    [TF_PROFESSION_TRAINER] = false,
+    [TF_PROFESSION.COOKING] = false,
+    [TF_PROFESSION.FIRST_AID] = false,
+    [TF_PROFESSION.FISHING] = false,
+    [TF_PROFESSION.HERBALISM] = false,
+    [TF_PROFESSION.SKINNING] = false,
+    [TF_PROFESSION.MINING] = false,
+    [TF_PROFESSION.TAILORING] = false,
+    [TF_PROFESSION.LEATHERWORKING] = false,
+    [TF_PROFESSION.BLACKSMITHING] = false,
+    [TF_PROFESSION.ALCHEMY] = false,
+    [TF_PROFESSION.ENGINEERING] = false,
+    [TF_PROFESSION.ENCHANTING] = false,
+    [TF_PROFESSION.WEAPON] = false,
+    [TF_PROFESSION.RIDING] = false,
     [TF_REAGENTS] = false,
     [TF_REPAIR] = false,
-    [TF_STABLE_MASTER] = false,
+    [TF_STABLE_MASTER] = TownsfolkUtil_GetPlayerClass() == TF_CLASS.HUNTER,
     [TF_TRADE_GOODS] = false,
-    [TF_TRANSPORTATION] = false,
+    [TF_TRANSPORTATION] = true,
     [TF_DUNGEON] = true,
     [TF_RAID] = true,
 }
+
+-- SavedVariablesPerCharacter
+tfTrackingList = TownsfolkUtil_CopyTable(TF_DEFAULT_TRACKING)
 
 -- Addon Settings
 TF_SETTINGS_MENU = {
@@ -66,7 +81,7 @@ TF_SETTINGS_MENU = {
             width = "full",
             get = "IsShowMapButton",
             set = "ToggleShowMapButton",
-            disabled = function(info)
+            disabled = function()
                 return not TownsfolkTracker.db.profile.useWorldMap
             end,
             order = 5,
@@ -78,11 +93,18 @@ TF_SETTINGS_MENU = {
             width = "full",
             get = "IsShowInstanceOnWorldMap",
             set = "ToggleShowInstanceOnWorldMap",
-            disabled = function(info)
+            disabled = function()
                 return not TownsfolkTracker.db.profile.useWorldMap
             end,
             order = 6,
         },
+        resetTracking = {
+            type = "execute",
+            name = L["Reset Tracking"],
+            desc = L["Tracking menu bugged after an update? Click here to reset it to the default."],
+            func = "ResetTracking",
+            order = 7,
+        }
     },
 }
 

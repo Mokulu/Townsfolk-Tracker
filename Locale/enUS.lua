@@ -20,6 +20,24 @@ L["Repair"] = true
 L["Stable Master"] = true
 L["Trade Goods"] = true
 L["Transportation"] = true
+-- Professions
+L["Primary Professions"] = true
+L["Secondary Professions"] = true
+L["Other Training"] = true
+L["Alchemy"] = true
+L["Blacksmithing"] = true
+L["Cooking"] = true
+L["Enchanting"] = true
+L["Engineering"] = true
+L["First Aid"] = true
+L["Fishing"] = true
+L["Herbalism"] = true
+L["Leatherworking"] = true
+L["Mining"] = true
+L["Riding"] = true
+L["Skinning"] = true
+L["Tailoring"] = true
+L["Weapon"] = true
 
 L["Wanders this path"] = true
 
@@ -1238,3 +1256,6 @@ L["Show Map Button"] = true
 L["Toggles the display of the map button."] = true
 L["Show Instances On World Map"] = true
 L["Toggles the display of dungeons and raids on the fully zoomed out world map."] = true
+L["Reset Tracking"] = true
+L["Tracking menu bugged after an update? Click here to reset it to the default."] = true
+L["Tracking list reset."] = true

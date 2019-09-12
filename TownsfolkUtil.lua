@@ -85,36 +85,12 @@ function TownsfolkUtil_GetTrainerTitle(trainerType)
         return "Warlock Trainer"
     elseif (trainerType == TF_CLASS.WARRIOR) then
         return "Warrior Trainer"
-    elseif (trainerType == TF_PROFESSION.COOKING) then
-        return "Cooking Trainer"
-    elseif (trainerType == TF_PROFESSION.FIRST_AID) then
-        return "First Aid Trainer"
-    elseif (trainerType == TF_PROFESSION.FISHING) then
-        return "Fishing Trainer"
-    elseif (trainerType == TF_PROFESSION.HERBALISM) then
-        return "Herbalism Trainer"
-    elseif (trainerType == TF_PROFESSION.SKINNING) then
-        return "Skinning Trainer"
-    elseif (trainerType == TF_PROFESSION.MINING) then
-        return "Mining Trainer"
-    elseif (trainerType == TF_PROFESSION.TAILORING) then
-        return "Tailoring Trainer"
-    elseif (trainerType == TF_PROFESSION.LEATHERWORKING) then
-        return "Leatherworking Trainer"
-    elseif (trainerType == TF_PROFESSION.BLACKSMITHING) then
-        return "Blacksmithing Trainer"
-    elseif (trainerType == TF_PROFESSION.ALCHEMY) then
-        return "Alchemy Trainer"
-    elseif (trainerType == TF_PROFESSION.ENGINEERING) then
-        return "Engineering Trainer"
-    elseif (trainerType == TF_PROFESSION.ENCHANTING) then
-        return "Enchanting Trainer"
     elseif (trainerType == TF_PROFESSION.WEAPON) then
         return "Weapon Master"
     elseif (trainerType == TF_PROFESSION.RIDING) then
         return "Riding Instructor"
     else
-        return ""
+        return trainerType.." Trainer"
     end
 end
 
@@ -135,7 +111,7 @@ function TownsfolkUtil_GetTrainerTag(trainerType, expertise, branch)
     elseif (trainerType == TF_PROFESSION.ENCHANTING) then
         profession = "Enchanter"
     else
-        return ""
+        profession = trainerType
     end
 
     if (branch == TF_PROFESSION_BRANCH.ARMORSMITH or branch == TF_PROFESSION_BRANCH.WEAPONSMITH) then
@@ -147,4 +123,27 @@ function TownsfolkUtil_GetTrainerTag(trainerType, expertise, branch)
     else
         return expertise.." "..profession
     end
+end
+
+function TownsfolkUtil_MenuLabel(label)
+    local info = UIDropDownMenu_CreateInfo()
+    info.text, info.notCheckable, info.isTitle = label, true, true
+    return info
+end
+
+function TownsfolkUtil_ContainsValue(table, value)
+    for _, val in pairs(table) do
+        if (val == value) then
+            return true
+        end
+    end
+    return false
+end
+
+function TownsfolkUtil_CopyTable(table)
+    local newTable = {}
+    for key, val in pairs(table) do
+        newTable[key] = val
+    end
+    return newTable
 end
