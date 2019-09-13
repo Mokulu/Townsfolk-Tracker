@@ -28,4 +28,5 @@ TF_FLIGHTMASTERS = {
     { zone = TF_ZONE.FERALAS, x = 0.7545, y = 0.4436, name = "Shyn", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.TANARIS, x = 0.5161, y = 0.2545, name = "Bulkrek Ragefist", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.TANARIS, x = 0.5101, y = 0.2935, name = "Bera Stonehammer", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.WESTFALL, x = 0.5655, y = 0.5264, name = "Thor", faction = TF_FACTION.ALLIANCE },
 }

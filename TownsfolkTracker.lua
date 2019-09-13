@@ -647,3 +647,13 @@ function TownsfolkTracker:RegisterMapButton()
 
     self:ShowMapButton()
 end
+
+function TownsfolkTracker:DebugLocale()
+    for _, townsfolk in pairs (TOWNSFOLK) do
+        for _, point in pairs(townsfolk.points) do
+            local x
+            if (point.name) then x = L[point.name] end
+            if (point.tag) then x = L[point.tag] end
+        end
+    end
+end

@@ -5,11 +5,12 @@ TF_MAILBOXES = {
     { zone = TF_ZONE.IRONFORGE, x = 0.7132, y = 0.7217, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.IRONFORGE, x = 0.7229, y = 0.491, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.LOCH_MODAN, x = 0.3482, y = 0.4773, faction = TF_FACTION.ALLIANCE },
-    { zone = TF_ZONE.ELWYNN_FOREST, x = 0.429, y = 0.656, faction = TF_FACTION.ALLIANCE }, --
+    { zone = TF_ZONE.ELWYNN_FOREST, x = 0.4292, y = 0.6551, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.3995, y = 0.8443, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.2212, y = 0.5786, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.7091, y = 0.4001, faction = TF_FACTION.ALLIANCE },
-    { zone = TF_ZONE.WESTFALL, x = 0.531, y = 0.533, faction = TF_FACTION.ALLIANCE }, --
+    { zone = TF_ZONE.STORMWIND_CITY, x = 0.5424, y = 0.6673, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.WESTFALL, x = 0.531, y = 0.5334, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSKWOOD, x = 0.738, y = 0.462, faction = TF_FACTION.ALLIANCE }, --
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.266, y = 0.464, faction = TF_FACTION.ALLIANCE }, --
     { zone = TF_ZONE.DUROTAR, x = 0.5191, y = 0.4216, faction = TF_FACTION.HORDE },
