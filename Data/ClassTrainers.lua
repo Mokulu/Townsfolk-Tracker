@@ -203,4 +203,5 @@ TF_CLASS_TRAINERS = {
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.3822, y = 0.8185, name = "Maginor Dumas", class = TF_CLASS.MAGE, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.3861, y = 0.7930, name = "Jennea Cannon", class = TF_CLASS.MAGE, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.3969, y = 0.7955, name = "Larimaine Purdue", class = TF_CLASS.MAGE, tag = "Portal Trainer", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.FERALAS, x = 0.7599, y = 0.4229, name = "Jannos Lighthoof", class = TF_CLASS.DRUID, faction = TF_FACTION.HORDE },
 }

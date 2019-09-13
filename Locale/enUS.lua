@@ -150,6 +150,7 @@ L["Cloth & Leather Armor Merchant"] = true
 L["Leather Armor Merchant"] = true
 L["Leather & Mail Armor Merchant"] = true
 L["Mail Armor Merchant"] = true
+L["Superior Armor Crafter"] = true
 L["Heavy Armor Merchant"] = true
 L["Metalsmith"] = true
 L["Cobbler"] = true
@@ -193,6 +194,7 @@ L["Cooking Supplier"] = true
 L["Cook"] = true
 L["Master of Cooking Recipes"] = true
 L["Freewheeling Tradeswoman"] = true
+L["Ice Cream Vendor"] = true
 L["Blade Merchant"] = true
 L["Axe Merchant"] = true
 L["Superior Axecrafter"] = true
@@ -294,6 +296,8 @@ L["Aldia"] = true
 L["Jeena Featherbow"] = true
 L["Lyrai"] = true
 L["Jawn Highmesa"] = true
+L["Synge"] = true
+L["Jabbey"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -321,6 +325,7 @@ L["Auctioneer Gullem"] = true
 L["Auctioneer Fitch"] = true
 L["Auctioneer Chilton"] = true
 L["Auctioneer Jaxon"] = true
+L["Auctioneer Beardo"] = true
 
 -- Battlegrounds
 L["Alterac Valley"] = true
@@ -374,6 +379,8 @@ L["Atepa"] = true
 L["Torn"] = true
 L["Chesmu"] = true
 L["Izzy Coppergrab"] = true
+L["Gimblethorn"] = true
+L["Qizzik"] = true
 
 -- Food & Drink
 L["Barkeep Morag"] = true
@@ -412,6 +419,12 @@ L["Thomas Miller"] = true
 L["Uthok"] = true
 L["Nargatt"] = true
 L["Turhaw"] = true
+L["Laer Stepperunner"] = true
+L["Loorana"] = true
+L["Riznek"] = true
+L["Brivelthwerp"] = true
+L["Dirge Quikcleave"] = true
+L["Gikkix"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -439,6 +452,9 @@ L["Gorrik"] = true
 L["Dungar Longdrink"] = true
 L["Thysta"] = true
 L["Nyse"] = true
+L["Shyn"] = true
+L["Bulkrek Ragefist"] = true
+L["Bera Stonehammer"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -465,6 +481,8 @@ L["Innkeeper Shul'kar"] = true
 L["Innkeeper Keldamyr"] = true
 L["Innkeeper Thulbek"] = true
 L["Innkeeper Abeqwa"] = true
+L["Innkeeper Greul"] = true
+L["Innkeeper Fizzgrimble"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -606,6 +624,13 @@ L["Catherine Leland"] = true
 L["Nerrist"] = true
 L["Montarr"] = true
 L["Jandia"] = true
+L["Tarhus"] = true
+L["Bronk"] = true
+L["Sheendra Tallgrass"] = true
+L["Jangdor Swiftstrider"] = true
+L["Jinky Twizzlefixxit"] = true
+L["Alchemist Pestlezugg"] = true
+L["Vizzklick"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -779,6 +804,11 @@ L["Vharr"] = true
 L["Krakk"] = true
 L["Jaquilina Dramet"] = true
 L["Starn"] = true
+L["Worb Strongstitch"] = true
+L["Cawind Trueaim"] = true
+L["Blizrik Buckshot"] = true
+L["Wrinkle Goodsteel"] = true
+L["Krinkle Goodsteel"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -807,6 +837,14 @@ L["Jenova Stoneshield"] = true
 L["Sylista"] = true
 L["Durik"] = true
 L["Awenasa"] = true
+L["Ruw"] = true
+L["Hahrana Ironhide"] = true
+L["Kulleg Stonehorn"] = true
+L["Pikkle"] = true
+L["Buzzek Bracketswing"] = true
+L["Nixx Sprocketspring"] = true
+L["Shyrka Wolfrunner"] = true
+L["Laziphus"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -1205,6 +1243,7 @@ L["Kragg"] = true
 L["Mudduk"] = true
 L["Angrun"] = true
 L["Brawn"] = true
+L["Jannos Lighthoof"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

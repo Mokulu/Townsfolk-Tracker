@@ -18,4 +18,5 @@ TF_REAGENT_VENDORS = {
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5610, y = 0.6534, name = "Kyra Boucher", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5572, y = 0.6540, name = "Keldric Boucher", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4515, y = 0.5079, name = "Montarr", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.FERALAS, x = 0.7464, y = 0.4491, name = "Tarhus", faction = TF_FACTION.HORDE },
 }

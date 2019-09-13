@@ -114,4 +114,11 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.4325, y = 0.7407, name = "Alexandra Bolero", tag = "Tailoring Supplies", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.4577, y = 0.5856, name = "Catherine Leland", tag = "Fishing Supplier", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4620, y = 0.5150, name = "Jandia", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.7768, y = 0.7790, name = "Jinky Twizzlefixxit", tag = "Engineering Supplies" },
+    { zone = TF_ZONE.FERALAS, x = 0.7606, y = 0.4328, name = "Bronk", tag = "Alchemy Supplies", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.FERALAS, x = 0.7449, y = 0.4273, name = "Sheendra Tallgrass", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.FERALAS, x = 0.7443, y = 0.4291, name = "Jangdor Swiftstrider", tag = "Leatherworking Supplies", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.TANARIS, x = 0.5089, y = 0.2697, name = "Alchemist Pestlezugg", tag = "Alchemy Supplies" },
+    { zone = TF_ZONE.TANARIS, x = 0.5102, y = 0.2736, name = "Vizzklick", tag = "Tailoring Supplies" },
+    { zone = TF_ZONE.TANARIS, x = 0.5147, y = 0.2881, name = "Krinkle Goodsteel", tag = "Blacksmithing Supplies" },
 }

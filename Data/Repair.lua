@@ -193,4 +193,11 @@ TF_REPAIR_VENDORS = {
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5738, y = 0.5677, name = "Marda Weller", tag = "Weapon Merchant", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5463, y = 0.1566, name = "Thulman Flintcrag", tag = "Guns Vendor", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4489, y = 0.5068, name = "Starn", tag = "Bowyer & Gunsmith", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.8040, y = 0.7700, name = "Synge", tag = "Gun Merchant" },
+    { zone = TF_ZONE.FERALAS, x = 0.7471, y = 0.4259, name = "Worb Strongstitch", tag = "Light Armor Merchant", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.FERALAS, x = 0.7494, y = 0.4571, name = "Cawind Trueaim", tag = "Bowyer & Gunsmith", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.TANARIS, x = 0.5074, y = 0.2753, name = "Blizrik Buckshot", tag = "Gunsmith" },
+    { zone = TF_ZONE.TANARIS, x = 0.5079, y = 0.2771, name = "Wrinkle Goodsteel", tag = "Superior Armor Crafter" },
+    { zone = TF_ZONE.TANARIS, x = 0.5147, y = 0.2881, name = "Krinkle Goodsteel", tag = "Blacksmithing Supplies" },
+
 }

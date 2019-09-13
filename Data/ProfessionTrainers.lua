@@ -193,4 +193,10 @@ TF_PROFESSION_TRAINERS = {
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.4316, y = 0.7355, name = "Georgio Bolero", profession = TF_PROFESSION.TAILORING, level = TF_TRAINING_LEVEL.ARTISAN, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5714, y = 0.5771, name = "Woo Ping", profession = TF_PROFESSION.WEAPON, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.4564, y = 0.5842, name = "Arnold Leland", profession = TF_PROFESSION.FISHING, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.FERALAS, x = 0.7598, y = 0.4333, name = "Ruw", profession = TF_PROFESSION.HERBALISM, faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.FERALAS, x = 0.7436, y = 0.4311, name = "Hahrana Ironhide", profession = TF_PROFESSION.LEATHERWORKING, level = TF_TRAINING_LEVEL.MASTER, faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.FERALAS, x = 0.7447, y = 0.4304, name = "Kulleg Stonehorn", profession = TF_PROFESSION.SKINNING, faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.TANARIS, x = 0.5108, y = 0.2810, name = "Pikkle", profession = TF_PROFESSION.MINING },
+    { zone = TF_ZONE.TANARIS, x = 0.5234, y = 0.2772, name = "Buzzek Bracketswing", profession = TF_PROFESSION.ENGINEERING, level = TF_TRAINING_LEVEL.MASTER },
+    { zone = TF_ZONE.TANARIS, x = 0.5247, y = 0.2732, name = "Nixx Sprocketspring", profession = TF_PROFESSION.ENGINEERING, branch = TF_PROFESSION_BRANCH.GOBLIN, level = TF_TRAINING_LEVEL.MASTER },
 }

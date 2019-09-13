@@ -68,4 +68,11 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5813, y = 0.6536, name = "Thomas Miller", tag = "Baker", wanders = true, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4544, y = 0.5116, name = "Turhaw", tag = "Butcher", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4607, y = 0.5152, name = "Innkeeper Abeqwa", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.2106, y = 0.3187, name = "Laer Stepperunner", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.8005, y = 0.7627, name = "Riznek", tag = "Drink Vendor", wanders = true },
+    { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.7732, y = 0.7701, name = "Brivelthwerp", tag = "Ice Cream Vendor" },
+    { zone = TF_ZONE.FERALAS, x = 0.7550, y = 0.4388, name = "Loorana", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.FERALAS, x = 0.7480, y = 0.4518, name = "Innkeeper Greul", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.TANARIS, x = 0.5263, y = 0.2811, name = "Dirge Quikcleave", tag = "Butcher" },
+    { zone = TF_ZONE.TANARIS, x = 0.6664, y = 0.2208, name = "Gikkix", tag = "Fisherman" },
 }

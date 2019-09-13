@@ -61,4 +61,6 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5463, y = 0.1566, name = "Thulman Flintcrag", tag = "Guns Vendor", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4489, y = 0.5068, name = "Starn", tag = "Bowyer & Gunsmith", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4591, y = 0.5148, name = "Jawn Highmesa", tag = "General Goods", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.8040, y = 0.7700, name = "Synge", tag = "Gun Merchant" },
+    { zone = TF_ZONE.TANARIS, x = 0.6701, y = 0.2199, name = "Jabbey", tag = "General Goods" },
 }

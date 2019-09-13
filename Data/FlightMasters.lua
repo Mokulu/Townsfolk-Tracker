@@ -25,4 +25,7 @@ TF_FLIGHTMASTERS = {
     { zone = TF_ZONE.BADLANDS, x = 0.0399, y = 0.4478, name = "Gorrik", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.6628, y = 0.6212, name = "Dungar Longdrink", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4514, y = 0.4911, name = "Nyse", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.FERALAS, x = 0.7545, y = 0.4436, name = "Shyn", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.TANARIS, x = 0.5161, y = 0.2545, name = "Bulkrek Ragefist", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.TANARIS, x = 0.5101, y = 0.2935, name = "Bera Stonehammer", faction = TF_FACTION.ALLIANCE },
 }

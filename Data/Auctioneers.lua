@@ -24,4 +24,5 @@ TF_AUCTIONEERS = {
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5364, y = 0.6054, name = "Auctioneer Fitch", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5320, y = 0.6084, name = "Auctioneer Chilton", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.5361, y = 0.5976, name = "Auctioneer Jaxon", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.TANARIS, x = 0.5196, y = 0.2966, name = "Auctioneer Beardo" },
 }
