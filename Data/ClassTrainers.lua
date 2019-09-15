@@ -147,6 +147,7 @@ TF_CLASS_TRAINERS = {
     { zone = TF_ZONE.DARNASSUS, x = 0.4220, y = 0.0727, name = "Dorion", class = TF_CLASS.HUNTER, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.4248, y = 0.0916, name = "Silvaria", class = TF_CLASS.HUNTER, tag = "Pet Trainer", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARNASSUS, x = 0.3972, y = 0.0539, name = "Jeen'ra Nightrunner", class = TF_CLASS.HUNTER, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DARNASSUS, x = 0.6177, y = 0.4223, name = "Sildanair", class = TF_CLASS.WARRIOR, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.MULGORE, x = 0.4951, y = 0.6059, name = "Krang Stonehoof", class = TF_CLASS.WARRIOR, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.MULGORE, x = 0.4848, y = 0.5965, name = "Gennia Runetotem", class = TF_CLASS.DRUID, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.MULGORE, x = 0.4838, y = 0.5915, name = "Narm Skychaser", class = TF_CLASS.SHAMAN, faction = TF_FACTION.HORDE },

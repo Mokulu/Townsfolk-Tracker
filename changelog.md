@@ -1,8 +1,5 @@
-### v1.0.2 (Sept. 13, 2019)
-* Added Thousand Needles NPCs
-* Added Camp Mojache, Feralas NPCs
-* Added Tanaris NPCs
-* Added Elwynn Forest NPCs
-* Added Westfall NPCs
-* Added a few missing Stormwind NPCs
-* Minor locale fixes
+### v1.0.3 (Sept. 15, 2019)
+* Added Darkshore NPCs
+* Minor NPC fixes in Stormwind and Darnassus
+
+[See past changes here.](https://bitbucket.org/jsiebert9/townsfolk-tracker/src/master/changehistory.md)

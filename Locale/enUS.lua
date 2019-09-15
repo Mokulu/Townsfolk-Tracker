@@ -158,6 +158,7 @@ L["Superior Weaponsmith"] = true
 L["Master Weaponsmith"] = true
 L["Weaponsmith & Armorcrafter"] = true
 L["Armorer & Shieldcrafter"] = true
+L["Armorer & Shieldsmith"] = true
 L["Weapon Merchant"] = true
 L["Blade Merchant"] = true
 L["Sword and Dagger Merchant"] = true
@@ -311,6 +312,7 @@ L["William MacGregor"] = true
 L["Quartermaster Lewis"] = true
 L["Brog Hamfist"] = true
 L["Drake Lindgren"] = true
+L["Dalmond"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -448,6 +450,11 @@ L["Joshua Maclure"] = true
 L["Homer Stonefield"] = true
 L["Sergeant De Vries"] = true
 L["Brother Danil"] = true
+L["Kyndri"] = true
+L["Taldan"] = true
+L["Allyndia"] = true
+L["Tiyani"] = true
+L["Heldan Galesong"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -480,6 +487,7 @@ L["Shyn"] = true
 L["Bulkrek Ragefist"] = true
 L["Bera Stonehammer"] = true
 L["Thor"] = true
+L["Caylais Moonfeather"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -510,6 +518,7 @@ L["Innkeeper Greul"] = true
 L["Innkeeper Fizzgrimble"] = true
 L["Innkeeper Heather"] = true
 L["Innkeeper Farley"] = true
+L["Innkeeper Shaussiy"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -667,6 +676,10 @@ L["Dawn Brightstar"] = true
 L["Tharynn Bouden"] = true
 L["Terry Palin"] = true
 L["Antonio Perelli"] = true
+L["Valdaron"] = true
+L["Gorbold Steelhand"] = true
+L["Thelgrum Stonehammer"] = true
+L["Ullanna"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -857,6 +870,11 @@ L["Dermot Johns"] = true
 L["Godric Rothgar"] = true
 L["Morley Eberlein"] = true
 L["Rallic Finn"] = true
+L["Harlon Thornguard"] = true
+L["Mavralyn"] = true
+L["Naram Longclaw"] = true
+L["Shaldyn"] = true
+L["Elisa Steelhand"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -895,6 +913,7 @@ L["Shyrka Wolfrunner"] = true
 L["Laziphus"] = true
 L["Kirk Maxwell"] = true
 L["Erma"] = true
+L["Jaelysia"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -1318,6 +1337,11 @@ L["Randal Hunter"] = true
 L["Lee Brown"] = true
 L["Adele Fielder"] = true
 L["Helene Peltskinner"] = true
+L["Sildanair"] = true
+L["Grondal Moonbreeze"] = true
+L["Delfrum Flintbeard"] = true
+L["Kurdram Stonehammer"] = true
+L["Jenna Lemkenilli"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true
