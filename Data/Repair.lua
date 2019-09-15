@@ -114,6 +114,7 @@ TF_REPAIR_VENDORS = {
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3236, y = 0.2795, name = "Vharr", tag = "Superior Weaponsmith", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3257, y = 0.2795, name = "Krakk", tag = "Superior Armorer", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3575, y = 0.1066, name = "Jaquilina Dramet", tag = "Superior Axecrafter" },
+    { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2746, y = 0.7755, name = "Jutak", tag = "Blade Trader" },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5589, y = 0.5920, name = "Jeena Featherbow", tag = "Bowyer", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5629, y = 0.5938, name = "Meri Ironweave", tag = "Armorer & Shieldcrafter", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5631, y = 0.5949, name = "Shalomon", tag = "Weaponsmith", faction = TF_FACTION.ALLIANCE },

@@ -2,6 +2,6 @@
 * Added Darkshore NPCs
 * Added Redridge Mountains NPCs
 * Added Duskwood NPCs
-* Minor NPC fixes in Stormwind and Darnassus
+* Minor NPC fixes in Stormwind, Darnassus, and Booty Bay
 
 [See past changes here.](https://bitbucket.org/jsiebert9/townsfolk-tracker/src/master/changehistory.md)

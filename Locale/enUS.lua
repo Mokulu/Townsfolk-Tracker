@@ -162,6 +162,7 @@ L["Armorer & Shieldsmith"] = true
 L["Shield Crafter"] = true
 L["Weapon Merchant"] = true
 L["Blade Merchant"] = true
+L["Blade Trader"] = true
 L["Sword and Dagger Merchant"] = true
 L["Two-Handed Weapons Merchant"] = true
 L["Thrown Weapons Merchant"] = true
@@ -918,6 +919,7 @@ L["Henry Chapal"] = true
 L["Bernard Brubaker"] = true
 L["Gavin Gnarltree"] = true
 L["Morg Gnarltree"] = true
+L["Jutak"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
