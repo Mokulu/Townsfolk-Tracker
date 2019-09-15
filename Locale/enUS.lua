@@ -178,6 +178,7 @@ L["Tailoring & Leatherworking Supplies"] = true
 L["Specialty Tailoring Supplies"] = true
 L["Specialist Leatherworking Supplies"] = true
 L["Engineering Supplies"] = true
+L["Engineering and Mining Supplies"] = true
 L["Engineering Goods"] = true
 L["Blacksmithing Supplier"] = true
 L["Blacksmithing Supplies"] = true
@@ -215,6 +216,7 @@ L["Armorer"] = true
 L["Apprentice Armorer"] = true
 L["Superior Armorer"] = true
 L["Shield Merchant"] = true
+L["Mushroom Seller"] = true
 L["Butcher"] = true
 L["Superior Butcher"] = true
 L["Smokywood Pastures"] = true
@@ -249,6 +251,7 @@ L["Raptor"] = true
 L["Ram"] = true
 L["Mechanostrider"] = true
 L["Nightsaber"] = true
+L["Rare Goods"] = true
 
 -- Ammunition
 L["Nadia Vernon"] = true
@@ -317,6 +320,7 @@ L["Brog Hamfist"] = true
 L["Drake Lindgren"] = true
 L["Dalmond"] = true
 L["Kimberly Hiett"] = true
+L["Avette Fellwood"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -465,6 +469,9 @@ L["Lamar Veisilli"] = true
 L["Lindsay Ashlock"] = true
 L["Bartender Wental"] = true
 L["Sherman Femmel"] = true
+L["Scott Carevin"] = true
+L["Mabel Solaj"] = true
+L["Barkeep Hann"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -499,6 +506,7 @@ L["Bera Stonehammer"] = true
 L["Thor"] = true
 L["Caylais Moonfeather"] = true
 L["Ariena Stormfeather"] = true
+L["Felicia Maline"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -531,6 +539,7 @@ L["Innkeeper Heather"] = true
 L["Innkeeper Farley"] = true
 L["Innkeeper Shaussiy"] = true
 L["Innkeeper Brianna"] = true
+L["Innkeeper Trelayne"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -544,6 +553,7 @@ L["Jasper Fel"] = true
 L["Sloan McCoy"] = true
 L["Sly Garrett"] = true
 L["Gerald Crawley"] = true
+L["Malissa"] = true
 
 -- Reagents
 L["Ronald Burch"] = true
@@ -699,6 +709,14 @@ L["Gloria Femmel"] = true
 L["Franklin Hamar"] = true
 L["Clyde Ranthal"] = true
 L["Captured Servant of Azora"] = true
+L["Alyssa Eva"] = true
+L["Lohgan Eva"] = true
+L["Sheri Zipstitch"] = true
+L["Danielle Zipstitch"] = true
+L["Herble Baubbletump"] = true
+L["Gunder Thornbush"] = true
+L["Bliztik"] = true
+L["Kzixx"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -898,6 +916,8 @@ L["Dorin Songblade"] = true
 L["Kara Adams"] = true
 L["Henry Chapal"] = true
 L["Bernard Brubaker"] = true
+L["Gavin Gnarltree"] = true
+L["Morg Gnarltree"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -938,6 +958,7 @@ L["Kirk Maxwell"] = true
 L["Erma"] = true
 L["Jaelysia"] = true
 L["Penny"] = true
+L["Steven Black"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -1370,6 +1391,9 @@ L["Matthew Hooper"] = true
 L["Crystal Boughman"] = true
 L["Alma Jainrose"] = true
 L["Wilma Ranthal"] = true
+L["Finbus Geargrind"] = true
+L["Clarise Gnarltree"] = true
+L["Matt Johnson"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

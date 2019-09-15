@@ -31,4 +31,5 @@ TF_FLIGHTMASTERS = {
     { zone = TF_ZONE.TANARIS, x = 0.5101, y = 0.2935, name = "Bera Stonehammer", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WESTFALL, x = 0.5655, y = 0.5264, name = "Thor", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.3059, y = 0.5941, name = "Ariena Stormfeather", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7749, y = 0.4429, name = "Felicia Maline", faction = TF_FACTION.ALLIANCE },
 }

@@ -100,4 +100,8 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2700, y = 0.4483, name = "Innkeeper Brianna", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2671, y = 0.4392, name = "Bartender Wental", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2673, y = 0.4324, name = "Sherman Femmel", tag = "Butcher", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7582, y = 0.4870, name = "Scott Carevin", tag = "Mushroom Seller", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7371, y = 0.4529, name = "Mabel Solaj", tag = "General Goods Vendor", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7388, y = 0.4441, name = "Innkeeper Trelayne", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7382, y = 0.4404, name = "Barkeep Hann", tag = "Bartender", faction = TF_FACTION.ALLIANCE },
 }

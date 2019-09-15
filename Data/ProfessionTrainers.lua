@@ -216,4 +216,7 @@ TF_PROFESSION_TRAINERS = {
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2277, y = 0.4352, name = "Crystal Boughman", profession = TF_PROFESSION.COOKING, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2133, y = 0.4553, name = "Alma Jainrose", profession = TF_PROFESSION.HERBALISM, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.8884, y = 0.7130, name = "Wilma Ranthal", profession = TF_PROFESSION.SKINNING, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7739, y = 0.4872, name = "Finbus Geargrind", profession = TF_PROFESSION.ENGINEERING, level = TF_TRAINING_LEVEL.EXPERT, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7400, y = 0.4854, name = "Clarise Gnarltree", profession = TF_PROFESSION.BLACKSMITHING, level = TF_TRAINING_LEVEL.EXPERT, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7405, y = 0.4962, name = "Matt Johnson", profession = TF_PROFESSION.MINING, faction = TF_FACTION.ALLIANCE },
 }

@@ -222,4 +222,7 @@ TF_REPAIR_VENDORS = {
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2383, y = 0.4134, name = "Henry Chapal", tag = "Gunsmith", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2708, y = 0.4556, name = "Kimberly Hiett", tag = "Fletcher", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.8826, y = 0.7103, name = "Bernard Brubaker", tag = "Leather Armor Merchant", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7362, y = 0.4890, name = "Gavin Gnarltree", tag = "Weaponsmith", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7382, y = 0.4874, name = "Morg Gnarltree", tag = "Armorer", wanders = true, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7316, y = 0.4469, name = "Avette Fellwood", tag = "Bowyer", faction = TF_FACTION.ALLIANCE },
 }

@@ -141,4 +141,11 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2716, y = 0.4555, name = "Franklin Hamar", tag = "Tailoring Supplies", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.8901, y = 0.7087, name = "Clyde Ranthal", tag = "Leatherworking Supplies", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.7447, y = 0.7952, name = "Captured Servant of Azora", tag = "Tailoring Supplies" },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7574, y = 0.4455, name = "Lohgan Eva", tag = "Tailoring Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7568, y = 0.4556, name = "Sheri Zipstitch", tag = "Tailoring Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7587, y = 0.4556, name = "Danielle Zipstitch", tag = "Tailoring Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7799, y = 0.4834, name = "Herble Baubbletump", tag = "Engineering and Mining Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.7382, y = 0.4510, name = "Gunder Thornbush", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.1804, y = 0.5436, name = "Bliztik", tag = "Alchemy Supplies" },
+    { zone = TF_ZONE.DUSKWOOD, x = 0.8182, y = 0.1976, name = "Kzixx", tag = "Rare Goods" },
 }
