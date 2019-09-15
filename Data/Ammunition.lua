@@ -40,6 +40,7 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.MOONGLADE, x = 0.5335, y = 0.4270, name = "Narianna", tag = "Bowyer" },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2830, y = 0.7456, name = "Haren Kanmae", tag = "Superior Bowyer" },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3155, y = 0.2795, name = "Uthok", tag = "General Supplies", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3796, y = 0.0299, name = "Corporal Bluth", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5551, y = 0.5714, name = "Aldia", tag = "General Goods", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5589, y = 0.5920, name = "Jeena Featherbow", tag = "Bowyer", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5952, y = 0.4091, name = "Lyrai", tag = "General Supplies", faction = TF_FACTION.ALLIANCE },

@@ -96,6 +96,7 @@ L["Expert Leatherworker"] = true
 L["Artisan Leatherworker"] = true
 L["Master Leatherworker"] = true
 L["Master Dragonscale Leatherworker"] = true
+L["Master Tribal Leatherworker"] = true
 L["Apprentice Blacksmith"] = true
 L["Journeyman Blacksmith"] = true
 L["Expert Blacksmith"] = true
@@ -322,6 +323,7 @@ L["Drake Lindgren"] = true
 L["Dalmond"] = true
 L["Kimberly Hiett"] = true
 L["Avette Fellwood"] = true
+L["Corporal Bluth"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -340,6 +342,7 @@ L["Auctioneer Redmuse"] = true
 L["Auctioneer Buckler"] = true
 L["Auctioneer O'reely"] = true
 L["Auctioneer Kresky"] = true
+L["Auctioneer Graves"] = true
 L["Auctioneer Golothas"] = true
 L["Auctioneer Tolon"] = true
 L["Auctioneer Cazarez"] = true
@@ -718,6 +721,9 @@ L["Herble Baubbletump"] = true
 L["Gunder Thornbush"] = true
 L["Bliztik"] = true
 L["Kzixx"] = true
+L["Knaz Blunderflame"] = true
+L["Gnaz Blunderflame"] = true
+L["Cowardly Crosby"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -920,6 +926,7 @@ L["Bernard Brubaker"] = true
 L["Gavin Gnarltree"] = true
 L["Morg Gnarltree"] = true
 L["Jutak"] = true
+L["Masat T'andr"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -1396,6 +1403,7 @@ L["Wilma Ranthal"] = true
 L["Finbus Geargrind"] = true
 L["Clarise Gnarltree"] = true
 L["Matt Johnson"] = true
+L["Se'Jib"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

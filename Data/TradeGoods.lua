@@ -73,6 +73,9 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2907, y = 0.7548, name = "Jansen Underwood", tag = "Blacksmithing Supplies" },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2897, y = 0.7506, name = "Hurklor", tag = "Blacksmithing Supplies" },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2742, y = 0.7716, name = "Old Man Heming", tag = "Fisherman" },
+    { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.5105, y = 0.3523, name = "Knaz Blunderflame", tag = "Engineering Supplies" },
+    { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.5097, y = 0.3520, name = "Gnaz Blunderflame", tag = "Engineering Supplies" },
+    { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2701, y = 0.8248, name = "Cowardly Crosby", tag = "Tailoring Supplies" },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3270, y = 0.2923, name = "Nerrist", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5625, y = 0.9244, name = "Nessa Shadowsong", tag = "Fishing Supplies", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5527, y = 0.5715, name = "Narret Shadowgrove", faction = TF_FACTION.ALLIANCE },
@@ -148,4 +151,5 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = TF_ZONE.DUSKWOOD, x = 0.7382, y = 0.4510, name = "Gunder Thornbush", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSKWOOD, x = 0.1804, y = 0.5436, name = "Bliztik", tag = "Alchemy Supplies" },
     { zone = TF_ZONE.DUSKWOOD, x = 0.8182, y = 0.1976, name = "Kzixx", tag = "Rare Goods" },
+    { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.2646, y = 0.3148, name = "Masat T'andr", tag = "Leatherworking Supplies" },
 }
