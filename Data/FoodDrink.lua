@@ -93,4 +93,11 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = TF_ZONE.WESTFALL, x = 0.5700, y = 0.4717, name = "Quartermaster Lewis", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WESTFALL, x = 0.5604, y = 0.3123, name = "Farmer Saldean", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WESTFALL, x = 0.3623, y = 0.9018, name = "Kriggon Talsone", tag = "Fisherman", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2749, y = 0.4783, name = "Vernon Hale", tag = "Fishing Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2284, y = 0.4423, name = "Gretchen Vogel", tag = "Waitress", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2107, y = 0.4626, name = "Lamar Veisilli", tag = "Fruit Seller", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2877, y = 0.4733, name = "Lindsay Ashlock", tag = "General Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2700, y = 0.4483, name = "Innkeeper Brianna", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2671, y = 0.4392, name = "Bartender Wental", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2673, y = 0.4324, name = "Sherman Femmel", tag = "Butcher", faction = TF_FACTION.ALLIANCE },
 }

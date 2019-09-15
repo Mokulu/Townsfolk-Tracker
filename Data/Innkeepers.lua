@@ -29,4 +29,5 @@ TF_INNKEEPERS = {
     { zone = TF_ZONE.FERALAS, x = 0.7480, y = 0.4518, name = "Innkeeper Greul", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.TANARIS, x = 0.5250, y = 0.2792, name = "Innkeeper Fizzgrimble" },
     { zone = TF_ZONE.WESTFALL, x = 0.5286, y = 0.5371, name = "Innkeeper Heather", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2700, y = 0.4483, name = "Innkeeper Brianna", faction = TF_FACTION.ALLIANCE },
 }

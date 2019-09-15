@@ -71,4 +71,6 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.TANARIS, x = 0.6701, y = 0.2199, name = "Jabbey", tag = "General Goods" },
     { zone = TF_ZONE.WESTFALL, x = 0.5771, y = 0.5393, name = "William MacGregor", tag = "Bowyer", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WESTFALL, x = 0.5700, y = 0.4717, name = "Quartermaster Lewis", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2877, y = 0.4733, name = "Lindsay Ashlock", tag = "General Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2708, y = 0.4556, name = "Kimberly Hiett", tag = "Fletcher", faction = TF_FACTION.ALLIANCE },
 }

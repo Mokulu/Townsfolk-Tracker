@@ -217,4 +217,9 @@ TF_REPAIR_VENDORS = {
     { zone = TF_ZONE.TANARIS, x = 0.5147, y = 0.2881, name = "Krinkle Goodsteel", tag = "Blacksmithing Supplies" },
     { zone = TF_ZONE.WESTFALL, x = 0.5771, y = 0.5393, name = "William MacGregor", tag = "Bowyer", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WESTFALL, x = 0.4348, y = 0.6677, name = "Defias Profiteer", tag = "Free Wheeling Merchant" },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.3083, y = 0.4645, name = "Dorin Songblade", tag = "Armorer", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.3057, y = 0.4647, name = "Kara Adams", tag = "Shield Crafter", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2383, y = 0.4134, name = "Henry Chapal", tag = "Gunsmith", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2708, y = 0.4556, name = "Kimberly Hiett", tag = "Fletcher", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.8826, y = 0.7103, name = "Bernard Brubaker", tag = "Leather Armor Merchant", faction = TF_FACTION.ALLIANCE },
 }

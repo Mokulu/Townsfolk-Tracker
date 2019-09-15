@@ -30,4 +30,5 @@ TF_STABLE_MASTERS = {
     { zone = TF_ZONE.FERALAS, x = 0.7449, y = 0.4327, name = "Shyrka Wolfrunner", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.TANARIS, x = 0.5225, y = 0.2800, name = "Laziphus" },
     { zone = TF_ZONE.WESTFALL, x = 0.5294, y = 0.5307, name = "Kirk Maxwell", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2681, y = 0.4656, name = "Penny", faction = TF_FACTION.ALLIANCE },
 }

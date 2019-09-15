@@ -134,4 +134,11 @@ TF_TRADE_GOOD_VENDORS = {
     { zone = TF_ZONE.TANARIS, x = 0.5147, y = 0.2881, name = "Krinkle Goodsteel", tag = "Blacksmithing Supplies" },
     { zone = TF_ZONE.WESTFALL, x = 0.5764, y = 0.5406, name = "Gina MacGregor", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WESTFALL, x = 0.5223, y = 0.5283, name = "Christopher Hewen", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2990, y = 0.4736, name = "Karen Taylor", tag = "Mining and Smithing Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2749, y = 0.4783, name = "Vernon Hale", tag = "Fishing Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2896, y = 0.4744, name = "Amy Davenport", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2665, y = 0.4350, name = "Gloria Femmel", tag = "Cooking Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2716, y = 0.4555, name = "Franklin Hamar", tag = "Tailoring Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.8901, y = 0.7087, name = "Clyde Ranthal", tag = "Leatherworking Supplies", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.7447, y = 0.7952, name = "Captured Servant of Azora", tag = "Tailoring Supplies" },
 }

@@ -212,4 +212,8 @@ TF_PROFESSION_TRAINERS = {
     { zone = TF_ZONE.TANARIS, x = 0.5108, y = 0.2810, name = "Pikkle", profession = TF_PROFESSION.MINING },
     { zone = TF_ZONE.TANARIS, x = 0.5234, y = 0.2772, name = "Buzzek Bracketswing", profession = TF_PROFESSION.ENGINEERING, level = TF_TRAINING_LEVEL.MASTER },
     { zone = TF_ZONE.TANARIS, x = 0.5247, y = 0.2732, name = "Nixx Sprocketspring", profession = TF_PROFESSION.ENGINEERING, branch = TF_PROFESSION_BRANCH.GOBLIN, level = TF_TRAINING_LEVEL.MASTER },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2626, y = 0.5065, name = "Matthew Hooper", profession = TF_PROFESSION.FISHING, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2277, y = 0.4352, name = "Crystal Boughman", profession = TF_PROFESSION.COOKING, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2133, y = 0.4553, name = "Alma Jainrose", profession = TF_PROFESSION.HERBALISM, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.8884, y = 0.7130, name = "Wilma Ranthal", profession = TF_PROFESSION.SKINNING, faction = TF_FACTION.ALLIANCE },
 }

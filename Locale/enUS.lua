@@ -159,6 +159,7 @@ L["Master Weaponsmith"] = true
 L["Weaponsmith & Armorcrafter"] = true
 L["Armorer & Shieldcrafter"] = true
 L["Armorer & Shieldsmith"] = true
+L["Shield Crafter"] = true
 L["Weapon Merchant"] = true
 L["Blade Merchant"] = true
 L["Sword and Dagger Merchant"] = true
@@ -182,6 +183,7 @@ L["Blacksmithing Supplier"] = true
 L["Blacksmithing Supplies"] = true
 L["Mining Supplier"] = true
 L["Mining Supplies"] = true
+L["Mining and Smithing Supplies"] = true
 L["Herbalism Supplier"] = true
 L["Enchanting Supplies"] = true
 L["Alchemy Supplies"] = true
@@ -237,6 +239,7 @@ L["Merlot Connoisseur"] = true
 L["Fireworks Vendor"] = true
 L["Librarian"] = true
 L["Barmaid"] = true
+L["Waitress"] = true
 L["Lumberjack"] = true
 L["Undead Horse"] = true
 L["Wolf"] = true
@@ -313,6 +316,7 @@ L["Quartermaster Lewis"] = true
 L["Brog Hamfist"] = true
 L["Drake Lindgren"] = true
 L["Dalmond"] = true
+L["Kimberly Hiett"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -455,6 +459,12 @@ L["Taldan"] = true
 L["Allyndia"] = true
 L["Tiyani"] = true
 L["Heldan Galesong"] = true
+L["Vernon Hale"] = true
+L["Gretchen Vogel"] = true
+L["Lamar Veisilli"] = true
+L["Lindsay Ashlock"] = true
+L["Bartender Wental"] = true
+L["Sherman Femmel"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -488,6 +498,7 @@ L["Bulkrek Ragefist"] = true
 L["Bera Stonehammer"] = true
 L["Thor"] = true
 L["Caylais Moonfeather"] = true
+L["Ariena Stormfeather"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -519,6 +530,7 @@ L["Innkeeper Fizzgrimble"] = true
 L["Innkeeper Heather"] = true
 L["Innkeeper Farley"] = true
 L["Innkeeper Shaussiy"] = true
+L["Innkeeper Brianna"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -531,6 +543,7 @@ L["Innkeeper Allison"] = true
 L["Jasper Fel"] = true
 L["Sloan McCoy"] = true
 L["Sly Garrett"] = true
+L["Gerald Crawley"] = true
 
 -- Reagents
 L["Ronald Burch"] = true
@@ -680,6 +693,12 @@ L["Valdaron"] = true
 L["Gorbold Steelhand"] = true
 L["Thelgrum Stonehammer"] = true
 L["Ullanna"] = true
+L["Karen Taylor"] = true
+L["Amy Davenport"] = true
+L["Gloria Femmel"] = true
+L["Franklin Hamar"] = true
+L["Clyde Ranthal"] = true
+L["Captured Servant of Azora"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -875,6 +894,10 @@ L["Mavralyn"] = true
 L["Naram Longclaw"] = true
 L["Shaldyn"] = true
 L["Elisa Steelhand"] = true
+L["Dorin Songblade"] = true
+L["Kara Adams"] = true
+L["Henry Chapal"] = true
+L["Bernard Brubaker"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -914,6 +937,7 @@ L["Laziphus"] = true
 L["Kirk Maxwell"] = true
 L["Erma"] = true
 L["Jaelysia"] = true
+L["Penny"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -1342,6 +1366,10 @@ L["Grondal Moonbreeze"] = true
 L["Delfrum Flintbeard"] = true
 L["Kurdram Stonehammer"] = true
 L["Jenna Lemkenilli"] = true
+L["Matthew Hooper"] = true
+L["Crystal Boughman"] = true
+L["Alma Jainrose"] = true
+L["Wilma Ranthal"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

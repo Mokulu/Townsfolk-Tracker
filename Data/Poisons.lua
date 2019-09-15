@@ -8,4 +8,5 @@ TF_POISON_VENDORS = {
     { zone = TF_ZONE.DARNASSUS, x = 0.3254, y = 0.1973, name = "Kyrai", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.7832, y = 0.5899, name = "Jasper Fel", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.7620, y = 0.5999, name = "Sloan McCoy", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2508, y = 0.4114, name = "Gerald Crawley", faction = TF_FACTION.ALLIANCE },
 }
