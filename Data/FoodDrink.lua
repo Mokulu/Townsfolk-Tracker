@@ -35,7 +35,7 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.2704, y = 0.7717, name = "Nixxrax Fillamug" },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3155, y = 0.2795, name = "Uthok", tag = "General Supplies", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3220, y = 0.2927, name = "Nargatt", faction = TF_FACTION.HORDE },
-    { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3148, y = 0.2975, name = "Innkeeper Thulbek" },
+    { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.3148, y = 0.2975, name = "Innkeeper Thulbek", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5538, y = 0.5719, name = "Danlyia", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5562, y = 0.5979, name = "Innkeeper Keldamyr", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5960, y = 0.4070, name = "Dellylah", faction = TF_FACTION.ALLIANCE },
