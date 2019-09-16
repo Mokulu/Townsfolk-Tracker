@@ -7,6 +7,9 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.ORGRIMMAR, x = 0.4812, y = 0.8052, name = "Trak'gen", tag = "General Goods Merchant", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ORGRIMMAR, x = 0.4606, y = 0.4085, name = "Asoran", tag = "General Goods Vendor", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ORGRIMMAR, x = 0.7807, y = 0.3845, name = "Jin'sora", tag = "Bow Merchant", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ASHENVALE, x = 0.3485, y = 0.5087, name = "Haljan Oakheart", tag = "General Goods", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.ASHENVALE, x = 0.5028, y = 0.6727, name = "Bhaldaran Ravenshade", tag = "Bowyer", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.AZSHARA, x = 0.1200, y = 0.7838, name = "Brinna Valanaar", tag = "Bowyer", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THE_BARRENS, x = 0.5111, y = 0.2907, name = "Uthrok", tag = "Bowyer & Gunsmith", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THE_BARRENS, x = 0.6192, y = 0.3880, name = "Jazzik", tag = "General Supplies" },
     { zone = TF_ZONE.STONETALON_MOUNTAINS, x = 0.4535, y = 0.5911, name = "Borand", tag = "Bowyer", faction = TF_FACTION.HORDE },
@@ -76,4 +79,7 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2708, y = 0.4556, name = "Kimberly Hiett", tag = "Fletcher", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSKWOOD, x = 0.7316, y = 0.4469, name = "Avette Fellwood", tag = "Bowyer", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSKWOOD, x = 0.7371, y = 0.4529, name = "Mabel Solaj", tag = "General Goods Vendor", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6745, y = 0.5172, name = "Charity Mipsy", tag = "General Goods", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6795, y = 0.4990, name = "Jensen Farran", tag = "Bowyer", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6751, y = 0.4798, name = "Torq Ironblast", tag = "Gunsmith", faction = TF_FACTION.ALLIANCE },
 }

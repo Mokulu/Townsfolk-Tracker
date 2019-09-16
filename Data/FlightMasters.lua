@@ -2,6 +2,8 @@ TF_FLIGHTMASTERS = {
     { zone = TF_ZONE.ORGRIMMAR, x = 0.4512, y = 0.6386, name = "Doras", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ASHENVALE, x = 0.7318, y = 0.6159, name = "Vhulgra", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ASHENVALE, x = 0.1224, y = 0.3380, name = "Andruk", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ASHENVALE, x = 0.3441, y = 0.4799, name = "Daelyshia", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.AZSHARA, x = 0.1191, y = 0.7759, name = "Jarrodenus", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THE_BARRENS, x = 0.5150, y = 0.3034, name = "Devrak", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THE_BARRENS, x = 0.6309, y = 0.3716, name = "Bragok" },
     { zone = TF_ZONE.THE_BARRENS, x = 0.4445, y = 0.5915, name = "Omusa Thunderhorn", faction = TF_FACTION.HORDE },
@@ -32,4 +34,5 @@ TF_FLIGHTMASTERS = {
     { zone = TF_ZONE.WESTFALL, x = 0.5655, y = 0.5264, name = "Thor", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.3059, y = 0.5941, name = "Ariena Stormfeather", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSKWOOD, x = 0.7749, y = 0.4429, name = "Felicia Maline", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6748, y = 0.5131, name = "Baldruc", faction = TF_FACTION.ALLIANCE },
 }

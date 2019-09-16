@@ -1,5 +1,6 @@
 TF_POISON_VENDORS = {
     { zone = TF_ZONE.ORGRIMMAR, x = 0.4209, y = 0.4947, name = "Rekkul", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ASHENVALE, x = 0.3649, y = 0.4946, name = "Fahran Silentblade", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.UNDERCITY, x = 0.7520, y = 0.5119, name = "Ezekiel Graves", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.SILVERPINE_FOREST, x = 0.4291, y = 0.4181, name = "Patrice Dwyer", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.IRONFORGE, x = 0.5295, y = 0.1371, name = "Tynnus Venomsprout", faction = TF_FACTION.ALLIANCE },

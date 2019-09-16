@@ -2,6 +2,7 @@ TF_INNKEEPERS = {
     { zone = TF_ZONE.DUROTAR, x = 0.5152, y = 0.4165, name = "Innkeeper Grosk", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ORGRIMMAR, x = 0.541, y = 0.6839, name = "Innkeeper Gryshka", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ASHENVALE, x = 0.7399, y = 0.6065, name = "Innkeeper Kaylisk", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ASHENVALE, x = 0.3699, y = 0.4922, name = "Innkeeper Kimlya", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THE_BARRENS, x = 0.5199, y = 0.2989, name = "Innkeeper Boorand Plainswind", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THE_BARRENS, x = 0.6205, y = 0.3941, name = "Innkeeper Wiley" },
     { zone = TF_ZONE.THE_BARRENS, x = 0.4558, y = 0.5904, name = "Innkeeper Byula", faction = TF_FACTION.HORDE },
@@ -31,4 +32,5 @@ TF_INNKEEPERS = {
     { zone = TF_ZONE.WESTFALL, x = 0.5286, y = 0.5371, name = "Innkeeper Heather", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2700, y = 0.4483, name = "Innkeeper Brianna", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSKWOOD, x = 0.7388, y = 0.4441, name = "Innkeeper Trelayne", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6658, y = 0.4523, name = "Innkeeper Janene", faction = TF_FACTION.ALLIANCE },
 }

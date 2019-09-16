@@ -41,6 +41,10 @@ TF_CLASS_TRAINERS = {
     { zone = TF_ZONE.ORGRIMMAR, x = 0.4798, y = 0.4596, name = "Grol'dar", class = TF_CLASS.WARLOCK, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ORGRIMMAR, x = 0.4847, y = 0.4543, name = "Zevrost", class = TF_CLASS.WARLOCK, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ORGRIMMAR, x = 0.4861, y = 0.4695, name = "Mirket", class = TF_CLASS.WARLOCK, faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ASHENVALE, x = 0.1801, y = 0.5983, name = "Alenndaar Lapidaar", class = TF_CLASS.HUNTER, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.ASHENVALE, x = 0.1798, y = 0.6004, name = "Bolyun", class = TF_CLASS.HUNTER, tag = "Pet Trainer", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.ASHENVALE, x = 0.4973, y = 0.6697, name = "Caelyb", class = TF_CLASS.HUNTER, tag = "Pet Trainer", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.ASHENVALE, x = 0.5014, y = 0.6795, name = "Danlaar Nightstride", class = TF_CLASS.HUNTER, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TIRISFAL_GLADES, x = 0.3111, y = 0.6603, name = "Dark Cleric Duesten", class = TF_CLASS.PRIEST, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.TIRISFAL_GLADES, x = 0.3093, y = 0.6606, name = "Isabella", class = TF_CLASS.MAGE, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.TIRISFAL_GLADES, x = 0.3091, y = 0.6634, name = "Maximillion", class = TF_CLASS.WARLOCK, faction = TF_FACTION.HORDE },
@@ -219,4 +223,6 @@ TF_CLASS_TRAINERS = {
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.3861, y = 0.7930, name = "Jennea Cannon", class = TF_CLASS.MAGE, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.3969, y = 0.7955, name = "Larimaine Purdue", class = TF_CLASS.MAGE, tag = "Portal Trainer", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.FERALAS, x = 0.7599, y = 0.4229, name = "Jannos Lighthoof", class = TF_CLASS.DRUID, faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6740, y = 0.4741, name = "Brother Karman", class = TF_CLASS.PALADIN, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6788, y = 0.4841, name = "Captain Evencane", class = TF_CLASS.WARRIOR, faction = TF_FACTION.ALLIANCE },
 }

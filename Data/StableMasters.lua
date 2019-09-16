@@ -2,6 +2,7 @@ TF_STABLE_MASTERS = {
     { zone = TF_ZONE.DUROTAR, x = 0.5199, y = 0.4184, name = "Shoja'my", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ORGRIMMAR, x = 0.7034, y = 0.1502, name = "Xon'cha", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ASHENVALE, x = 0.7338, y = 0.6103, name = "Qeeju", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ASHENVALE, x = 0.3650, y = 0.5036, name = "Maluressian", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THE_BARRENS, x = 0.5174, y = 0.2966, name = "Sikwa", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THE_BARRENS, x = 0.6219, y = 0.3921, name = "Reggifuz" },
     { zone = TF_ZONE.THE_BARRENS, x = 0.4530, y = 0.5866, name = "Kelsuwa", faction = TF_FACTION.HORDE },
@@ -32,4 +33,5 @@ TF_STABLE_MASTERS = {
     { zone = TF_ZONE.WESTFALL, x = 0.5294, y = 0.5307, name = "Kirk Maxwell", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.2681, y = 0.4656, name = "Penny", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSKWOOD, x = 0.7402, y = 0.4611, name = "Steven Black", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6601, y = 0.4550, name = "Michael", faction = TF_FACTION.ALLIANCE },
 }

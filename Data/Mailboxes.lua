@@ -21,7 +21,7 @@ TF_MAILBOXES = {
     { zone = TF_ZONE.THE_BARRENS, x = 0.4507, y = 0.5867, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.STONETALON_MOUNTAINS, x = 0.361, y = 0.073, faction = TF_FACTION.ALLIANCE }, --
     { zone = TF_ZONE.STONETALON_MOUNTAINS, x = 0.48, y = 0.611, faction = TF_FACTION.HORDE }, --
-    { zone = TF_ZONE.ASHENVALE, x = 0.364, y = 0.503, faction = TF_FACTION.ALLIANCE }, --
+    { zone = TF_ZONE.ASHENVALE, x = 0.3633, y = 0.5022, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.ASHENVALE, x = 0.7363, y = 0.6089, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.DESOLACE, x = 0.655, y = 0.069, faction = TF_FACTION.ALLIANCE }, --
     { zone = TF_ZONE.DESOLACE, x = 0.248, y = 0.688, faction = TF_FACTION.HORDE }, --
@@ -46,4 +46,5 @@ TF_MAILBOXES = {
     { zone = TF_ZONE.MULGORE, x = 0.4701, y = 0.6030, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.4521, y = 0.5941, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.BADLANDS, x = 0.0383, y = 0.4731, faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6596, y = 0.4529, faction = TF_FACTION.ALLIANCE },
 };

@@ -158,6 +158,7 @@ L["Dwarven Weaponsmith"] = true
 L["Superior Weaponsmith"] = true
 L["Master Weaponsmith"] = true
 L["Weaponsmith & Armorcrafter"] = true
+L["Weaponsmith & Armorer"] = true
 L["Armorer & Shieldcrafter"] = true
 L["Armorer & Shieldsmith"] = true
 L["Shield Crafter"] = true
@@ -175,6 +176,8 @@ L["Night Elf Armorer"] = true
 L["Accessories Quartermaster"] = true
 L["Tailoring Supplies"] = true
 L["Tailoring Supplies & Specialty Goods"] = true
+L["Specialty Goods"] = true
+L["Special Goods Dealer"] = true
 L["Leatherworking Supplies"] = true
 L["Tailoring & Leatherworking Supplies"] = true
 L["Specialty Tailoring Supplies"] = true
@@ -188,6 +191,8 @@ L["Mining Supplier"] = true
 L["Mining Supplies"] = true
 L["Mining and Smithing Supplies"] = true
 L["Herbalism Supplier"] = true
+L["Herbalism & Alchemy Supplies"] = true
+L["Potions & Herbs"] = true
 L["Enchanting Supplies"] = true
 L["Alchemy Supplies"] = true
 L["Fishing Supplies"] = true
@@ -198,6 +203,7 @@ L["Physician"] = true
 L["Cooking Supplies"] = true
 L["Cooking Supplier"] = true
 L["Cook"] = true
+L["Chef"] = true
 L["Master of Cooking Recipes"] = true
 L["Freewheeling Tradeswoman"] = true
 L["Free Wheeling Merchant"] = true
@@ -324,6 +330,10 @@ L["Dalmond"] = true
 L["Kimberly Hiett"] = true
 L["Avette Fellwood"] = true
 L["Corporal Bluth"] = true
+L["Bhaldaran Ravenshade"] = true
+L["Brinna Valanaar"] = true
+L["Jensen Farran"] = true
+L["Torq Ironblast"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -476,6 +486,17 @@ L["Sherman Femmel"] = true
 L["Scott Carevin"] = true
 L["Mabel Solaj"] = true
 L["Barkeep Hann"] = true
+L["Haljan Oakheart"] = true
+L["Maliynn"] = true
+L["Nantar"] = true
+L["Ulthaan"] = true
+L["Gapp Jinglepocket"] = true
+L["Daelyshia"] = true
+L["Jarrodenus"] = true
+L["Charity Mipsy"] = true
+L["Dwane Wertle"] = true
+L["Bartender Lillian"] = true
+L["Craig Nollward"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -511,6 +532,7 @@ L["Thor"] = true
 L["Caylais Moonfeather"] = true
 L["Ariena Stormfeather"] = true
 L["Felicia Maline"] = true
+L["Baldruc"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -544,6 +566,8 @@ L["Innkeeper Farley"] = true
 L["Innkeeper Shaussiy"] = true
 L["Innkeeper Brianna"] = true
 L["Innkeeper Trelayne"] = true
+L["Innkeeper Kimlya"] = true
+L["Innkeeper Janene"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -558,6 +582,7 @@ L["Sloan McCoy"] = true
 L["Sly Garrett"] = true
 L["Gerald Crawley"] = true
 L["Malissa"] = true
+L["Fahran Silentblade"] = true
 
 -- Reagents
 L["Ronald Burch"] = true
@@ -724,6 +749,17 @@ L["Kzixx"] = true
 L["Knaz Blunderflame"] = true
 L["Gnaz Blunderflame"] = true
 L["Cowardly Crosby"] = true
+L["Dark Iron Entrepreneur"] = true
+L["Llana"] = true
+L["Harlown Darkweave"] = true
+L["Lardan"] = true
+L["Dalria"] = true
+L["Shandrina"] = true
+L["Harklan Moongrove"] = true
+L["Uma Bartulm"] = true
+L["Helenia Olden"] = true
+L["Fradd Swiftgear"] = true
+L["Kixxle"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -927,6 +963,14 @@ L["Gavin Gnarltree"] = true
 L["Morg Gnarltree"] = true
 L["Jutak"] = true
 L["Masat T'andr"] = true
+L["Aeolynn"] = true
+L["Tandaan Lightmane"] = true
+L["Xai'ander"] = true
+L["Illiyana Moonblaze"] = true
+L["Piter Verance"] = true
+L["Marie Holdston"] = true
+L["Hans Weston"] = true
+L["Wenna Silkbeard"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -968,6 +1012,8 @@ L["Erma"] = true
 L["Jaelysia"] = true
 L["Penny"] = true
 L["Steven Black"] = true
+L["Maluressian"] = true
+L["Michael"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -1404,6 +1450,20 @@ L["Finbus Geargrind"] = true
 L["Clarise Gnarltree"] = true
 L["Matt Johnson"] = true
 L["Se'Jib"] = true
+L["Alenndaar Lapidaar"] = true
+L["Bolyun"] = true
+L["Caelyb"] = true
+L["Danlaar Nightstride"] = true
+L["Aayndia Floralwind"] = true
+L["Jayla"] = true
+L["Cylania Rootstalker"] = true
+L["Kylanna"] = true
+L["Brother Karman"] = true
+L["Captain Evencane"] = true
+L["Doctor Gustaf VanHowzen"] = true
+L["Alchemist Narett"] = true
+L["Brant Jasperbloom"] = true
+L["Timothy Worthington"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

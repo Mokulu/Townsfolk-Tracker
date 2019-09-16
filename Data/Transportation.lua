@@ -11,6 +11,7 @@ TF_TRANSPORTATION_SPOTS = {
     { zone = TF_ZONE.STORMWIND_CITY, x = 0.6394, y = 0.0812, name = "Deeprun Tram, Ironforge", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WETLANDS, x = 0.0466, y = 0.5718, name = "Auberdine, Darkshore", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WETLANDS, x = 0.0510, y = 0.6339, name = "Thereamore Isle, Dustwallow Marsh", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.7152, y = 0.5632, name = "Menethil Harbor, Wetlands", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARKSHORE, x = 0.3242, y = 0.4378, name = "Menethil Harbor, Wetlands", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DARKSHORE, x = 0.3318, y = 0.4014, name = "Rut'theran Village, Teldrassil", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TELDRASSIL, x = 0.5487, y = 0.9670, name = "Auberdine, Darkshore", faction = TF_FACTION.ALLIANCE },
