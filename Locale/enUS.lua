@@ -193,6 +193,7 @@ L["Mining and Smithing Supplies"] = true
 L["Herbalism Supplier"] = true
 L["Herbalism & Alchemy Supplies"] = true
 L["Potions & Herbs"] = true
+L["Scrolls & Potions"] = true
 L["Enchanting Supplies"] = true
 L["Alchemy Supplies"] = true
 L["Fishing Supplies"] = true
@@ -218,6 +219,7 @@ L["Wand Vendor"] = true
 L["Gun Merchant"] = true
 L["Guns Vendor"] = true
 L["Macecrafter"] = true
+L["Superior Macecrafter"] = true
 L["Apprentice Weaponsmith"] = true
 L["Weapon Vendor"] = true
 L["Armorer"] = true
@@ -334,6 +336,7 @@ L["Bhaldaran Ravenshade"] = true
 L["Brinna Valanaar"] = true
 L["Jensen Farran"] = true
 L["Torq Ironblast"] = true
+L["Vikki Lonsav"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -497,6 +500,8 @@ L["Charity Mipsy"] = true
 L["Dwane Wertle"] = true
 L["Bartender Lillian"] = true
 L["Craig Nollward"] = true
+L["Narj Deepslice"] = true
+L["Targot Jinglepocket"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -533,6 +538,7 @@ L["Caylais Moonfeather"] = true
 L["Ariena Stormfeather"] = true
 L["Felicia Maline"] = true
 L["Baldruc"] = true
+L["Cedrik Prose"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -760,6 +766,10 @@ L["Uma Bartulm"] = true
 L["Helenia Olden"] = true
 L["Fradd Swiftgear"] = true
 L["Kixxle"] = true
+L["Deneb Walker"] = true
+L["Androd Fadran"] = true
+L["Hammon Karwn"] = true
+L["Drovnar Strongbrew"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -971,6 +981,8 @@ L["Piter Verance"] = true
 L["Marie Holdston"] = true
 L["Hans Weston"] = true
 L["Wenna Silkbeard"] = true
+L["Jannos Ironwill"] = true
+L["Samuel Hawke"] = true
 
 -- Stable Masters
 L["Sikwa"] = true

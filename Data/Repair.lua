@@ -175,6 +175,8 @@ TF_REPAIR_VENDORS = {
     { zone = TF_ZONE.THUNDER_BLUFF, x = 0.5555, y = 0.5705, name = "Hogor Thunderhoof", tag = "Gun Merchant", faction = TF_FACTION.HORDE },
 	{ zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7252, y = 0.3336, name = "Mu'uta", tag = "Bowyer", faction = TF_FACTION.HORDE },
 	{ zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7338, y = 0.2968, name = "Rutherford Twing", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.4598, y = 0.4772, name = "Jannos Ironwill", tag = "Superior Macecrafter", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.4597, y = 0.4521, name = "Samuel Hawke", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.BADLANDS, x = 0.4247, y = 0.5251, name = "Jazzrik", tag = "Blacksmithing Supplies" },
     { zone = TF_ZONE.BADLANDS, x = 0.0291, y = 0.4725, name = "Sranda", tag = "Light Armor & Weapons Merchant", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ELWYNN_FOREST, x = 0.4171, y = 0.6579, name = "Andrew Krighton", tag = "Armorer & Shieldcrafter", faction = TF_FACTION.ALLIANCE },

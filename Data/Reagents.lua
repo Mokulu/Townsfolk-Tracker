@@ -22,4 +22,5 @@ TF_REAGENT_VENDORS = {
     { zone = TF_ZONE.THOUSAND_NEEDLES, x = 0.4515, y = 0.5079, name = "Montarr", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.FERALAS, x = 0.7464, y = 0.4491, name = "Tarhus", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.DUSKWOOD, x = 0.7611, y = 0.4527, name = "Alyssa Eva", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.2720, y = 0.5880, name = "Deneb Walker", tag = "Scrolls & Potions", faction = TF_FACTION.ALLIANCE },
 }
