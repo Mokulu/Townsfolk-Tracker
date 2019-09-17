@@ -4,6 +4,7 @@ TF_FLIGHTMASTERS = {
     { zone = TF_ZONE.ASHENVALE, x = 0.1224, y = 0.3380, name = "Andruk", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ASHENVALE, x = 0.3441, y = 0.4799, name = "Daelyshia", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.AZSHARA, x = 0.1191, y = 0.7759, name = "Jarrodenus", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.AZSHARA, x = 0.2196, y = 0.4962, name = "Kroum", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THE_BARRENS, x = 0.5150, y = 0.3034, name = "Devrak", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.THE_BARRENS, x = 0.6309, y = 0.3716, name = "Bragok" },
     { zone = TF_ZONE.THE_BARRENS, x = 0.4445, y = 0.5915, name = "Omusa Thunderhorn", faction = TF_FACTION.HORDE },
@@ -11,6 +12,7 @@ TF_FLIGHTMASTERS = {
     { zone = TF_ZONE.UNDERCITY, x = 0.6324, y = 0.4855, name = "Michael Garrett", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.SILVERPINE_FOREST, x = 0.4562, y = 0.4260, name = "Karos Razok", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.HILLSBRAD_FOOTHILLS, x = 0.6015, y = 0.1863, name = "Zarise", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.HILLSBRAD_FOOTHILLS, x = 0.4934, y = 0.5228, name = "Darla Harris", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.IRONFORGE, x = 0.5550, y = 0.4774, name = "Gryth Thurden", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.LOCH_MODAN, x = 0.3394, y = 0.5095, name = "Thorgrum Borrelson", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WETLANDS, x = 0.0949, y = 0.5969, name = "Shellei Brondir", faction = TF_FACTION.ALLIANCE },
@@ -36,4 +38,5 @@ TF_FLIGHTMASTERS = {
     { zone = TF_ZONE.REDRIDGE_MOUNTAINS, x = 0.3059, y = 0.5941, name = "Ariena Stormfeather", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSKWOOD, x = 0.7749, y = 0.4429, name = "Felicia Maline", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6748, y = 0.5131, name = "Baldruc", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DESOLACE, x = 0.2160, y = 0.7413, name = "Thalon", faction = TF_FACTION.HORDE },
 }

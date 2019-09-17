@@ -40,6 +40,7 @@ L["Tailoring"] = true
 L["Weapon"] = true
 
 L["Wanders this path"] = true
+L["Not always here"] = true
 
 L["Instances"] = true
 L["Dungeon"] = true
@@ -262,6 +263,9 @@ L["Ram"] = true
 L["Mechanostrider"] = true
 L["Nightsaber"] = true
 L["Rare Goods"] = true
+L["Axecrafter"] = true
+L["Fish Merchant"] = true
+L["Superior Armorsmith"] = true
 
 -- Ammunition
 L["Nadia Vernon"] = true
@@ -502,6 +506,16 @@ L["Bartender Lillian"] = true
 L["Craig Nollward"] = true
 L["Narj Deepslice"] = true
 L["Targot Jinglepocket"] = true
+L["Dillord Copperpinch"] = true
+L["Hecht Copperpinch"] = true
+L["Kurll"] = true
+L["Tukk"] = true
+L["Sarah Raycroft"] = true
+L["Bront Coldcleave"] = true
+L["Neema"] = true
+L["Barkeep Kelly"] = true
+L["Hal McAllister"] = true
+L["Mirvyna Jinglepocket"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -539,6 +553,9 @@ L["Ariena Stormfeather"] = true
 L["Felicia Maline"] = true
 L["Baldruc"] = true
 L["Cedrik Prose"] = true
+L["Kroum"] = true
+L["Thalon"] = true
+L["Darla Harris"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -574,6 +591,8 @@ L["Innkeeper Brianna"] = true
 L["Innkeeper Trelayne"] = true
 L["Innkeeper Kimlya"] = true
 L["Innkeeper Janene"] = true
+L["Innkeeper Sikewa"] = true
+L["Innkeeper Anderson"] = true
 
 -- Poisons
 L["Patrice Dwyer"] = true
@@ -589,6 +608,8 @@ L["Sly Garrett"] = true
 L["Gerald Crawley"] = true
 L["Malissa"] = true
 L["Fahran Silentblade"] = true
+L["Smudge Thunderwood"] = true
+L["Jaysin Lanyda"] = true
 
 -- Reagents
 L["Ronald Burch"] = true
@@ -770,6 +791,17 @@ L["Deneb Walker"] = true
 L["Androd Fadran"] = true
 L["Hammon Karwn"] = true
 L["Drovnar Strongbrew"] = true
+L["Zan Shivsproket"] = true
+L["Bro'kin"] = true
+L["Rizz Loosebolt"] = true
+L["Blimo Gadgetspring"] = true
+L["Jubie Gadgetspring"] = true
+L["Vendor-Tron 1000"] = true
+L["Mai'Lahii"] = true
+L["Lah'Mawhani"] = true
+L["Micha Yance"] = true
+L["Nandar Branson"] = true
+L["Lindea Rabonne"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -983,6 +1015,12 @@ L["Hans Weston"] = true
 L["Wenna Silkbeard"] = true
 L["Jannos Ironwill"] = true
 L["Samuel Hawke"] = true
+L["Jekyll Flandring"] = true
+L["Kelm Hargunth"] = true
+L["Gruul Darkblade"] = true
+L["Hae'Wilani"] = true
+L["Robert Aebischer"] = true
+L["Thanthaldis Snowgleam"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -1026,6 +1064,8 @@ L["Penny"] = true
 L["Steven Black"] = true
 L["Maluressian"] = true
 L["Michael"] = true
+L["Aboda"] = true
+L["Wesley"] = true
 
 -- Trainers
 L["Eunice Burch"] = true
@@ -1476,6 +1516,14 @@ L["Doctor Gustaf VanHowzen"] = true
 L["Alchemist Narett"] = true
 L["Brant Jasperbloom"] = true
 L["Timothy Worthington"] = true
+L["Fahrad"] = true
+L["Peter Galen"] = true
+L["Lui'Mala"] = true
+L["Wulan"] = true
+L["Malux"] = true
+L["Donald Rabonne"] = true
+L["Alchemist Mallory"] = true
+L["Herbalist Pomeroy"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true

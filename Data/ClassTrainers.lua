@@ -225,4 +225,5 @@ TF_CLASS_TRAINERS = {
     { zone = TF_ZONE.FERALAS, x = 0.7599, y = 0.4229, name = "Jannos Lighthoof", class = TF_CLASS.DRUID, faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6740, y = 0.4741, name = "Brother Karman", class = TF_CLASS.PALADIN, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6788, y = 0.4841, name = "Captain Evencane", class = TF_CLASS.WARRIOR, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.ALTERAC_MOUNTAINS, x = 0.8445, y = 0.8032, name = "Fahrad", class = TF_CLASS.ROGUE },
 }

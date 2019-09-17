@@ -23,6 +23,7 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.SILVERPINE_FOREST, x = 0.4501, y = 0.393, name = "Nadia Vernon", tag = "Bowyer", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.SILVERPINE_FOREST, x = 0.4398, y = 0.399, name = "Edwin Harly", tag = "General Supplies", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.HILLSBRAD_FOOTHILLS, x = 0.6256, y = 0.1992, name = "Kayren Soothallow", tag = "General Goods", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.HILLSBRAD_FOOTHILLS, x = 0.4914, y = 0.5505, name = "Sarah Raycroft", tag = "General Goods", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUN_MOROGH, x = 0.3010, y = 0.7154, name = "Adlin Pridedrift", tag = "General Supplies", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUN_MOROGH, x = 0.4068, y = 0.6513, name = "Hegnar Rumbleshot", tag = "Gunsmith", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUN_MOROGH, x = 0.4719, y = 0.5241, name = "Kreg Bilmn", tag = "General Supplies", faction = TF_FACTION.ALLIANCE },
@@ -83,4 +84,5 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6745, y = 0.5172, name = "Charity Mipsy", tag = "General Goods", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6795, y = 0.4990, name = "Jensen Farran", tag = "Bowyer", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6751, y = 0.4798, name = "Torq Ironblast", tag = "Gunsmith", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.DESOLACE, x = 0.2493, y = 0.7185, name = "Tukk", tag = "General Goods Vendor", faction = TF_FACTION.HORDE },
 }
