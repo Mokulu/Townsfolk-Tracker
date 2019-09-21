@@ -9,7 +9,7 @@
 * Added Shadowprey Village, Desolace NPCs (Horde)
 * Added remaining Azshara NPCs (Horde, neutrals)
 * Added a few missing Elwynn Forest NPCs
-* Added Chinese localization up to version 1.0.3; translations by 急云 (Curse ID: q09q09)
+* Added Chinese localization up to version 1.0.3; translations by [急云](https://www.curseforge.com/members/q09q09)
 
 ### v1.0.3 (Sept. 15, 2019)
 * Added Darkshore NPCs
