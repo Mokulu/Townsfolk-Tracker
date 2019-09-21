@@ -24,4 +24,7 @@ TF_REAGENT_VENDORS = {
     { zone = TF_ZONE.FERALAS, x = 0.7464, y = 0.4491, name = "Tarhus", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.DUSKWOOD, x = 0.7611, y = 0.4527, name = "Alyssa Eva", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.2720, y = 0.5880, name = "Deneb Walker", tag = "Scrolls & Potions", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.THE_HINTERLANDS, x = 0.7880, y = 0.7826, name = "Mystic Yayo'jin", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.4578, y = 0.5284, name = "Thultazor", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.3649, y = 0.3036, name = "Balai Lok'Wein", profession = TF_PROFESSION.FIRST_AID, faction = TF_FACTION.HORDE },
 }

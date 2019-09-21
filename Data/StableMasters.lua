@@ -36,4 +36,7 @@ TF_STABLE_MASTERS = {
     { zone = TF_ZONE.DUSKWOOD, x = 0.7402, y = 0.4611, name = "Steven Black", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6601, y = 0.4550, name = "Michael", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DESOLACE, x = 0.2490, y = 0.6867, name = "Aboda", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THE_HINTERLANDS, x = 0.1441, y = 0.4522, name = "Killium Bouldertoe", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.THE_HINTERLANDS, x = 0.7916, y = 0.7953, name = "Huntsman Markhor", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.4556, y = 0.5517, name = "Hekkru", faction = TF_FACTION.HORDE },
 }

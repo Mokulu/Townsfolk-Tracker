@@ -7,6 +7,7 @@ TF_INNKEEPERS = {
     { zone = TF_ZONE.THE_BARRENS, x = 0.6205, y = 0.3941, name = "Innkeeper Wiley" },
     { zone = TF_ZONE.THE_BARRENS, x = 0.4558, y = 0.5904, name = "Innkeeper Byula", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.STONETALON_MOUNTAINS, x = 0.4747, y = 0.6212, name = "Innkeeper Jayka", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.STONETALON_MOUNTAINS, x = 0.3579, y = 0.0574, name = "Innkeeper Faralia", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.TIRISFAL_GLADES, x = 0.6171, y = 0.5205, name = "Innkeeper Renee", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.UNDERCITY, x = 0.6773, y = 0.3791, name = "Innkeeper Norman", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.SILVERPINE_FOREST, x = 0.4318, y = 0.4127, name = "Innkeeper Bates", faction = TF_FACTION.HORDE },
@@ -35,4 +36,7 @@ TF_INNKEEPERS = {
     { zone = TF_ZONE.DUSKWOOD, x = 0.7388, y = 0.4441, name = "Innkeeper Trelayne", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.6658, y = 0.4523, name = "Innkeeper Janene", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.DESOLACE, x = 0.2409, y = 0.6822, name = "Innkeeper Sikewa", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.THE_HINTERLANDS, x = 0.1366, y = 0.4172, name = "Innkeeper Thulfram", wanders = true, faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.THE_HINTERLANDS, x = 0.7814, y = 0.8138, name = "Lard", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.4516, y = 0.5666, name = "Innkeeper Karakul", faction = TF_FACTION.HORDE },
 }
