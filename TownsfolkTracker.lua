@@ -632,7 +632,8 @@ end
 
 function TownsfolkTracker:RegisterMapButton()
     local button = CreateFrame("Button", "tfAtlasButton", WorldMapFrame)
-    button:SetFrameStrata("FULLSCREEN_DIALOG")
+    button:SetFrameStrata(WorldMapFrame:GetFrameStrata())
+    button:SetFrameLevel(WorldMapFrame:GetFrameLevel() + 25)
     button:SetWidth(24)
     button:SetHeight(24)
 
