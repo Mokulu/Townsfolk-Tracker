@@ -45,6 +45,14 @@ local minimapIconLDB = LDB:NewDataObject("TownsfolkTracker", {
     OnClick = handleMapButtonClick,
 })
 
+-- Slash command
+SLASH_TOWNSFOLK1 = '/townsfolktracker'
+SLASH_TOWNSFOLK2 = '/townsfolk'
+SLASH_TOWNSFOLK3 = '/tt'
+SlashCmdList["TOWNSFOLK"] = function(msg)
+    InterfaceOptionsFrame_OpenToCategory("Townsfolk Tracker")
+end
+
 -- Initialize addon
 function TownsfolkTracker:OnInitialize()
     -- Register options
