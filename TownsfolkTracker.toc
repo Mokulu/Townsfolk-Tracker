@@ -6,7 +6,7 @@
 ## SavedVariables: TownsfolkTrackerDB
 ## SavedVariablesPerCharacter: tfTrackingList
 
-Load_Libraries.xml
+Libs\Load_Libraries.xml
 Locale\Load_Locales.xml
 Data\Load_Data.xml
 TownsfolkTracker.xml

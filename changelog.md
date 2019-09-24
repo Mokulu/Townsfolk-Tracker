@@ -1,4 +1,4 @@
-### v1.0.6 (Sept. ??, 2019)
+### v1.0.6 (Sept. 24, 2019)
 * Added a slash command to open the addon's interface options: /townsfolktracker, /townsfolk, /tt
 * Tentatively fixed the taint issue with various unit frames (CompactRaidFrame, etc.).
 * Fixed display conflicts of the Map button with other addons.

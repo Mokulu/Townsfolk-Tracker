@@ -18,7 +18,6 @@ externals:
   Libs/LibDBIcon-1.0: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
   Libs/LibDataBroker-1.1: git://github.com/tekkub/libdatabroker-1-1.git
   Libs/HereBeDragons: https://repos.wowace.com/wow/herebedragons
-  Libs/NoTaintUIDropDown: svn://svn.wowinterface.com/NoTaint_UIDropDownMenu_Update-1134/trunk
 
 ignore:
     - changehistory.md
