@@ -1671,3 +1671,7 @@ L["Toggles the display of dungeons and raids on the fully zoomed out world map."
 L["Reset Tracking"] = true
 L["Tracking menu bugged after an update? Click here to reset it to the default."] = true
 L["Tracking list reset."] = true
+L["World Map Tracker Scale"] = true
+L["Changes the scale of townsfolk icons on the world map."] = true
+L["Minimap Tracker Scale"] = true
+L["Changes the scale of townsfolk icons on the minimap."] = true
