@@ -51,6 +51,8 @@ SlashCmdList["TOWNSFOLK"] = function(msg)
     InterfaceOptionsFrame_OpenToCategory("Townsfolk Tracker")
 end
 
+TownsfolkTracker.iconsCreated = false
+
 -- Initialize addon
 function TownsfolkTracker:OnInitialize()
     -- Register options
@@ -125,6 +127,26 @@ function TownsfolkTracker:ResetTracking(info)
     --noinspection GlobalCreationOutsideO
     tfTrackingList = TownsfolkUtil_CopyTable(TF_DEFAULT_TRACKING)
     DEFAULT_CHAT_FRAME:AddMessage("|cffffd000"..L["Townsfolk Tracker"].."|r - "..L["Tracking list reset."])
+    self:DrawMapIcons()
+end
+
+function TownsfolkTracker:GetMapIconScale(info)
+    return self.db.profile.mapScale
+end
+
+function TownsfolkTracker:SetMapIconScale(info, value)
+    self.db.profile.mapScale = value
+    TownsfolkTracker:CreateIcons()
+    self:DrawMapIcons()
+end
+
+function TownsfolkTracker:GetMinimapIconScale(info)
+    return self.db.profile.minimapScale
+end
+
+function TownsfolkTracker:SetMinimapIconScale(info, value)
+    self.db.profile.minimapScale = value
+    TownsfolkTracker:CreateIcons()
     self:DrawMapIcons()
 end
 
@@ -274,21 +296,25 @@ function TownsfolkTracker:CreateMapMarker(iconType, point, townsfolk, folktype, 
 
     -- marker size
     if (iconType == TF_ATLAS_ICON) then
+        -- world map
         local size = 10
         if (point.iconSize) then
             size = size * point.iconSize
         elseif (townsfolk.iconSize) then
             size = size * townsfolk.iconSize
         end
+        size = size * TownsfolkTracker:GetMapIconScale();
         marker:SetWidth(size)
         marker:SetHeight(size)
     else
+        -- minimap
         local size = 12
         if (point.iconSize) then
             size = size * point.iconSize
         elseif (townsfolk.iconSize) then
             size = size * townsfolk.iconSize
         end
+        size = size * TownsfolkTracker:GetMinimapIconScale();
         marker:SetWidth(size)
         marker:SetHeight(size)
     end
@@ -363,6 +389,8 @@ function TownsfolkTracker:CreateIcons()
             end
         end
     end
+
+    self.iconsCreated = true
 end
 
 function TownsfolkTracker:DrawMapIcons()
@@ -426,6 +454,11 @@ local INSTANCE_DISTANCE = 0.025
 
 -- runs when player changes maps
 function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
+    -- don't try to draw icons before they're created
+    if not self.iconsCreated then
+        return
+    end
+
     local x, y = Maps:GetPlayerZonePosition()
     Pins:RemoveAllMinimapIcons("TownsfolkTrackerInternal")
     for folktype, townsfolk in pairs(TOWNSFOLK) do
@@ -436,7 +469,7 @@ function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
                 if (point.entrance and mapId == point.entrance.zone) then
                     -- find the distance
                     local distance, deltaX, deltaY = Maps:GetWorldDistance(mapId, x, y, point.entrance.x, point.entrance.y)
-                    if (distance <= INSTANCE_DISTANCE) then
+                    if (distance <= INSTANCE_DISTANCE and point.entranceNode) then
                         Pins:AddMinimapIconMap("TownsfolkTrackerInternal", point.entranceNode, point.entrance.zone, point.entrance.x, point.entrance.y, true, true)
                     end
                 end
