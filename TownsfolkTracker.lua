@@ -238,6 +238,9 @@ function TownsfolkTracker:GenerateTooltip(title, point, folktype, inside, prefix
         if (point.raidSize) then
             GameTooltip:AddDoubleLine(L["Raid Size"]..":", point.raidSize, 0.8, 0.8, 0.8, 1, 1, 1)
         end
+        if (point.attunement) then
+            TownsfolkUtil_DungeonAttunement(point.attunement, true)
+        end
         if (point.entrance and not inside or point.group) then
             GameTooltip:AddLine("("..L["Cave Entrance"]..")", 0.6, 0.6, 0.6);
         end
@@ -250,6 +253,9 @@ function TownsfolkTracker:GenerateTooltip(title, point, folktype, inside, prefix
                 for _, dungeon in pairs(point.group.dungeons) do
                     local recommendedLevel, r, g, b = self:GetRecommendedLevel(dungeon.recommendedLevel)
                     GameTooltip:AddDoubleLine(L[dungeon.name], format(L["Lv %s"], recommendedLevel), 0.8, 0.8, 0.8, r, g, b)
+                    if (dungeon.attunement) then
+                        TownsfolkUtil_DungeonAttunement(dungeon.attunement, false)
+                    end
                 end
             end
 
@@ -258,6 +264,9 @@ function TownsfolkTracker:GenerateTooltip(title, point, folktype, inside, prefix
                 GameTooltip:AddLine(L["Raids"], 0.07, 0.647, 0.137)
                 for _, raid in pairs(point.group.raids) do
                     GameTooltip:AddDoubleLine(L[raid.name], format(L["%d Players"], raid.raidSize), 0.8, 0.8, 0.8, 1, 1, 1)
+                    if (raid.attunement) then
+                        TownsfolkUtil_DungeonAttunement(raid.attunement, false)
+                    end
                 end
             end
         end

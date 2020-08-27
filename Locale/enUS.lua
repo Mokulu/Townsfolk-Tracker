@@ -527,6 +527,7 @@ L["Truk Wildbeard"] = true
 L["Thultash"] = true
 L["Ogg'marr"] = true
 L["Bale"] = true
+L["Baker Masterson"] = true
 
 -- Flight Masters
 L["Devrak"] = true
@@ -1070,6 +1071,7 @@ L["Zulrg"] = true
 L["Altsoba Ragetotem"] = true
 L["Smith Slagtree"] = true
 L["Wallace the Blind"] = true
+L["Magnus Frostwake"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -1644,6 +1646,11 @@ L["Blackwing Lair"] = true
 L["Temple of Ahn'Qiraj"] = true
 L["Naxxramas"] = true
 L["%d Players"] = true
+
+-- Attunement Items
+L["Requires %s"] = true;
+L["The Scarlet Key"] = true;
+L["Skeleton Key"] = true;
 
 --[[
     Options

@@ -138,6 +138,7 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = TF_ZONE.THE_HINTERLANDS, x = 0.1436, y = 0.4230, name = "Truk Wildbeard", tag = "Bartender", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THE_HINTERLANDS, x = 0.1366, y = 0.4172, name = "Innkeeper Thulfram", wanders = true, faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.THE_HINTERLANDS, x = 0.7814, y = 0.8138, name = "Lard", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.WESTERN_PLAGUELANDS, x = 0.6954, y = 0.7955, name = "Baker Masterson" },
     { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.4652, y = 0.5428, name = "Thultash", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.FELWOOD, x = 0.3475, y = 0.5323, name = "Bale", tag = "General Goods", faction = TF_FACTION.HORDE },
 }

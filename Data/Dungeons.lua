@@ -12,8 +12,8 @@ TF_DUNGEONS = {
         dungeons = {
             { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.4773, y = 0.1939, name = "Graveyard", minLevel = 21, recommendedLevel = { 26, 36 } },
             { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.4779, y = 0.1960, name = "Library", minLevel = 21, recommendedLevel = { 29, 39 } },
-            { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.4783, y = 0.1953, name = "Armory", minLevel = 21, recommendedLevel = { 32, 42 }, attunement = { item = 7146 } },
-            { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.4779, y = 0.1939, name = "Cathedral", minLevel = 21, recommendedLevel = { 35, 45 }, attunement = { item = 7146 } },
+            { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.4783, y = 0.1953, name = "Armory", minLevel = 21, recommendedLevel = { 32, 42 }, attunement = { item = 7146, name = "The Scarlet Key" } },
+            { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.4779, y = 0.1939, name = "Cathedral", minLevel = 21, recommendedLevel = { 35, 45 }, attunement = { item = 7146, name = "The Scarlet Key" } },
         },
     }, minLevel = 21, recommendedLevel = { 26, 45 } },
     { zone = TF_ZONE.THE_BARRENS, x = 0.4913, y = 0.9348, name = "Razorfen Downs", minLevel = 35, recommendedLevel = { 37, 46 } },
@@ -23,7 +23,7 @@ TF_DUNGEONS = {
     { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.695, y = 0.525, name = "The Temple of Atal'Hakkar", minLevel = 45, recommendedLevel = { 50, 56 } },
     -- TODO: add all Dire Maul wing entrances
     { zone = TF_ZONE.FERALAS, x = 0.589, y = 0.415, name = "Dire Maul", minLevel = 48, recommendedLevel = { 55, 60 } },
-    { zone = TF_ZONE.WESTERN_PLAGUELANDS, x = 0.69, y = 0.729, name = "Scholomance", minLevel = 48, recommendedLevel = { 58, 60 } },
+    { zone = TF_ZONE.WESTERN_PLAGUELANDS, x = 0.697, y = 0.734, name = "Scholomance", minLevel = 45, recommendedLevel = { 58, 60 }, entrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.527, y = 0.2636 }, attunement = { item = 13704, name = "Skeleton Key" } } ,
     { zone = TF_ZONE.EASTERN_PLAGUELANDS, x = 0.3085, y = 0.17, name = "Stratholme", minLevel = 48, recommendedLevel = { 58, 60 } },
 
     -- TODO find and get zone/cords of all blackrock mountain instances
