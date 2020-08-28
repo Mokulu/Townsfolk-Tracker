@@ -1,5 +1,15 @@
-### v1.0.8 (Aug. 26, 2020)
-* Added world map and minimap icon scale configuration.
-* Fixed an issue if PlayerZoneChanged (draw icons) fired before Player_Entering_World (create icons).
+### v1.0.9 (Aug. 2x, 2020)
+* Added Searing Gorge NPCs.
+* Added Eastern Plaguelands NPCs.
+* Updated some instance entrances.
+  * Added required key to Scarlet Monastery Armory and Cathedral.
+  * Added internal entrance location to Razorfen Downs.
+  * Added internal entrance locations to Dire Maul and its required key.
+  * Increased precision of the Temple of Atal'Hakkar entrance location and added the internal entrance location.
+  * Increased precision of the Scholomance entrance location and added its required key.
+  * Increased precision of the Stratholme and Naxxramas entrance location.
+  * Increased precision of the Uldaman entrance location and added the internal entrance location.
+  * Increased precision of the Blackrock Mountain entrance locations, added the internal instance locations, and added the attunement requirements.
+* Added a couple NPCs outside of Scholomance.
 
 [See past changes here.](https://github.com/Mokulu/Townsfolk-Tracker/releases)

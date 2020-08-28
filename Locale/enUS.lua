@@ -1644,6 +1644,9 @@ L["Blackrock Spire"] = true
 L["Lower Blackrock Spire"] = true
 L["Upper Blackrock Spire"] = true
 L["Dire Maul"] = true
+L["East"] = true
+L["West"] = true
+L["North"] = true
 L["Scholomance"] = true
 L["Stratholme"] = true
 L["Lv %s"] = true
@@ -1667,6 +1670,7 @@ L["Skeleton Key"] = true
 L["Seal of Ascension"] = true
 L["Attunement to the Core"] = true
 L["Blackhand's Command"] = true
+L["Crescent Key"] = true
 L["The Dread Citadel - Naxxramas"] = true
 
 --[[

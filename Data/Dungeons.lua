@@ -16,13 +16,19 @@ TF_DUNGEONS = {
             { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.4779, y = 0.1939, name = "Cathedral", minLevel = 21, recommendedLevel = { 35, 45 }, attunement = { item = 7146, name = "The Scarlet Key" } },
         },
     }, minLevel = 21, recommendedLevel = { 26, 45 } },
-    { zone = TF_ZONE.THE_BARRENS, x = 0.4913, y = 0.9348, name = "Razorfen Downs", minLevel = 35, recommendedLevel = { 37, 46 } },
+    { zone = TF_ZONE.THE_BARRENS, x = 0.493, y = 0.93, name = "Razorfen Downs", minLevel = 35, recommendedLevel = { 37, 46 }, entrance = { zone = TF_ZONE.KALIMDOR, x = 0.5325, y = 0.7117 } },
     { zone = TF_ZONE.BADLANDS, x = 0.4453, y = 0.1212, name = "Uldaman", minLevel = 30, recommendedLevel = { 41, 51 }, entrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.5385, y = 0.5764 } },
     { zone = TF_ZONE.TANARIS, x = 0.3872, y = 0.2, name = "Zul'Farrak", minLevel = 39, recommendedLevel = { 42, 46 } },
     { zone = TF_ZONE.DESOLACE, x = 0.291, y = 0.625, name = "Maraudon", minLevel = 30, recommendedLevel = { 46, 55 } },
     { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.70, y = 0.53, name = "The Temple of Atal'Hakkar", minLevel = 38, recommendedLevel = { 50, 56 }, entrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.5681, y = 0.7515 } },
-    -- TODO: add all Dire Maul wing entrances
-    { zone = TF_ZONE.FERALAS, x = 0.589, y = 0.415, name = "Dire Maul", minLevel = 48, recommendedLevel = { 55, 60 } },
+    { zone = TF_ZONE.FERALAS, x = 0.591, y = 0.45, name = "Dire Maul", minLevel = 45, recommendedLevel = { 56, 60 }, group = {
+        prefix = true,
+        dungeons = {
+            { zone = TF_ZONE.KALIMDOR, x = 0.4428, y = 0.6840, name = "East", minLevel = 45, recommendedLevel = { 56, 60 }, altEntrance = { zone = TF_ZONE.KALIMDOR, x = 0.4384, y = 0.6739 } },
+            { zone = TF_ZONE.KALIMDOR, x = 0.4298, y = 0.6744, name = "West", minLevel = 45, recommendedLevel = { 57, 60 }, attunement = { item = 18249, name = "Crescent Key" }, altEntrance = { zone = TF_ZONE.KALIMDOR, x = 0.4298, y = 0.6781 } },
+            { zone = TF_ZONE.KALIMDOR, x = 0.4346, y = 0.6652, name = "North", minLevel = 45, recommendedLevel = { 58, 60 }, attunement = { item = 18249, name = "Crescent Key" } },
+        }
+    } },
     { zone = TF_ZONE.WESTERN_PLAGUELANDS, x = 0.697, y = 0.734, name = "Scholomance", minLevel = 45, recommendedLevel = { 58, 60 }, entrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.527, y = 0.2636 }, attunement = { item = 13704, name = "Skeleton Key" } } ,
     { zone = TF_ZONE.EASTERN_PLAGUELANDS, x = 0.308, y = 0.157, name = "Stratholme", minLevel = 45, recommendedLevel = { 58, 60 }, altEntrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.5505, y = 0.1735 } },
 

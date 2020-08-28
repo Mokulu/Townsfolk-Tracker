@@ -379,6 +379,10 @@ function TownsfolkTracker:CreateIcons()
                         -- FIXME: temp condition
                         if (dungeon.zone) then
                             dungeon.entranceNode = self:CreateMapMarker(TF_MINIMAP_ICON, dungeon, townsfolk, folktype, true, point.group.prefix and point.name)
+
+                            if (dungeon.altEntrance) then
+                                dungeon.entranceNodeAlt = self:CreateMapMarker(TF_MINIMAP_ICON, dungeon, townsfolk, folktype, true, point.group.prefix and point.name)
+                            end
                         end
                     end
                 end
@@ -489,6 +493,9 @@ function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
                     if (distance <= INSTANCE_DISTANCE and point.entranceNode) then
                         Pins:AddMinimapIconMap("TownsfolkTrackerInternal", point.entranceNode, point.entrance.zone, point.entrance.x, point.entrance.y, true, true)
                     end
+                    if (distance <= INSTANCE_DISTANCE and point.entranceNodeAlt) then
+                        Pins:AddMinimapIconMap("TownsfolkTrackerInternal", point.entranceNodeAlt, point.altEntrance.zone, point.altEntrance.x, point.altEntrance.y, true, true)
+                    end
                 end
                 if (point.group) then
                     -- group dungeon entrances
@@ -500,6 +507,13 @@ function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
                                 local distance, deltaX, deltaY = Maps:GetWorldDistance(mapId, x, y, dungeon.x, dungeon.y)
                                 if (distance <= INSTANCE_DISTANCE) then
                                     Pins:AddMinimapIconMap("TownsfolkTrackerInternal", dungeon.entranceNode, dungeon.zone, dungeon.x, dungeon.y, true, true)
+                                end
+                            end
+                            if (dungeon.entranceNodeAlt and mapId == dungeon.zone) then
+                                -- find the distance
+                                local distance, deltaX, deltaY = Maps:GetWorldDistance(mapId, x, y, dungeon.altEntrance.x, dungeon.altEntrance.y)
+                                if (distance <= INSTANCE_DISTANCE and dungeon.entranceNodeAlt) then
+                                    Pins:AddMinimapIconMap("TownsfolkTrackerInternal", dungeon.entranceNodeAlt, dungeon.altEntrance.zone, dungeon.altEntrance.x, dungeon.altEntrance.y, true, true)
                                 end
                             end
                         end
