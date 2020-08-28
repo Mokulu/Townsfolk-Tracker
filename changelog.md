@@ -1,4 +1,4 @@
-### v1.0.9 (Aug. 2x, 2020)
+### v1.0.9 (Aug. 28, 2020)
 * Added Searing Gorge NPCs.
 * Added Eastern Plaguelands NPCs.
 * Added Un'Goro Crater NPCs.
