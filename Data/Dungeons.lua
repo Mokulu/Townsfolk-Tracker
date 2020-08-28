@@ -17,7 +17,7 @@ TF_DUNGEONS = {
         },
     }, minLevel = 21, recommendedLevel = { 26, 45 } },
     { zone = TF_ZONE.THE_BARRENS, x = 0.4913, y = 0.9348, name = "Razorfen Downs", minLevel = 35, recommendedLevel = { 37, 46 } },
-    { zone = TF_ZONE.BADLANDS, x = 0.4453, y = 0.1212, name = "Uldaman", minLevel = 30, recommendedLevel = { 41, 51 } },
+    { zone = TF_ZONE.BADLANDS, x = 0.4453, y = 0.1212, name = "Uldaman", minLevel = 30, recommendedLevel = { 41, 51 }, entrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.5385, y = 0.5764 } },
     { zone = TF_ZONE.TANARIS, x = 0.3872, y = 0.2, name = "Zul'Farrak", minLevel = 39, recommendedLevel = { 42, 46 } },
     { zone = TF_ZONE.DESOLACE, x = 0.291, y = 0.625, name = "Maraudon", minLevel = 30, recommendedLevel = { 46, 55 } },
     { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.70, y = 0.53, name = "The Temple of Atal'Hakkar", minLevel = 38, recommendedLevel = { 50, 56 }, entrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.5681, y = 0.7515 } },
@@ -32,7 +32,7 @@ TF_DUNGEONS = {
         dungeons = {
             { name = "Blackrock Depths", minLevel = 48, recommendedLevel = { 52, 60 } },
             { name = "Lower Blackrock Spire", minLevel = 48, recommendedLevel = { 55, 60 } },
-            { name = "Upper Blackrock Spire", minLevel = 48, recommendedLevel = { 55, 60 }, attunement = { item = 12344 } },
+            { name = "Upper Blackrock Spire", minLevel = 48, recommendedLevel = { 55, 60 }, attunement = { item = 12344, name = "Seal of Ascension" } },
         },
         raids = {
             { name = "Molten Core", raidSize = 40 },

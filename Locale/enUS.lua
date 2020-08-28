@@ -1657,6 +1657,7 @@ L["Requires %s"] = true
 L["Complete %s"] = true
 L["The Scarlet Key"] = true
 L["Skeleton Key"] = true
+L["Seal of Ascension"] = true
 L["The Dread Citadel - Naxxramas"] = true
 
 --[[

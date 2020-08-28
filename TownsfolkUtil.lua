@@ -52,7 +52,7 @@ function TownsfolkUtil_DungeonAttunement(attunement, alwaysShow)
             if (count > 0) then
                 g, b = 1, 1
             end
-            GameTooltip:AddLine(format(L["Requires %s"], L[attunement.name]), r, g, b)
+            GameTooltip:AddLine(format("  "..L["Requires %s"], L[attunement.name]), r, g, b)
         end
     end
     if (attunement.quest) then
@@ -71,7 +71,7 @@ function TownsfolkUtil_DungeonAttunement(attunement, alwaysShow)
             if (complete) then
                 g, b = 1, 1
             end
-            GameTooltip:AddLine(format(L["Complete %s"], L[attunement.name]), r, g, b)
+            GameTooltip:AddLine(format("  "..L["Complete %s"], L[attunement.name]), r, g, b)
         end
     end
 end
