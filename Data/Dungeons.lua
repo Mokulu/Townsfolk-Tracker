@@ -24,7 +24,7 @@ TF_DUNGEONS = {
     -- TODO: add all Dire Maul wing entrances
     { zone = TF_ZONE.FERALAS, x = 0.589, y = 0.415, name = "Dire Maul", minLevel = 48, recommendedLevel = { 55, 60 } },
     { zone = TF_ZONE.WESTERN_PLAGUELANDS, x = 0.697, y = 0.734, name = "Scholomance", minLevel = 45, recommendedLevel = { 58, 60 }, entrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.527, y = 0.2636 }, attunement = { item = 13704, name = "Skeleton Key" } } ,
-    { zone = TF_ZONE.EASTERN_PLAGUELANDS, x = 0.3085, y = 0.17, name = "Stratholme", minLevel = 48, recommendedLevel = { 58, 60 } },
+    { zone = TF_ZONE.EASTERN_PLAGUELANDS, x = 0.308, y = 0.157, name = "Stratholme", minLevel = 45, recommendedLevel = { 58, 60 }, altEntrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.5505, y = 0.1735 } },
 
     -- TODO find and get zone/cords of all blackrock mountain instances
     -- Blackrock Mountain instances

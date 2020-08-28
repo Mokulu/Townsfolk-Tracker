@@ -55,6 +55,25 @@ function TownsfolkUtil_DungeonAttunement(attunement, alwaysShow)
             GameTooltip:AddLine(format(L["Requires %s"], L[attunement.name]), r, g, b)
         end
     end
+    if (attunement.quest) then
+        local complete = false
+        if (type(attunement.quest) == "number") then
+            complete = IsQuestComplete(attunement.quest)
+        else
+            for questId in pairs(attunement.quest) do
+                if (not complete) then
+                    complete = IsQuestComplete(questId)
+                end
+            end
+        end
+
+        if (complete or alwaysShow) then
+            if (complete) then
+                g, b = 1, 1
+            end
+            GameTooltip:AddLine(format(L["Complete %s"], L[attunement.name]), r, g, b)
+        end
+    end
 end
 
 function TownsfolkUtil_IsInstanceType(folktype)

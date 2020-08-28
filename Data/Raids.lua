@@ -6,7 +6,7 @@ TF_RAIDS = {
 --    { zone = TF_ZONE.BURNING_STEPPES, x = 0.29, y = 0.382, name = "Molten Core", raidSize = 40 },
 --    { zone = TF_ZONE.BURNING_STEPPES, x = 0.30, y = 0.382, name = "Blackwing Lair", raidSize = 40 },
     { zone = TF_ZONE.SILITHUS, x = 0.235, y = 0.862, name = "Temple of Ahn'Qiraj", raidSize = 40 },
-    { zone = TF_ZONE.EASTERN_PLAGUELANDS, x = 0.39, y = 0.25, name = "Naxxramas", raidSize = 40 },
+    { zone = TF_ZONE.EASTERN_PLAGUELANDS, x = 0.3995, y = 0.2586, name = "Naxxramas", raidSize = 40, attunement = { quest = { 9121, 9122, 9123 }, name = "The Dread Citadel - Naxxramas" } },
 
     -- Blackrock Mountain instances
     { zone = TF_ZONE.BURNING_STEPPES, x = 0.2905, y = 0.3813, name = "Blackrock Mountain", group = {

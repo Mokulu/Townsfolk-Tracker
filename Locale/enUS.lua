@@ -129,6 +129,7 @@ L["General Goods"] = true
 L["General Goods Merchant"] = true
 L["General Goods Vendor"] = true
 L["Traveling Merchant"] = true
+L["Trade Supplies"] = true
 L["Bowyer"] = true
 L["Superior Bowyer"] = true
 L["Fletcher"] = true
@@ -576,6 +577,8 @@ L["Breyk"] = true
 L["Shardi"] = true
 L["Brakkar"] = true
 L["Gorkas"] = true
+L["Georgia"] = true
+L["Khaelyn Steelwing"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -842,6 +845,8 @@ L["Ghok'kah"] = true
 L["Mystic Yayo'jin"] = true
 L["Katoom the Angler"] = true
 L["Otho Moji'ko"] = true
+L["Jase Farlane"] = true
+L["Augustus the Touched"] = true
 
 -- Repairs
 L["Alexandre Lefevre"] = true
@@ -1648,9 +1653,11 @@ L["Naxxramas"] = true
 L["%d Players"] = true
 
 -- Attunement Items
-L["Requires %s"] = true;
-L["The Scarlet Key"] = true;
-L["Skeleton Key"] = true;
+L["Requires %s"] = true
+L["Complete %s"] = true
+L["The Scarlet Key"] = true
+L["Skeleton Key"] = true
+L["The Dread Citadel - Naxxramas"] = true
 
 --[[
     Options
