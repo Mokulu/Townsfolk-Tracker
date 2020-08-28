@@ -1,7 +1,7 @@
 TF_RAIDS = {
     { zone = TF_ZONE.STRANGLETHORN_VALE, x = 0.5408, y = 0.1757, name = "Zul'Gurub", raidSize = 20 },
+    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.529, y = 0.777, name = "Onyxia's Lair", raidSize = 40, attunement = { item = 16309, name = "Drakefire Amulet" } },
     { zone = TF_ZONE.SILITHUS, x = 0.362, y = 0.842, name = "Ruins of Ahn'Qiraj", raidSize = 20 },
-    { zone = TF_ZONE.DUSTWALLOW_MARSH, x = 0.529, y = 0.777, name = "Onyxia's Lair", raidSize = 40 },
     { zone = TF_ZONE.SILITHUS, x = 0.235, y = 0.862, name = "Temple of Ahn'Qiraj", raidSize = 40 },
     { zone = TF_ZONE.EASTERN_PLAGUELANDS, x = 0.3995, y = 0.2586, name = "Naxxramas", raidSize = 40, attunement = { quest = { 9121, 9122, 9123 }, name = "The Dread Citadel - Naxxramas" } },
 

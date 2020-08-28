@@ -349,6 +349,7 @@ L["Chylina"] = true
 L["Zanara"] = true
 L["Renn'az"] = true
 L["Master Smith Burninate"] = true
+L["Nergal"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -583,6 +584,7 @@ L["Georgia"] = true
 L["Khaelyn Steelwing"] = true
 L["Grisha"] = true
 L["Lanie Reed"] = true
+L["Gryfe"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -1082,6 +1084,7 @@ L["Smith Slagtree"] = true
 L["Wallace the Blind"] = true
 L["Magnus Frostwake"] = true
 L["Graw Cornerstone"] = true
+L["Gibbert"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -1670,6 +1673,7 @@ L["Skeleton Key"] = true
 L["Seal of Ascension"] = true
 L["Attunement to the Core"] = true
 L["Blackhand's Command"] = true
+L["Drakefire Amulet"] = true
 L["Crescent Key"] = true
 L["The Dread Citadel - Naxxramas"] = true
 

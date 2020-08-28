@@ -262,4 +262,5 @@ TF_REPAIR_VENDORS = {
     { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.4508, y = 0.5042, name = "Grimnal", tag = "Mail & Plate Merchant", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.4567, y = 0.5092, name = "Hartash", tag = "Weapon Merchant", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.FELWOOD, x = 0.3481, y = 0.5316, name = "Altsoba Ragetotem", tag = "Weapon Merchant", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.UNGORO_CRATER, x = 0.4411, y = 0.0720, name = "Gibbert", tag = "Weapon Merchant" },
 }

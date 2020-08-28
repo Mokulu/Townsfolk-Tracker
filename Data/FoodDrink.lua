@@ -142,4 +142,5 @@ TF_FOOD_DRINK_VENDORS = {
     { zone = TF_ZONE.SEARING_GORGE, x = 0.3880, y = 0.2850, name = "Master Smith Burninate" },
     { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.4652, y = 0.5428, name = "Thultash", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.FELWOOD, x = 0.3475, y = 0.5323, name = "Bale", tag = "General Goods", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.UNGORO_CRATER, x = 0.4327, y = 0.0773, name = "Nergal", tag = "General Goods Vendor" },
 }

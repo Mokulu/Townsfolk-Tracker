@@ -91,4 +91,5 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.THE_HINTERLANDS, x = 0.7685, y = 0.8140, name = "Renn'az", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.DESOLACE, x = 0.2493, y = 0.7185, name = "Tukk", tag = "General Goods Vendor", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.FELWOOD, x = 0.3475, y = 0.5323, name = "Bale", tag = "General Goods", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.UNGORO_CRATER, x = 0.4327, y = 0.0773, name = "Nergal", tag = "General Goods Vendor" },
 }

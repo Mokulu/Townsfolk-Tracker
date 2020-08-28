@@ -51,4 +51,5 @@ TF_FLIGHTMASTERS = {
     { zone = TF_ZONE.SEARING_GORGE, x = 0.3793, y = 0.3085, name = "Lanie Reed", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.4608, y = 0.5483, name = "Breyk", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.FELWOOD, x = 0.3445, y = 0.5396, name = "Brakkar", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.UNGORO_CRATER, x = 0.4524, y = 0.0584, name = "Gryfe" },
 }

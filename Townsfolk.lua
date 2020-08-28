@@ -34,7 +34,7 @@ TOWNSFOLK = {
         allianceIcon = [[Interface\Addons\TownsfolkTracker\Icons\AllianceFlightMaster.tga]],
         hordeIcon = [[Interface\Addons\TownsfolkTracker\Icons\HordeFlightMaster.tga]],
         neutralIcon = [[Interface\Addons\TownsfolkTracker\Icons\NeutralFlightMaster.tga]],
-        iconSize = 1.2,
+        iconSize = 1.1,
         points = TF_FLIGHTMASTERS,
     },
     [TF_FOOD_DRINK] = {
