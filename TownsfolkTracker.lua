@@ -486,7 +486,7 @@ function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
         -- we're only interested in instances
         if tfTrackingList[folktype] and TownsfolkUtil_IsInstanceType(folktype) then
             for _, point in pairs(townsfolk.points) do
-                local instance_distance = point.distance or INSTANCE_DISTANCE
+                local instance_distance = point.distance ~= nill and point.distance or INSTANCE_DISTANCE
                 -- point is in the same map as player
                 if (point.entrance and mapId == point.entrance.zone) then
                     -- find the distance
@@ -502,7 +502,7 @@ function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
                     -- group dungeon entrances
                     if (point.group.dungeons) then
                         for _, dungeon in pairs(point.group.dungeons) do
-                            instance_distance = dungeon.distance or instance_distance
+                            instance_distance = dungeon.distance ~= nil and dungeon.distance or instance_distance
                             if (mapId == dungeon.zone) then
                                 -- find the distance
                                 local distance, deltaX, deltaY = Maps:GetWorldDistance(mapId, x, y, dungeon.x, dungeon.y)
@@ -522,7 +522,7 @@ function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
                     -- group raid entrances
                     if (point.group.raids) then
                         for _, raid in pairs(point.group.raids) do
-                            instance_distance = raid.distance or instance_distance
+                            instance_distance = raid.distance ~= nil and raid.distance or instance_distance
                             if (mapId == raid.zone) then
                                 -- find the distance
                                 local distance, deltaX, deltaY = Maps:GetWorldDistance(mapId, x, y, raid.x, raid.y)
