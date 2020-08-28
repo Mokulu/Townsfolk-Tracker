@@ -55,7 +55,7 @@ L["Cave Entrance"] = true
 
 --[[
     NPC Names
-]]--
+]] --
 
 -- NPC Tags
 -- Classes
@@ -1675,7 +1675,7 @@ L["The Dread Citadel - Naxxramas"] = true
 
 --[[
     Options
-]]--
+]] --
 L["Townsfolk Tracker"] = true
 L["Click"] = true
 L["Choose Townsfolk"] = true

@@ -52,7 +52,7 @@ function TownsfolkUtil_DungeonAttunement(attunement, alwaysShow)
             if (count > 0) then
                 g, b = 1, 1
             end
-            GameTooltip:AddLine(format("  "..L["Requires %s"], L[attunement.name]), r, g, b)
+            GameTooltip:AddLine(format("  " .. L["Requires %s"], L[attunement.name]), r, g, b)
         end
     end
     if (attunement.quest) then
@@ -71,7 +71,7 @@ function TownsfolkUtil_DungeonAttunement(attunement, alwaysShow)
             if (complete) then
                 g, b = 1, 1
             end
-            GameTooltip:AddLine(format("  "..L["Complete %s"], L[attunement.name]), r, g, b)
+            GameTooltip:AddLine(format("  " .. L["Complete %s"], L[attunement.name]), r, g, b)
         end
     end
 end
@@ -124,7 +124,7 @@ function TownsfolkUtil_GetTrainerTitle(trainerType)
     elseif (trainerType == TF_PROFESSION.RIDING) then
         return "Riding Instructor"
     else
-        return trainerType.." Trainer"
+        return trainerType .. " Trainer"
     end
 end
 
@@ -153,9 +153,9 @@ function TownsfolkUtil_GetTrainerTag(trainerType, expertise, branch)
     end
 
     if (branch) then
-        return expertise.." "..branch.." "..profession
+        return expertise .. " " .. branch .. " " .. profession
     else
-        return expertise.." "..profession
+        return expertise .. " " .. profession
     end
 end
 

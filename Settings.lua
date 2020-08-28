@@ -136,7 +136,7 @@ TF_SETTINGS_MENU = {
 
 -- Settings Defaults
 TF_SETTINGS_DEFAULTS = {
-    profile =  {
+    profile = {
         showMinimapButton = true,
         showMapButton = true,
         showAllClassTrainers = false,
