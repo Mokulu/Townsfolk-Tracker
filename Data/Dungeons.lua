@@ -20,7 +20,7 @@ TF_DUNGEONS = {
     { zone = TF_ZONE.BADLANDS, x = 0.4453, y = 0.1212, name = "Uldaman", minLevel = 30, recommendedLevel = { 41, 51 } },
     { zone = TF_ZONE.TANARIS, x = 0.3872, y = 0.2, name = "Zul'Farrak", minLevel = 39, recommendedLevel = { 42, 46 } },
     { zone = TF_ZONE.DESOLACE, x = 0.291, y = 0.625, name = "Maraudon", minLevel = 30, recommendedLevel = { 46, 55 } },
-    { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.695, y = 0.525, name = "The Temple of Atal'Hakkar", minLevel = 45, recommendedLevel = { 50, 56 } },
+    { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.70, y = 0.53, name = "The Temple of Atal'Hakkar", minLevel = 38, recommendedLevel = { 50, 56 }, entrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.5681, y = 0.7515 } },
     -- TODO: add all Dire Maul wing entrances
     { zone = TF_ZONE.FERALAS, x = 0.589, y = 0.415, name = "Dire Maul", minLevel = 48, recommendedLevel = { 55, 60 } },
     { zone = TF_ZONE.WESTERN_PLAGUELANDS, x = 0.697, y = 0.734, name = "Scholomance", minLevel = 45, recommendedLevel = { 58, 60 }, entrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.527, y = 0.2636 }, attunement = { item = 13704, name = "Skeleton Key" } } ,
