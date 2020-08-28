@@ -256,6 +256,8 @@ TF_REPAIR_VENDORS = {
     { zone = TF_ZONE.THE_HINTERLANDS, x = 0.7723, y = 0.8012, name = "Smith Slagtree", tag = "Blacksmithing Supplies", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.WESTERN_PLAGUELANDS, x = 0.4308, y = 0.8431, name = "Leonard Porter", tag = "Leatherworking Supplies", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.WESTERN_PLAGUELANDS, x = 0.6804, y = 0.7759, name = "Magnus Frostwake" },
+    { zone = TF_ZONE.SEARING_GORGE, x = 0.4150, y = 0.7496, name = "Graw Cornerstone", tag = "Mail Armor Merchant", faction = TF_FACTION.ALLIANCE },
+    { zone = TF_ZONE.SEARING_GORGE, x = 0.3880, y = 0.2850, name = "Master Smith Burninate" },
     { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.4506, y = 0.5140, name = "Thralosh", tag = "Cloth & Leather Armor Merchant", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.4508, y = 0.5042, name = "Grimnal", tag = "Mail & Plate Merchant", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.SWAMP_OF_SORROWS, x = 0.4567, y = 0.5092, name = "Hartash", tag = "Weapon Merchant", faction = TF_FACTION.HORDE },

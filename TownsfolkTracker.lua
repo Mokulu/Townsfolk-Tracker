@@ -391,10 +391,16 @@ function TownsfolkTracker:CreateIcons()
                     end
                 end
             end
-            point.mapNode = self:CreateMapMarker(TF_ATLAS_ICON, point, townsfolk, folktype)
+
+            if (not point.hideAtlas) then
+                point.mapNode = self:CreateMapMarker(TF_ATLAS_ICON, point, townsfolk, folktype)
+            end
+
             if (point.altEntrance) then
                 point.minimapNodeAlt = self:CreateMapMarker(TF_MINIMAP_ICON, point, townsfolk, folktype)
-                point.mapNodeAlt = self:CreateMapMarker(TF_ATLAS_ICON, point, townsfolk, folktype)
+                if (not point.hideAtlas) then
+                    point.mapNodeAlt = self:CreateMapMarker(TF_ATLAS_ICON, point, townsfolk, folktype)
+                end
             end
         end
     end
@@ -433,7 +439,7 @@ function TownsfolkTracker:DrawMapIcons()
                 -- only show based on valid restrictions
                 if (displayIcon) then
                     -- minimap icons
-                    Pins:AddMinimapIconMap("TownsfolkTracker", point.minimapNode, point.zone, point.x, point.y, true, false)
+                    Pins:AddMinimapIconMap("TownsfolkTracker", point.minimapNode, point.zone, point.x, point.y, true, point.pinMinimap or false)
                     if (TownsfolkUtil_IsInstanceType(folktype) and point.altEntrance) then
                         Pins:AddMinimapIconMap("TownsfolkTracker", point.minimapNodeAlt, point.altEntrance.zone, point.altEntrance.x, point.altEntrance.y, true, false)
                     end
@@ -444,8 +450,10 @@ function TownsfolkTracker:DrawMapIcons()
                         if (TownsfolkUtil_IsInstanceType(folktype) and self:IsShowInstanceOnWorldMap(nil)) then
                             worldMapShowFlag = HBD_PINS_WORLDMAP_SHOW_WORLD
                         end
-                        Pins:AddWorldMapIconMap("TownsfolkTracker", point.mapNode, point.zone, point.x, point.y, worldMapShowFlag)
-                        if (TownsfolkUtil_IsInstanceType(folktype) and point.altEntrance) then
+                        if (not point.hideAtlas) then
+                            Pins:AddWorldMapIconMap("TownsfolkTracker", point.mapNode, point.zone, point.x, point.y, worldMapShowFlag)
+                        end
+                        if (TownsfolkUtil_IsInstanceType(folktype) and point.altEntrance and not point.hideAtlas) then
                             Pins:AddWorldMapIconMap("TownsfolkTracker", point.mapNodeAlt, point.altEntrance.zone, point.altEntrance.x, point.altEntrance.y, HBD_PINS_WORLDMAP_SHOW_PARENT)
                         end
                     end
@@ -459,7 +467,7 @@ function TownsfolkTracker:DrawMapIcons()
     TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
 end
 
-local INSTANCE_DISTANCE = 0.025
+local INSTANCE_DISTANCE = 0.04
 
 -- runs when player changes maps
 function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)

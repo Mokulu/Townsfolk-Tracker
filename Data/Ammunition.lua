@@ -64,6 +64,7 @@ TF_AMMUNITION_VENDORS = {
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.7412, y = 0.3238, name = "Graud", tag = "General Goods", faction = TF_FACTION.HORDE },
     { zone = TF_ZONE.ARATHI_HIGHLANDS, x = 0.4644, y = 0.4760, name = "Vikki Lonsav", tag = "General Goods", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.BADLANDS, x = 0.0312, y = 0.4594, name = "Grawl", tag = "General Goods", faction = TF_FACTION.HORDE },
+    { zone = TF_ZONE.SEARING_GORGE, x = 0.3880, y = 0.2850, name = "Master Smith Burninate" },
     { zone = TF_ZONE.ELWYNN_FOREST, x = 0.4396, y = 0.6592, name = "Brog Hamfist", tag = "General Supplies", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.ELWYNN_FOREST, x = 0.4748, y = 0.4156, name = "Brother Danil", tag = "General Supplies", faction = TF_FACTION.ALLIANCE },
     { zone = TF_ZONE.ELWYNN_FOREST, x = 0.8329, y = 0.6609, name = "Rallic Finn", tag = "Bowyer", faction = TF_FACTION.ALLIANCE },

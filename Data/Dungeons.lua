@@ -26,17 +26,22 @@ TF_DUNGEONS = {
     { zone = TF_ZONE.WESTERN_PLAGUELANDS, x = 0.697, y = 0.734, name = "Scholomance", minLevel = 45, recommendedLevel = { 58, 60 }, entrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.527, y = 0.2636 }, attunement = { item = 13704, name = "Skeleton Key" } } ,
     { zone = TF_ZONE.EASTERN_PLAGUELANDS, x = 0.308, y = 0.157, name = "Stratholme", minLevel = 45, recommendedLevel = { 58, 60 }, altEntrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.5505, y = 0.1735 } },
 
-    -- TODO find and get zone/cords of all blackrock mountain instances
     -- Blackrock Mountain instances
-    { zone = TF_ZONE.BURNING_STEPPES, x = 0.2905, y = 0.3813, name = "Blackrock Mountain", group = {
+    { zone = TF_ZONE.BURNING_STEPPES, x = 0.295, y = 0.384, name = "Blackrock Mountain", group = {
         dungeons = {
-            { name = "Blackrock Depths", minLevel = 48, recommendedLevel = { 52, 60 } },
-            { name = "Lower Blackrock Spire", minLevel = 48, recommendedLevel = { 55, 60 } },
-            { name = "Upper Blackrock Spire", minLevel = 48, recommendedLevel = { 55, 60 }, attunement = { item = 12344, name = "Seal of Ascension" } },
+            { name = "Blackrock Depths", minLevel = 40, recommendedLevel = { 52, 60 }, zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.4809, y = 0.6241 },
+            { name = "Lower Blackrock Spire", minLevel = 45, recommendedLevel = { 55, 60 } },
+            { name = "Upper Blackrock Spire", minLevel = 57, recommendedLevel = { 58, 60 }, attunement = { item = 12344, name = "Seal of Ascension" } },
         },
         raids = {
-            { name = "Molten Core", raidSize = 40 },
-            { name = "Blackwing Lair", raidSize = 40 },
+            { name = "Molten Core", raidSize = 40, attunement = { quest = 7848, name = "Attunement to the Core" } },
+            { name = "Blackwing Lair", raidSize = 40, attunement = { quest = 7761, name = "Blackhand's Command" } },
         }
-    }, altEntrance = { zone = TF_ZONE.SEARING_GORGE, x = 0.3469, y = 0.8402 } }
+    }, altEntrance = { zone = TF_ZONE.SEARING_GORGE, x = 0.349, y = 0.854 } },
+    { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.4896, y = 0.6387, name = "Blackrock Spire", group = {
+        dungeons = {
+            { name = "Lower Blackrock Spire", minLevel = 45, recommendedLevel = { 55, 60 } },
+            { name = "Upper Blackrock Spire", minLevel = 57, recommendedLevel = { 58, 60 }, attunement = { item = 12344, name = "Seal of Ascension" } },
+        }
+    }, hideAtlas = true, minLevel = 45, recommendedLevel = { 55, 60 }, pinMinimap = true }
 }

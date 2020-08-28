@@ -97,6 +97,7 @@ L["Expert Leatherworker"] = true
 L["Artisan Leatherworker"] = true
 L["Master Leatherworker"] = true
 L["Master Dragonscale Leatherworker"] = true
+L["Master Elemental Leatherworker"] = true
 L["Master Tribal Leatherworker"] = true
 L["Apprentice Blacksmith"] = true
 L["Journeyman Blacksmith"] = true
@@ -347,6 +348,7 @@ L["Vikki Lonsav"] = true
 L["Chylina"] = true
 L["Zanara"] = true
 L["Renn'az"] = true
+L["Master Smith Burninate"] = true
 
 -- Auctioneers
 L["Auctioneer Grimful"] = true
@@ -579,6 +581,8 @@ L["Brakkar"] = true
 L["Gorkas"] = true
 L["Georgia"] = true
 L["Khaelyn Steelwing"] = true
+L["Grisha"] = true
+L["Lanie Reed"] = true
 
 -- Innkeepers
 L["Innkeeper Gryshka"] = true
@@ -1077,6 +1081,7 @@ L["Altsoba Ragetotem"] = true
 L["Smith Slagtree"] = true
 L["Wallace the Blind"] = true
 L["Magnus Frostwake"] = true
+L["Graw Cornerstone"] = true
 
 -- Stable Masters
 L["Sikwa"] = true
@@ -1599,6 +1604,7 @@ L["Nat Pagle"] = true
 L["Karolek"] = true
 L["Kamari"] = true
 L["Thuwd"] = true
+L["Sarah Tanner"] = true
 
 -- Transportation Zones
 L["Skull Rock, Durotar"] = true
@@ -1634,6 +1640,7 @@ L["Zul'Farrak"] = true
 L["Maraudon"] = true
 L["The Temple of Atal'Hakkar"] = true
 L["Blackrock Depths"] = true
+L["Blackrock Spire"] = true
 L["Lower Blackrock Spire"] = true
 L["Upper Blackrock Spire"] = true
 L["Dire Maul"] = true
@@ -1658,6 +1665,8 @@ L["Complete %s"] = true
 L["The Scarlet Key"] = true
 L["Skeleton Key"] = true
 L["Seal of Ascension"] = true
+L["Attunement to the Core"] = true
+L["Blackhand's Command"] = true
 L["The Dread Citadel - Naxxramas"] = true
 
 --[[

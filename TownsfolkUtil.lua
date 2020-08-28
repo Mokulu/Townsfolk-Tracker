@@ -67,7 +67,7 @@ function TownsfolkUtil_DungeonAttunement(attunement, alwaysShow)
             end
         end
 
-        if (complete or alwaysShow) then
+        if (not complete or alwaysShow) then
             if (complete) then
                 g, b = 1, 1
             end
