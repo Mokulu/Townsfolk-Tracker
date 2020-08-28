@@ -43,7 +43,8 @@ TF_DUNGEONS = {
                 { zone = TF_ZONE.KALIMDOR, x = 0.4298, y = 0.6744, name = "West", minLevel = 45, recommendedLevel = { 57, 60 }, attunement = { item = 18249, name = "Crescent Key" }, altEntrance = { zone = TF_ZONE.KALIMDOR, x = 0.4298, y = 0.6781 } },
                 { zone = TF_ZONE.KALIMDOR, x = 0.4346, y = 0.6652, name = "North", minLevel = 45, recommendedLevel = { 58, 60 }, attunement = { item = 18249, name = "Crescent Key" } },
             }
-        }
+        },
+        distance = 0.04,
     },
     { zone = TF_ZONE.WESTERN_PLAGUELANDS, x = 0.697, y = 0.734, name = "Scholomance", minLevel = 45, recommendedLevel = { 58, 60 }, entrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.527, y = 0.2636 }, attunement = { item = 13704, name = "Skeleton Key" } },
     { zone = TF_ZONE.EASTERN_PLAGUELANDS, x = 0.308, y = 0.157, name = "Stratholme", minLevel = 45, recommendedLevel = { 58, 60 }, altEntrance = { zone = TF_ZONE.EASTERN_KINGDOMS, x = 0.5505, y = 0.1735 } },
@@ -65,7 +66,8 @@ TF_DUNGEONS = {
                 { name = "Blackwing Lair", raidSize = 40, attunement = { quest = 7761, name = "Blackhand's Command" } },
             }
         },
-        altEntrance = { zone = TF_ZONE.SEARING_GORGE, x = 0.349, y = 0.854 }
+        altEntrance = { zone = TF_ZONE.SEARING_GORGE, x = 0.349, y = 0.854 },
+        distance = 0.04,
     },
     {
         zone = TF_ZONE.EASTERN_KINGDOMS,
@@ -81,6 +83,7 @@ TF_DUNGEONS = {
         hideAtlas = true,
         minLevel = 45,
         recommendedLevel = { 55, 60 },
-        pinMinimap = true
+        pinMinimap = true,
+        distance = 0.04,
     }
 }

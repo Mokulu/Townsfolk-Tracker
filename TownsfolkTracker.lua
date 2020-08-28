@@ -471,7 +471,7 @@ function TownsfolkTracker:DrawMapIcons()
     TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
 end
 
-local INSTANCE_DISTANCE = 0.04
+local INSTANCE_DISTANCE = 0.025
 
 -- runs when player changes maps
 function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
@@ -486,14 +486,15 @@ function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
         -- we're only interested in instances
         if tfTrackingList[folktype] and TownsfolkUtil_IsInstanceType(folktype) then
             for _, point in pairs(townsfolk.points) do
+                local instance_distance = point.distance or INSTANCE_DISTANCE
                 -- point is in the same map as player
                 if (point.entrance and mapId == point.entrance.zone) then
                     -- find the distance
                     local distance, deltaX, deltaY = Maps:GetWorldDistance(mapId, x, y, point.entrance.x, point.entrance.y)
-                    if (distance <= INSTANCE_DISTANCE and point.entranceNode) then
+                    if (distance <= instance_distance and point.entranceNode) then
                         Pins:AddMinimapIconMap("TownsfolkTrackerInternal", point.entranceNode, point.entrance.zone, point.entrance.x, point.entrance.y, true, true)
                     end
-                    if (distance <= INSTANCE_DISTANCE and point.entranceNodeAlt) then
+                    if (distance <= instance_distance and point.entranceNodeAlt) then
                         Pins:AddMinimapIconMap("TownsfolkTrackerInternal", point.entranceNodeAlt, point.altEntrance.zone, point.altEntrance.x, point.altEntrance.y, true, true)
                     end
                 end
@@ -501,18 +502,18 @@ function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
                     -- group dungeon entrances
                     if (point.group.dungeons) then
                         for _, dungeon in pairs(point.group.dungeons) do
-                            -- FIXME: temp condition
-                            if (dungeon.entranceNode and mapId == dungeon.zone) then
+                            instance_distance = dungeon.distance or instance_distance
+                            if (mapId == dungeon.zone) then
                                 -- find the distance
                                 local distance, deltaX, deltaY = Maps:GetWorldDistance(mapId, x, y, dungeon.x, dungeon.y)
-                                if (distance <= INSTANCE_DISTANCE) then
+                                if (distance <= instance_distance) then
                                     Pins:AddMinimapIconMap("TownsfolkTrackerInternal", dungeon.entranceNode, dungeon.zone, dungeon.x, dungeon.y, true, true)
                                 end
                             end
                             if (dungeon.entranceNodeAlt and mapId == dungeon.zone) then
                                 -- find the distance
                                 local distance, deltaX, deltaY = Maps:GetWorldDistance(mapId, x, y, dungeon.altEntrance.x, dungeon.altEntrance.y)
-                                if (distance <= INSTANCE_DISTANCE and dungeon.entranceNodeAlt) then
+                                if (distance <= instance_distance and dungeon.entranceNodeAlt) then
                                     Pins:AddMinimapIconMap("TownsfolkTrackerInternal", dungeon.entranceNodeAlt, dungeon.altEntrance.zone, dungeon.altEntrance.x, dungeon.altEntrance.y, true, true)
                                 end
                             end
@@ -521,11 +522,11 @@ function TownsfolkTracker:DrawDungeonMinimapIcons(mapId)
                     -- group raid entrances
                     if (point.group.raids) then
                         for _, raid in pairs(point.group.raids) do
-                            -- FIXME: temp condition
-                            if (raid.entranceNode and mapId == raid.zone) then
+                            instance_distance = raid.distance or instance_distance
+                            if (mapId == raid.zone) then
                                 -- find the distance
                                 local distance, deltaX, deltaY = Maps:GetWorldDistance(mapId, x, y, raid.x, raid.y)
-                                if (distance <= INSTANCE_DISTANCE) then
+                                if (distance <= instance_distance) then
                                     Pins:AddMinimapIconMap("TownsfolkTrackerInternal", raid.entranceNode, raid.zone, raid.x, raid.y, true, true)
                                 end
                             end
