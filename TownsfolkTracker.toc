@@ -1,8 +1,8 @@
-## Interface: 11305
+## Interface: 11401
 ## Title: Townsfolk Tracker
 ## Notes: Allows tracking of townsfolk NPCs on the map and minimap.
 ## Author: Mokulu
-## Version: 1.0.8
+## Version: 1.0.12
 ## SavedVariables: TownsfolkTrackerDB
 ## SavedVariablesPerCharacter: tfTrackingList
 
